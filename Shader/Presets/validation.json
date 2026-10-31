@@ -1,0 +1,13 @@
+{
+  "name": "Asteria validation chain",
+  "stages": [
+    {"name": "SMAA", "file": "Shader/Effects/AsteriaSMAA.fx", "technique": "SMAA", "enabled": true, "parameters": {"strength": 0.42, "quality": "medium"}},
+    {"name": "CAS", "file": "Shader/Effects/AsteriaCAS.fx", "technique": "ContrastAdaptiveSharpen", "enabled": true, "parameters": {"strength": 0.35}},
+    {"name": "BLOOM", "file": "Shader/Effects/AsteriaBloom.fx", "technique": "AsteriaBloom", "enabled": false, "parameters": {"strength": 0.35, "threshold": 0.75, "radius": 2.0}},
+    {"name": "COLOR GRADE", "file": "Shader/Effects/AsteriaColor.fx", "technique": "AsteriaColor", "enabled": false, "parameters": {"exposure": 0.0, "contrast": 1.0, "saturation": 1.0, "temperature": 0.0, "vibrance": 0.0}},
+    {"name": "TONE MAP", "file": "Shader/Effects/AsteriaTonemap.fx", "technique": "AsteriaTonemap", "enabled": false, "parameters": {"strength": 0.5, "mode": "filmic"}},
+    {"name": "VIGNETTE", "file": "Shader/Effects/AsteriaVignette.fx", "technique": "AsteriaVignette", "enabled": false, "parameters": {"strength": 0.2, "radius": 0.75, "softness": 0.35}},
+    {"name": "DEBAND", "file": "Shader/Effects/AsteriaDeband.fx", "technique": "AsteriaDeband", "enabled": false, "parameters": {"strength": 0.3, "radius": 8.0, "quality": "medium"}},
+    {"name": "PIPELINE MARKER", "file": "Shader/Effects/Asteria.fx", "technique": "AsteriaMarker", "enabled": true, "parameters": {"strength": 0.7}}
+  ]
+}

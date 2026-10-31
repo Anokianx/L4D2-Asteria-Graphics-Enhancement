@@ -1,0 +1,5 @@
+#undef SMAA_PRESET_LOW
+#undef SMAA_PRESET_MEDIUM
+#undef SMAA_PRESET_HIGH
+#undef SMAA_PRESET_ULTRA
+#include "SweetFXSMAA.fxh"
