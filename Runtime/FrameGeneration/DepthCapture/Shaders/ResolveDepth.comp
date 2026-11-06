@@ -1,0 +1,18 @@
+#version 450
+#extension GL_EXT_samplerless_texture_functions : require
+layout(local_size_x=8, local_size_y=8) in;
+layout(set=0, binding=0) uniform texture2DMS sourceDepth;
+layout(set=0, binding=1, r32f) writeonly uniform image2D capturedDepth;
+layout(push_constant) uniform Parameters { uint width; uint height; uint reversedZ; uint samples; } parameters;
+void main()
+{
+    ivec2 pixel=ivec2(gl_GlobalInvocationID.xy);
+    if(uint(pixel.x)>=parameters.width || uint(pixel.y)>=parameters.height) return;
+    float depth=texelFetch(sourceDepth,pixel,0).r;
+    for(uint sampleIndex=1;sampleIndex<parameters.samples;++sampleIndex)
+    {
+        float value=texelFetch(sourceDepth,pixel,int(sampleIndex)).r;
+        depth=parameters.reversedZ!=0 ? max(depth,value) : min(depth,value);
+    }
+    imageStore(capturedDepth,pixel,vec4(depth));
+}
