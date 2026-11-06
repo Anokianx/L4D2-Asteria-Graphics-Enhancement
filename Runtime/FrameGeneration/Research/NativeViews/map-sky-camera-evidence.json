@@ -1,0 +1,43 @@
+{
+  "path": "H:\\SteamLibrary\\steamapps\\common\\Left 4 Dead 2\\left4dead2\\maps\\c1m1_hotel.bsp",
+  "sha256": "a3a9053692a1aa45787dfd25de9bce8144c7dde76681994402070710d1337172",
+  "size_bytes": 32807960,
+  "vbsp_version": 21,
+  "entity_lump": {
+    "version": 0,
+    "offset": 1607896,
+    "length": 791714,
+    "fourcc": 0
+  },
+  "read_only": true,
+  "sky_cameras": [
+    {
+      "origin": [
+        8053.0,
+        12657.0,
+        -1008.0
+      ],
+      "scale": 32.0,
+      "entity_properties": {
+        "origin": "8053 12657 -1008",
+        "use_angles": "1",
+        "scale": "32",
+        "HDRColorScale": "1.0",
+        "fogstart": "-400000",
+        "fogmaxdensity": "1",
+        "fogend": "400000",
+        "fogenable": "1",
+        "fogdir": "0 1 0",
+        "fogcolor2": "255 255 255",
+        "fogcolor": "216 201 169",
+        "fogblend": "0",
+        "clip_3D_skybox_near_to_world_far": "0",
+        "angles": "0 180 0",
+        "classname": "sky_camera",
+        "hammerid": "4410060"
+      },
+      "entity_lump_byte_offset": 415434,
+      "raw_entity_sha256": "bb06fcf41ef19a209cae8de247d7d703fd1cf032d743dafeb519c269d275925e"
+    }
+  ]
+}

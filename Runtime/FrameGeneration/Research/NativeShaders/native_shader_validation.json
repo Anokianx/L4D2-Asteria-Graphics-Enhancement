@@ -1,0 +1,18 @@
+{
+  "author": "Anokianx",
+  "date": "2026-10-15",
+  "passed": true,
+  "source_files_hash_unchanged": 341,
+  "inventory_sha256": "ed44b3496c8ac0585101e21e077c8377a81109e7d300bd65857d57c6040b6dfb",
+  "motion_blur_dynamic_combinations": 15,
+  "motion_blur_single_sampler_verified_all_combinations": true,
+  "malformed_inputs_rejected": {
+    "static_sentinel": true,
+    "static_payload_bounds": true,
+    "compressed_block_bounds": true,
+    "truncated_file": true,
+    "invalid_lzma_magic": true
+  },
+  "native_motion_vectors_verified": false,
+  "native_camera_verified": false
+}

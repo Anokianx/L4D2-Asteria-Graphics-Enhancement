@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-10-26",
+  "purpose": "viewport hook coverage reference; actual local command source requires native observations",
+  "files": [
+    {
+      "path": "ReShade-v6.7.2/vulkan.cpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/source/vulkan/vulkan.cpp",
+      "bytes": 13701,
+      "sha256": "eb0abf08aa2024b84660905eebb4f9a1513607cc50d0c8d7831b340935089db3"
+    },
+    {
+      "path": "ReShade-v6.7.2/reshade_events.hpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/include/reshade_events.hpp",
+      "bytes": 121918,
+      "sha256": "cfaf92e025eddb1242768ff3edcfd05cd4c3eafb9ddf42e14c5b718cf3931c83"
+    },
+    {
+      "path": "ReShade-v6.7.2/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/LICENSE.md",
+      "bytes": 1481,
+      "sha256": "237ded5b8344f820113efab1e65e91e1f159d9202c5b4856606a0590d3ffdab0"
+    },
+    {
+      "path": "DXVK-v2.3.1/dxvk_cmdlist.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/v2.3.1/src/dxvk/dxvk_cmdlist.h",
+      "bytes": 32844,
+      "sha256": "ec98d0558bfe388f6d891d18cf5e9606acc2edb0b8c876bb348cce5e5eb9aaf4"
+    },
+    {
+      "path": "DXVK-v2.3.1/LICENSE",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/v2.3.1/LICENSE",
+      "bytes": 970,
+      "sha256": "03ca4af84f5cd28cef3ed3f1ef4d17996992d35ccdbe82b29cc020ca02c16f3d"
+    }
+  ]
+}

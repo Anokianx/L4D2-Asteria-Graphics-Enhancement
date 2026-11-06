@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK",
+  "tag": "v1.1.4",
+  "commit": "c6efa6bf7f2027b3ec94f28578bb5965eabb9e55",
+  "files": [
+    {
+      "path": "sdk/tools/binary_store/FidelityFX_SC.exe",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/tools/binary_store/FidelityFX_SC.exe",
+      "bytes": 474624,
+      "git_blob_sha1": "ffe6f163b7330ec01b718c6e6f9779ad4b92500b",
+      "sha256": "75480f2245e7b2cac300b013fad1453d4b966e5bd52c69205a40537de05f02a9"
+    },
+    {
+      "path": "sdk/tools/binary_store/glslangValidator.exe",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/tools/binary_store/glslangValidator.exe",
+      "bytes": 4389888,
+      "git_blob_sha1": "86e8d7c163ec8bc00f60ace98c4b6f2a1947f2ca",
+      "sha256": "8106440be591596425d7ef401e62b8e21ce778be7a4aa8d240d319b614691a8c"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/CMakeCompileShaders.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/CMakeCompileShaders.txt",
+      "bytes": 6139,
+      "git_blob_sha1": "ac1088d056d23c6b81fffa428aabd300c90fb760",
+      "sha256": "9f45dcefd72e35e3ee3b10c3063623041b8f69eeb443280067a467aa290ab085"
+    },
+    {
+      "path": "sdk/tools/ffx_shader_compiler/libs/SPIRV-Reflect/LICENSE",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/tools/ffx_shader_compiler/libs/SPIRV-Reflect/LICENSE",
+      "bytes": 11357,
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}

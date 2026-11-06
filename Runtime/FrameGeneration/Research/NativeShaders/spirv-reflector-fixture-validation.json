@@ -1,0 +1,20 @@
+{
+  "author": "Anokianx",
+  "date": "2026-10-15",
+  "passed": true,
+  "official_ffx_shader_files_reflected": 92,
+  "actual_game_profiles_revalidated": 26,
+  "profile_manifest_sha256": "d5fecb9a2158c7e710b75d839a75b49c89f576f6d1a887c0395748008fb7b95f",
+  "malformed_inputs_rejected": {
+    "invalid_magic": true,
+    "invalid_id_bound": true,
+    "zero_instruction_length": true,
+    "instruction_exceeds_file": true,
+    "non_dword_truncation": true,
+    "header_without_module": true,
+    "invalid_utf8_name": true
+  },
+  "native_camera_semantics_verified": false,
+  "native_motion_vectors_verified": false,
+  "gpu_buffer_bytes_read": false
+}

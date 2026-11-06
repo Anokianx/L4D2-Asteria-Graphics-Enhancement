@@ -1,0 +1,4569 @@
+{
+  "author": "Anokianx",
+  "date": "2026-10-15",
+  "inventory_file": "native_shader_inventory.json",
+  "inventory_sha256": "ed44b3496c8ac0585101e21e077c8377a81109e7d300bd65857d57c6040b6dfb",
+  "summary": {
+    "files": 341,
+    "file_bytes": 51987080,
+    "files_complete": 341,
+    "files_vcs4_without_ctab": 2,
+    "files_error": 0,
+    "compressed_blocks": 41402,
+    "unpacked_bytes": 385625888,
+    "unique_compiled_combinations": 188679,
+    "combinations_with_ctab": 188676,
+    "ctab_tables": 188676
+  },
+  "keyword_name_hits": {
+    "history": [],
+    "current": [
+      "g_Time",
+      "g_TintValuesTimesLightmapScale",
+      "g_flTime",
+      "g_vTime"
+    ],
+    "motion": [
+      "BlurSampler",
+      "FlowMapSampler",
+      "FlowNoiseSampler",
+      "FlowSampler",
+      "FlowmapSampler",
+      "SideSpeedMap",
+      "g_flMaxMotionBlur",
+      "g_tFlowSampler",
+      "g_vBlurAmounts",
+      "g_vFlowParams1",
+      "g_vFlowParams2",
+      "g_vInteriorColor_RefractBlur"
+    ],
+    "geometry": [
+      "cEyeOrigin",
+      "cEyePos_WaterHeightW",
+      "cEyeScalars2",
+      "cGlintProjectionU",
+      "cGlintProjectionV",
+      "cHalfEyeballUp",
+      "cIrisProjectionU",
+      "cIrisProjectionV",
+      "cModelView",
+      "cModelViewProj",
+      "cProj",
+      "cSpotlightProj1",
+      "cSpotlightProj2",
+      "cSpotlightProj3",
+      "cSpotlightProj4",
+      "cViewModel",
+      "cViewProj",
+      "cWorldToTextureTransform",
+      "g_CustomViewProj",
+      "g_EyePos",
+      "g_EyePos_BaseTextureTranslucency",
+      "g_EyePos_SpecExponent",
+      "g_FlashlightWorldToLight",
+      "g_FlashlightWorldToTexture",
+      "g_ViewProj",
+      "g_cEyeGlowColor",
+      "g_cEyeOrigin",
+      "g_mFlashlightWorldToTexture",
+      "g_mViewProj",
+      "g_mViewProj0",
+      "g_mViewProj1",
+      "g_mViewProj3",
+      "g_tEyeAmbientOcclSampler",
+      "g_tEyeReflectionCubemapSampler",
+      "g_vCameraPosition",
+      "g_vEyeDir",
+      "g_vEyeOrigin",
+      "g_vEyePos",
+      "g_vEyePos_SpecExp",
+      "g_vEyePt",
+      "g_vEyeVector",
+      "g_vInvViewportTransform",
+      "g_vIrisProjectionU",
+      "g_vIrisProjectionV",
+      "g_vUVProjOffset",
+      "g_vViewFadeColor",
+      "g_vViewport",
+      "g_vViewportMad",
+      "g_vViewportTransform",
+      "g_vWorldToViewWater0",
+      "g_vWorldToViewWater1"
+    ],
+    "deformation": [
+      "MorphAccumulator",
+      "MorphTarget",
+      "MorphWeights",
+      "cFlexScale",
+      "cFlexWeights",
+      "cModel",
+      "cModelView",
+      "cModelViewProj",
+      "cViewModel",
+      "vMorphScale",
+      "vMorphWeightDimensions",
+      "vMorphWeightSubrect"
+    ]
+  },
+  "native_motion_vectors_verified": false,
+  "native_camera_verified": false,
+  "current_transform_bindings": [
+    {
+      "path": "hl2/shaders/fxc/aftershock_vs20.vcs",
+      "sha256": "a6fdd82d425b7c1b0314f95cbafbc41b620a67ed00ed574c51a4625d6cda09a1",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/bik_vs20.vcs",
+      "sha256": "c9977ae6747adc64ddf6cc1d813f2436ec80561e0c53a7ae4706e35f80af7374",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/black_vs20.vcs",
+      "sha256": "0293db75b0aba6e381b5e3246ece429633f3e01a439a52ba37f2592eb705b82d",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/cable_vs20.vcs",
+      "sha256": "6adc033b7c2556e97c7f10e4884ce7ac5d7a381c5bd0abbe53cf1ee6e23f3ed6",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/cloak_blended_pass_vs20.vcs",
+      "sha256": "edbe10abc873f0b316bbaabc202d6905d91d98b49ee5b178f527ce747abd9878",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/cloak_blended_pass_vs30.vcs",
+      "sha256": "a1b0c613685dc5ecc52259779071ee408f29c3d45957480b390b72609f5ce882",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/cloak_vs20.vcs",
+      "sha256": "766dd49a7403c8774f27120458ede891a81a1d020859778cb6e1be64a5d8d5a7",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/cloak_vs30.vcs",
+      "sha256": "688c1da21095c64a43b13332cdb23b82698a5a4900179fe620e9e34d088d3806",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/debugdrawdepth_vs20.vcs",
+      "sha256": "5eff95d5204fb45d3b5b599a1f41b42f5883dace50d3d050b81b5954e6153905",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/debugdrawenvmapmask_vs20.vcs",
+      "sha256": "daa927139f25de93e5ab15cd75a030e806558c74e8c83720be7f1471dd4817d0",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/debugluxel_vs20.vcs",
+      "sha256": "625d0255822d09dc5946e56b21b8aabac595e51f6c6850932314d3cce30ba780",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/debugmorphaccumulator_vs30.vcs",
+      "sha256": "37e1d6cde72e03917c7f357aee05f501ea04ac345326c31eae38cbdcdeb04443",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/debugmrttexture_vs20.vcs",
+      "sha256": "24b4632711b76f0714aaa2606660ab810b791345408b0b153510dfce7eea9d33",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/debugtangentspace_vs20.vcs",
+      "sha256": "83fbdddaf51632c39c737d20a84aaa9caefdb49640b3cf86ad27c7e5e9b976ec",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/debugtextureview_vs20.vcs",
+      "sha256": "7a1aca613f54029f8283c5add3d4b2748d4a61d64cd82c5415f98d20abc03f30",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/decalmodulate_vs20.vcs",
+      "sha256": "95a50bb5000936ac68266f1e5bb1e2562047049f318f2e7bed4c2237dbc3ba71",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/decalmodulate_vs30.vcs",
+      "sha256": "ea437fa6e698796811d5cb1be064531e4401f2fd79f53f17cc2cda8555ede81a",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/depthwrite_vs20.vcs",
+      "sha256": "72d56421166dc2a6359a2555f839ccbf177452f4177c88d6dc9d26bbcbbb5a23",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 6
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 6
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 12
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/depthwrite_vs30.vcs",
+      "sha256": "37385e4a7eba514dc4bc134769c34c6c8ee641803e6cbca7e5f8aba688a584f6",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 6
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 6
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 12
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/emissive_scroll_blended_pass_vs20.vcs",
+      "sha256": "a31d4a5ddbbca354403c547d3fca41bf6b9edb7073a231ef940c55fdf198d720",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/emissive_scroll_blended_pass_vs30.vcs",
+      "sha256": "eba00e59669ce7b1f3192903dbe9631870d6eade992669ba00a3d04b82d2e3c5",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/eye_refract_vs20.vcs",
+      "sha256": "74b779e8a8fb9c7c1ba315977c9d9f1c5d44ab18137a5d674bdd31e3d0652666",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 96
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 96
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 192
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/eye_refract_vs30.vcs",
+      "sha256": "7e02776fb847a06a52c50060c364e188ab89eae38ab51517634ff3d79ddf5b6a",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 96
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/eyes_flashlight_vs20.vcs",
+      "sha256": "832c555261dd75d775f1b28c23fcbaaf973f9e2c2952c7ed4a31eec65973c00d",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/eyes_flashlight_vs30.vcs",
+      "sha256": "359604885a9b9bebcc28550a6b2f2e7abe07b98692d641df600b9cbe21c73404",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/eyes_vs20.vcs",
+      "sha256": "6409f820355a44897a9dc162747ee0a8139058169cd0b9232d691106cb6a1a5f",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 128
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 128
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 256
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/eyes_vs30.vcs",
+      "sha256": "9a50810e4146da4d8b7ee76feb89cad78be4f47c3340ce91e7fb80f56dce0b8f",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 64
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/fillrate_vs20.vcs",
+      "sha256": "30c71015a0d41df85dd7e9701346318ac067401a16bcfc28ac05ab0a08f7bab4",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/flesh_interior_blended_pass_vs20.vcs",
+      "sha256": "01d651a0c5ec3c22015fca88037ddfbc5696f035cd43cf1eee9fa69d5d9e9a8e",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 64
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 64
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 128
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/icesurface_vs30.vcs",
+      "sha256": "bc03a44e74607f4ec4d80a13ba2057fefc2c9d0ae42f642e283ccbdd80d47251",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/infected_vs20.vcs",
+      "sha256": "eb057cea665a4cd30202dacb0198bec6665bde9f964a05ce256b618e048059b6",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 80
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 80
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 160
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/infected_vs30.vcs",
+      "sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/lightmappedgeneric_decal_vs20.vcs",
+      "sha256": "c54d41a2929e2dd7c8116aaefbf041b8fe45a6919f774ce7ffd4174b31e42248",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/lightmappedgeneric_flashlight_vs20.vcs",
+      "sha256": "db7a3129a947c88088757be53e99db9dc711c9cff8ebd8dff4749a09ea0b8837",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/lightmappedgeneric_flashlight_vs30.vcs",
+      "sha256": "823679db047c395c8e4455a793bda68691a8a67529a51db354925e3548f8de69",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+      "sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1512
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1512
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/lightmappedgeneric_vs30.vcs",
+      "sha256": "cceaacc450a3a7ea5266d3a36621a03d8f7cc13f738611bea09150e3140efce3",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1008
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1008
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/lightmappedreflective_vs20.vcs",
+      "sha256": "5ea38e251a166d0c11a3027712f9b8fd3dde1e2ea3f083d63c4bc30e316759fe",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/lightshafts_vs30.vcs",
+      "sha256": "8ea6f570583e5dc47645110d0a53b739b2940777158302ed784785b82c2f2acc",
+      "bindings": [
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/parallaxtest_vs30.vcs",
+      "sha256": "43a255c06c65288c40cc12797209b6afe7d741c1c65a7a7260a7bc51849d3853",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/particlesphere_vs20.vcs",
+      "sha256": "0557c060f06aaefc6082e1c2838f7cc1be63737acd397ca241897ef7f8327bf2",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 2,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/phong_vs20.vcs",
+      "sha256": "e30769c204e28001edc8e2544f7d3f15e6d6196c468df081291862a3335a8694",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/phong_vs30.vcs",
+      "sha256": "670a060e13e001ad3fba03380fdb99be4dcc6fca0e7c337c5b99b3d9f9418b13",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/portal_refract_vs20.vcs",
+      "sha256": "1e75cb7a609d88ab64e85cb049e6ffdfd689f1c76d15f9a39da54af394bfa037",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/portal_vs20.vcs",
+      "sha256": "d214cff2cc3ed0685c3e64abb24c3710b38c24e8e93f370546928c235ba61cc8",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/portalstaticoverlay_vs20.vcs",
+      "sha256": "82478a5fa08ffde287f2e90a50e3c644506bb273c01c7eaee36613f31c5460d7",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 3
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/proto_ice_vs20.vcs",
+      "sha256": "c62ac95c8cede57f737a60744cc39f158588c49d7afddbdbd881aa10c2e01f17",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 96
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 96
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 192
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/prototype_vs20.vcs",
+      "sha256": "23e26ee16f1e86037e852f90e8c291fed9162448d5016284265335f35c49b07a",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 96
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 96
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 192
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/refract_vs20.vcs",
+      "sha256": "21750f715c256e54415f32efab46292615664cbfe412de2ca3d28482bf61df1b",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 12
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/screenspaceeffect_vs20.vcs",
+      "sha256": "2086dcd42f78a39a9be1ef35cf1d912eb9a835f1d6970e62f897e644a4eba069",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/shadow_vs20.vcs",
+      "sha256": "536656bfb254c7e372b3e33475cfd16f30c3d205777de36b291bd01beb499bc6",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/shadowmodel_vs20.vcs",
+      "sha256": "1be4672027eecfdc8d066e7fc24358cd70f9a60ce31692237350cb7a83d4e637",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/shatteredglass_vs20.vcs",
+      "sha256": "793046b1510701b22eb0b382ef2258b2e599a426422f80948ebb8af4f787ed14",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/showz_vs11.vcs",
+      "sha256": "d9c3a1d6f7f54a19e5be7bc8aabae890a1904dbbaf489dd63d37d8acdc4dd226",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/showz_vs20.vcs",
+      "sha256": "c9033e2ff6bdf688d376947c3f407b4b89c984b1cca882e4d53fedc4f1f506f7",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/sky_vs20.vcs",
+      "sha256": "cf788f5e0387ee8a51c55c66c05ba111c30984b386f1929debc506dc0bc82958",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/splinecard_vs20.vcs",
+      "sha256": "286c2597426dde22b826b615a4d74beb5285488167bfec48787e451dd7c45a6a",
+      "bindings": [
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/splinerope_vs20.vcs",
+      "sha256": "47b52aa2cedc8a3ef38db2a470b00b98901e2a0894148dd9ee15b059e0aa619c",
+      "bindings": [
+        {
+          "name": "cProj",
+          "register_set": "float4",
+          "register_index": 51,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/sprite_vs20.vcs",
+      "sha256": "8cf4711ebde13496dfb30b28f255e797596ebf3793a8374e1c0661fbb584f1cd",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 3
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 3
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/spritecard_vs20.vcs",
+      "sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 960
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 240
+        },
+        {
+          "name": "cProj",
+          "register_set": "float4",
+          "register_index": 51,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 240
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 480
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/teeth_bump_vs20.vcs",
+      "sha256": "925df81d553d7e265ed09a5638c6250a37dc2efbb602a2318ae8aa3670aad27a",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 64
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/teeth_bump_vs30.vcs",
+      "sha256": "a27d5b4f8d78a330771e84663af91cbc3b5ecbd30af731bcc96eb72762174250",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/teeth_flashlight_vs20.vcs",
+      "sha256": "d6f430b58a7e1a8adac7513555fe9e00f7638f8f79462aee115e30ad6a1db8bd",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/teeth_flashlight_vs30.vcs",
+      "sha256": "ab09824843afc130f5fc2094b346df3147ec882c0064b12ec0275f93aedc5113",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/teeth_vs20.vcs",
+      "sha256": "7c7d49197c747a439e34577c64cef8657676fd20fb46dbb4bcd8acdbe8aa6cd1",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 64
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 64
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 128
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/teeth_vs30.vcs",
+      "sha256": "be23e69db903adcd4da94cd3f57cb360e3bac0af739321d2544235aeef9ccba2",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/treeleaf_vs20.vcs",
+      "sha256": "366bec1de8a96bf3478002d36c4eb8b6221207674ccabb9d06ed99de3a6a84d4",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        },
+        {
+          "name": "cViewModel",
+          "register_set": "float4",
+          "register_index": 17,
+          "register_count": 2,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 32
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/unlitgeneric_vs20.vcs",
+      "sha256": "4743723e58b07ec9f13faf3179b845108e5cf70fa89f4a23b6aea30b3ad7a260",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/unlitgeneric_vs30.vcs",
+      "sha256": "7778231d19d25dff7b4b525a54e4d9991bf6ea1a1c2a136ec15ba0f5aaafd870",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/unlittwotexture_vs20.vcs",
+      "sha256": "1e3c145fa09e020a04da3c0fe2af0fd3ffc3e652cdaa01bed1a05edf1bef8875",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs20.vcs",
+      "sha256": "80a40401e0eddd4301383432b74f6a2c4f3d762611ebb5b63448c77978c00848",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 192
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 192
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 384
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs30.vcs",
+      "sha256": "9d74078546b192bd52054e44527c356402959af70d73e7da95965b691ccf52ae",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 64
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 64
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 128
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs20.vcs",
+      "sha256": "dd1d1a7120c3c08833374eb4bd619052faaf1872045e35a5340b3204758908f7",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 13200
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 13200
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 26400
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+      "sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2640
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2640
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 5280
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vertexlitgeneric_flashlight_vs20.vcs",
+      "sha256": "bcd0a3eb1ef88f220ee1ae5766af22bff8817767297239284e96701c67a07f7d",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 6
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 6
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 12
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/volume_clouds_vs20.vcs",
+      "sha256": "494b9d3fd211437e51efa203aece0c9fa4ef9a58bbe377611c9b8d49cbf9c4d0",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vortwarp_vs20.vcs",
+      "sha256": "79517edc7e497b3aaee33262620e8686db27e068398c2a9ea8aac59850dd4baf",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 8
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vortwarp_vs30.vcs",
+      "sha256": "b377a00340916e6b14f3d2ee13c681da1f69d42d6b2f4db94121faefc083c47f",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 159,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cViewProj",
+          "register_set": "float4",
+          "register_index": 8,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/water_vs20.vcs",
+      "sha256": "30bdd4af3f51db50faf1bad748e3f7e98cd637796f740994fa2f9b74b24bbdd5",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 6
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 6
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/watercheap_vs20.vcs",
+      "sha256": "6dba4f1beaedbe6a348d327964fa44d8b0f2fcb7a999644f942dd23a12f8393f",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/windowimposter_vs20.vcs",
+      "sha256": "081cc2c93984f30b9e67465fa6f7d1a923d6e256b34ec6ac67f7206dd9f3334e",
+      "bindings": [
+        {
+          "name": "cModel",
+          "register_set": "float4",
+          "register_index": 58,
+          "register_count": 3,
+          "rows": 4,
+          "columns": 3,
+          "elements": 53,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/writez_vs20.vcs",
+      "sha256": "1c7af4cc839d15ca04c4a63061d982556970b9852e718a1915ab4b8974505f69",
+      "bindings": [
+        {
+          "name": "cModelViewProj",
+          "register_set": "float4",
+          "register_index": 4,
+          "register_count": 4,
+          "rows": 4,
+          "columns": 4,
+          "elements": 1,
+          "parameter_class": 3,
+          "parameter_type": 3,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    }
+  ],
+  "motion_keyword_shaders": [
+    {
+      "path": "hl2/shaders/fxc/bloom_ps20.vcs",
+      "sha256": "3adbdb97f94eb47de81c1b1a9c65cd4c7558598a2d821a997b53fe4bfacd579d",
+      "keyword_hits": [
+        "BlurSampler"
+      ],
+      "samplers": [
+        {
+          "name": "BlurSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "FBSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/bloom_ps20b.vcs",
+      "sha256": "3adbdb97f94eb47de81c1b1a9c65cd4c7558598a2d821a997b53fe4bfacd579d",
+      "keyword_hits": [
+        "BlurSampler"
+      ],
+      "samplers": [
+        {
+          "name": "BlurSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "FBSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/depth_of_field_ps20b.vcs",
+      "sha256": "913041f0195b6f9580f9fb87fe2db9bec56a9796728d399a870f276414f44a14",
+      "keyword_hits": [
+        "g_vBlurAmounts"
+      ],
+      "samplers": [
+        {
+          "name": "g_tFullFB",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 4
+        },
+        {
+          "name": "g_tSmallFB",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/emissive_scroll_blended_pass_ps20.vcs",
+      "sha256": "f1ff9dc6d1bd4ec40eb200e10ea8499fa6e91c59f645cf547364527cc7e972ad",
+      "keyword_hits": [
+        "g_tFlowSampler"
+      ],
+      "samplers": [
+        {
+          "name": "g_tBaseSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "g_tFlowSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "g_tSelfIllumSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/emissive_scroll_blended_pass_ps20b.vcs",
+      "sha256": "f1ff9dc6d1bd4ec40eb200e10ea8499fa6e91c59f645cf547364527cc7e972ad",
+      "keyword_hits": [
+        "g_tFlowSampler"
+      ],
+      "samplers": [
+        {
+          "name": "g_tBaseSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "g_tFlowSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "g_tSelfIllumSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/emissive_scroll_blended_pass_ps30.vcs",
+      "sha256": "0a32501887f166922b57ec9db5b1a0bc9ab793041a9069ed719fc72913f9105f",
+      "keyword_hits": [
+        "g_tFlowSampler"
+      ],
+      "samplers": [
+        {
+          "name": "g_tBaseSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "g_tFlowSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "g_tSelfIllumSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/icesurface_ps30.vcs",
+      "sha256": "f7ed12269475af3f1928643ae2fcd7ca62816ae877f7e2c03d2fac255f7bd744",
+      "keyword_hits": [
+        "g_vInteriorColor_RefractBlur"
+      ],
+      "samplers": [
+        {
+          "name": "g_tBase",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1200
+        },
+        {
+          "name": "g_tBump",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1152
+        },
+        {
+          "name": "g_tEnvironment",
+          "register_set": "sampler",
+          "register_index": 7,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 725
+        },
+        {
+          "name": "g_tFlashlightCookie",
+          "register_set": "sampler",
+          "register_index": 10,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 600
+        },
+        {
+          "name": "g_tLightWarp",
+          "register_set": "sampler",
+          "register_index": 4,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 540
+        },
+        {
+          "name": "g_tNormalizeRandRot",
+          "register_set": "sampler",
+          "register_index": 9,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 300
+        },
+        {
+          "name": "g_tOpacity",
+          "register_set": "sampler",
+          "register_index": 6,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 480
+        },
+        {
+          "name": "g_tScreen",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 505
+        },
+        {
+          "name": "g_tShadowDepth",
+          "register_set": "sampler",
+          "register_index": 8,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 300
+        },
+        {
+          "name": "g_tSpecMask",
+          "register_set": "sampler",
+          "register_index": 3,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1080
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/morphaccumulate_ps30.vcs",
+      "sha256": "294b3712440d1d1e40a4d871929a84e1c5aac62eaac8172eee75422707e4b83e",
+      "keyword_hits": [
+        "SideSpeedMap"
+      ],
+      "samplers": [
+        {
+          "name": "MorphTarget",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "MorphWeights",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "SideSpeedMap",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/motion_blur_ps20.vcs",
+      "sha256": "6a5ddd9d5591118dfd326fcb99e38b9c15b1e6eed2114b49befe6fcb63744c24",
+      "keyword_hits": [
+        "g_flMaxMotionBlur"
+      ],
+      "samplers": [
+        {
+          "name": "g_tTexSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 15
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/motion_blur_ps20b.vcs",
+      "sha256": "6a5ddd9d5591118dfd326fcb99e38b9c15b1e6eed2114b49befe6fcb63744c24",
+      "keyword_hits": [
+        "g_flMaxMotionBlur"
+      ],
+      "samplers": [
+        {
+          "name": "g_tTexSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 15
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vortwarp_ps20.vcs",
+      "sha256": "1b9b877fb10d3a33bed744041751d1bdd7a445180e120652a7899f6d0a4f377f",
+      "keyword_hits": [
+        "FlowMapSampler"
+      ],
+      "samplers": [
+        {
+          "name": "BaseTextureSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 448
+        },
+        {
+          "name": "BumpmapSampler",
+          "register_set": "sampler",
+          "register_index": 3,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 680
+        },
+        {
+          "name": "EnvmapSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 480
+        },
+        {
+          "name": "FlashlightSampler",
+          "register_set": "sampler",
+          "register_index": 7,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 40
+        },
+        {
+          "name": "FlowMapSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 712
+        },
+        {
+          "name": "NormalizeSampler",
+          "register_set": "sampler",
+          "register_index": 5,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 320
+        },
+        {
+          "name": "SelfIllumMapSampler",
+          "register_set": "sampler",
+          "register_index": 6,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 712
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vortwarp_ps20b.vcs",
+      "sha256": "7e9322e7165c8b1a83381ae5d41dd08f73aec8ae8c3eefb2a3514bd3397d8f07",
+      "keyword_hits": [
+        "FlowMapSampler"
+      ],
+      "samplers": [
+        {
+          "name": "BaseTextureSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 736
+        },
+        {
+          "name": "BumpmapSampler",
+          "register_set": "sampler",
+          "register_index": 3,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1128
+        },
+        {
+          "name": "EnvmapSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 800
+        },
+        {
+          "name": "FlashlightSampler",
+          "register_set": "sampler",
+          "register_index": 7,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 40
+        },
+        {
+          "name": "FlowMapSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1160
+        },
+        {
+          "name": "NormalizeSampler",
+          "register_set": "sampler",
+          "register_index": 5,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 576
+        },
+        {
+          "name": "SelfIllumMapSampler",
+          "register_set": "sampler",
+          "register_index": 6,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1160
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/vortwarp_ps30.vcs",
+      "sha256": "7f376a9823eb2db072fb6531198379f19c49347fa723d9d775d709389123d90b",
+      "keyword_hits": [
+        "FlowMapSampler"
+      ],
+      "samplers": [
+        {
+          "name": "BaseTextureSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 736
+        },
+        {
+          "name": "BumpmapSampler",
+          "register_set": "sampler",
+          "register_index": 3,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1128
+        },
+        {
+          "name": "EnvmapSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 800
+        },
+        {
+          "name": "FlashlightSampler",
+          "register_set": "sampler",
+          "register_index": 7,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 40
+        },
+        {
+          "name": "FlowMapSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1160
+        },
+        {
+          "name": "NormalizeSampler",
+          "register_set": "sampler",
+          "register_index": 5,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 576
+        },
+        {
+          "name": "SelfIllumMapSampler",
+          "register_set": "sampler",
+          "register_index": 6,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1160
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/water_ps20.vcs",
+      "sha256": "49c994db224c971748f7d3a207f8ef262282034fa1249c793e88d1efb27a51e9",
+      "keyword_hits": [
+        "FlowNoiseSampler",
+        "FlowmapSampler",
+        "g_vFlowParams1",
+        "g_vFlowParams2"
+      ],
+      "samplers": [
+        {
+          "name": "BaseTextureSampler",
+          "register_set": "sampler",
+          "register_index": 4,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 1
+        },
+        {
+          "name": "FlashlightSampler",
+          "register_set": "sampler",
+          "register_index": 6,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 22
+        },
+        {
+          "name": "FlowNoiseSampler",
+          "register_set": "sampler",
+          "register_index": 5,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 22
+        },
+        {
+          "name": "FlowmapSampler",
+          "register_set": "sampler",
+          "register_index": 4,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 22
+        },
+        {
+          "name": "LightmapSampler",
+          "register_set": "sampler",
+          "register_index": 3,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 21
+        },
+        {
+          "name": "NormalSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 50
+        },
+        {
+          "name": "ReflectSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 29
+        },
+        {
+          "name": "RefractSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 38
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/water_ps20b.vcs",
+      "sha256": "ac5a32e40e19b0d0b638a1981adfaf79098569b861e7e58dc5e8258d157fc437",
+      "keyword_hits": [
+        "FlowNoiseSampler",
+        "FlowmapSampler",
+        "g_vFlowParams1",
+        "g_vFlowParams2"
+      ],
+      "samplers": [
+        {
+          "name": "BaseTextureSampler",
+          "register_set": "sampler",
+          "register_index": 4,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 2
+        },
+        {
+          "name": "FlashlightSampler",
+          "register_set": "sampler",
+          "register_index": 6,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "FlowNoiseSampler",
+          "register_set": "sampler",
+          "register_index": 5,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 37
+        },
+        {
+          "name": "FlowmapSampler",
+          "register_set": "sampler",
+          "register_index": 4,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 37
+        },
+        {
+          "name": "LightmapSampler",
+          "register_set": "sampler",
+          "register_index": 3,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 35
+        },
+        {
+          "name": "NormalSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 79
+        },
+        {
+          "name": "RandRotSampler",
+          "register_set": "sampler",
+          "register_index": 8,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 24
+        },
+        {
+          "name": "ReflectSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "RefractSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 54
+        },
+        {
+          "name": "ShadowDepthSampler",
+          "register_set": "sampler",
+          "register_index": 7,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 24
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/watercheap_ps20.vcs",
+      "sha256": "f30a4aba1095c61a56b9f44a574618136cd9878eb45d3422c6eb34c672e8694d",
+      "keyword_hits": [
+        "FlowNoiseSampler",
+        "FlowSampler",
+        "g_vFlowParams1",
+        "g_vFlowParams2"
+      ],
+      "samplers": [
+        {
+          "name": "EnvmapSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "FlowNoiseSampler",
+          "register_set": "sampler",
+          "register_index": 4,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "FlowSampler",
+          "register_set": "sampler",
+          "register_index": 3,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 18
+        },
+        {
+          "name": "NormalMapSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "NormalizeSampler",
+          "register_set": "sampler",
+          "register_index": 6,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 24
+        },
+        {
+          "name": "RefractSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 12
+        }
+      ]
+    },
+    {
+      "path": "hl2/shaders/fxc/watercheap_ps20b.vcs",
+      "sha256": "fa08b7b703774b54a41918ca911bd3747471fb05821d1eb48b5d668d67671017",
+      "keyword_hits": [
+        "FlowNoiseSampler",
+        "FlowSampler",
+        "g_vFlowParams1",
+        "g_vFlowParams2"
+      ],
+      "samplers": [
+        {
+          "name": "EnvmapSampler",
+          "register_set": "sampler",
+          "register_index": 0,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "FlowNoiseSampler",
+          "register_set": "sampler",
+          "register_index": 4,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 16
+        },
+        {
+          "name": "FlowSampler",
+          "register_set": "sampler",
+          "register_index": 3,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 18
+        },
+        {
+          "name": "NormalMapSampler",
+          "register_set": "sampler",
+          "register_index": 1,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 48
+        },
+        {
+          "name": "NormalizeSampler",
+          "register_set": "sampler",
+          "register_index": 6,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 14,
+          "struct_members": 0,
+          "compiled_combinations": 24
+        },
+        {
+          "name": "RefractSampler",
+          "register_set": "sampler",
+          "register_index": 2,
+          "register_count": 1,
+          "rows": 1,
+          "columns": 1,
+          "elements": 1,
+          "parameter_class": 4,
+          "parameter_type": 12,
+          "struct_members": 0,
+          "compiled_combinations": 12
+        }
+      ]
+    }
+  ],
+  "multiple_color_output_shaders": [
+    {
+      "path": "hl2/shaders/fxc/hdrselectrange_ps20.vcs",
+      "sha256": "525e8abfe4fcedf9ef35a33c00b6e45498158263045df67f9508d40beb48d5de",
+      "register_sets": {
+        "0,1": 1
+      }
+    },
+    {
+      "path": "hl2/shaders/fxc/hdrselectrange_ps20b.vcs",
+      "sha256": "525e8abfe4fcedf9ef35a33c00b6e45498158263045df67f9508d40beb48d5de",
+      "register_sets": {
+        "0,1": 1
+      }
+    }
+  ],
+  "excluded_directories": [
+    {
+      "directory": "left4dead2/left4dead2/shaders/fxc",
+      "files": [
+        "left4dead2/left4dead2/shaders/fxc/digital_display_ps30.vcs",
+        "left4dead2/left4dead2/shaders/fxc/digital_display_vs30.vcs",
+        "left4dead2/left4dead2/shaders/fxc/Neko_Engine_Post_ps20b.vcs",
+        "left4dead2/left4dead2/shaders/fxc/neko_floattoscreen_ps20b.vcs",
+        "left4dead2/left4dead2/shaders/fxc/neko_luminance_compare_ps20b.vcs",
+        "left4dead2/left4dead2/shaders/fxc/neko_screenspaceeffect_vs20.vcs",
+        "left4dead2/left4dead2/shaders/fxc/neko_toon_ps30.vcs",
+        "left4dead2/left4dead2/shaders/fxc/neko_toon_vs30.vcs",
+        "left4dead2/left4dead2/shaders/fxc/outline_ps30.vcs",
+        "left4dead2/left4dead2/shaders/fxc/outline_vs30.vcs",
+        "left4dead2/left4dead2/shaders/fxc/pbr_ps30.vcs",
+        "left4dead2/left4dead2/shaders/fxc/pbr_vs30.vcs"
+      ],
+      "reason": "outside inspected hl2 native shader path; provenance not assumed"
+    },
+    {
+      "directory": "left4dead2/shaders/fxc",
+      "files": [
+        "left4dead2/shaders/fxc/digital_display_ps30.vcs",
+        "left4dead2/shaders/fxc/digital_display_vs30.vcs",
+        "left4dead2/shaders/fxc/Neko_Downsample_nohdr_ps30.vcs",
+        "left4dead2/shaders/fxc/Neko_Downsample_vs30.vcs",
+        "left4dead2/shaders/fxc/neko_emissive_scroll_blended_pass_ps30.vcs",
+        "left4dead2/shaders/fxc/neko_emissive_scroll_blended_pass_vs30.vcs",
+        "left4dead2/shaders/fxc/Neko_Engine_Post_ps20b.vcs",
+        "left4dead2/shaders/fxc/neko_engine_post_ps30.vcs",
+        "left4dead2/shaders/fxc/neko_engine_post_vs30.vcs",
+        "left4dead2/shaders/fxc/neko_floattoscreen_ps20b.vcs",
+        "left4dead2/shaders/fxc/neko_glow_color_ps30.vcs",
+        "left4dead2/shaders/fxc/neko_glow_color_vs30.vcs",
+        "left4dead2/shaders/fxc/neko_luminance_compare_ps20b.vcs",
+        "left4dead2/shaders/fxc/neko_refract_ps30.vcs",
+        "left4dead2/shaders/fxc/neko_refract_vs30.vcs",
+        "left4dead2/shaders/fxc/neko_screenspaceeffect_vs20.vcs",
+        "left4dead2/shaders/fxc/neko_sky_ps30.vcs",
+        "left4dead2/shaders/fxc/neko_sky_vs30.vcs",
+        "left4dead2/shaders/fxc/neko_sprite_ps30.vcs",
+        "left4dead2/shaders/fxc/neko_sprite_vs30.vcs",
+        "left4dead2/shaders/fxc/neko_toon_ps30.vcs",
+        "left4dead2/shaders/fxc/neko_toon_vs30.vcs",
+        "left4dead2/shaders/fxc/NekoBloom_ps30.vcs",
+        "left4dead2/shaders/fxc/NekoBloom_vs30.vcs",
+        "left4dead2/shaders/fxc/NekoBlurFilter_ps30.vcs",
+        "left4dead2/shaders/fxc/NekoBlurFilter_vs30.vcs",
+        "left4dead2/shaders/fxc/outline_ps30.vcs",
+        "left4dead2/shaders/fxc/outline_vs30.vcs",
+        "left4dead2/shaders/fxc/pbr_ps30.vcs",
+        "left4dead2/shaders/fxc/pbr_vs30.vcs"
+      ],
+      "reason": "outside inspected hl2 native shader path; provenance not assumed"
+    }
+  ],
+  "limitations": [
+    "Names and register outputs cannot prove pixel contents or runtime pass selection.",
+    "Shader constants are optimized reflection records, not an exhaustive engine state inventory.",
+    "Two VCS4 assembly shader files contain no CTAB names; their bytecode intervals and END tokens are validated.",
+    "Only unique compiled static records are decompressed; static aliases are fully validated but not decoded twice.",
+    "Valve raw LZMA blocks may omit an end-of-stream marker; decoding stops at the stored output length and validates every resulting combination record.",
+    "No optical flow, shader modification, memory injection or game file replacement is performed."
+  ]
+}

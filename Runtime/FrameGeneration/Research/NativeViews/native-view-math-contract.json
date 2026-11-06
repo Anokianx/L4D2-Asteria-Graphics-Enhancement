@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "author": "Anokianx",
+  "passed": true,
+  "tests_run": 13,
+  "known_pose_and_frustum_fixtures": 216,
+  "failures": 0,
+  "errors": 0,
+  "source_sha256": {
+    "Native_View_Math.py": "e4ef27a7be37cfecb68d69ae788dac1a15bae88b6888bd87ec0aa829924cd6ba",
+    "Analyze_Native_Views.py": "4c3c18a147e3b0e55be22d078c748d821d04d5e95699f0e7b164bb15a75d48e2",
+    "Test_Native_View_Math.py": "30cc74811521d0e997f493fac0d847230363c1b32505c9b9e3a1d64b6db69ce9"
+  },
+  "native_camera_ready": false,
+  "frame_timing_verified": false,
+  "motion_vectors_verified": false
+}

@@ -1,0 +1,114 @@
+{
+  "author": "Anokianx",
+  "date": "2026-10-15",
+  "observed_dxvk": {
+    "version": "v2.3.1",
+    "log": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameProbe\\left4dead2_d3d9.log",
+    "log_sha256": "e736273f87b11de9cadebd7524da07c8b244491258cfe5202d5fa69a60e1b0a7",
+    "source_commit": "037d0fa1ad093065b18dad968d5898cbcd143e0e",
+    "release_binary_equivalence_verified": false
+  },
+  "source_signature_checks": {
+    "float_member_after_int_member": true,
+    "float_member_index_one": true,
+    "float_array_stride_sixteen": true,
+    "ordinary_ubo": true,
+    "descriptor_offset_includes_physical_and_ring_slice": true,
+    "descriptor_bind_dynamic_offset_count_zero": true
+  },
+  "source_reference_manifest_sha256": "42ab7f0a1ff83f3fb51981b4c88f10d3d1b9000ee8cec877831db168efff0af0",
+  "hardware_vertex_constant_profile": {
+    "storage": "ordinary Vulkan UNIFORM_BUFFER",
+    "block_type_name": "cbuffer_t",
+    "variable_name": "c",
+    "integer_member": {
+      "index": 0,
+      "name": "i",
+      "offset": 0,
+      "elements": 16,
+      "array_stride": 16
+    },
+    "float_member": {
+      "index": 1,
+      "name": "f",
+      "offset": 256,
+      "elements": 256,
+      "array_stride": 16
+    },
+    "c8_to_c11_offsets_relative_to_descriptor_range": {
+      "8": 384,
+      "9": 400,
+      "10": 416,
+      "11": 432
+    },
+    "c_viewproj_candidate_byte_offset": 384,
+    "c_viewproj_candidate_byte_length": 64,
+    "access_chain_expected_member_and_register_indices": [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        11
+      ]
+    ],
+    "logical_compiler_descriptor_set": 0,
+    "logical_compiler_resource_binding": 0,
+    "standard_remapped_vertex_descriptor_set": 2,
+    "final_binding": "Per actual captured shader; binding list sorting and shader resource use change the mapped binding number."
+  },
+  "software_vertex_constant_profile": {
+    "separate_float_block": true,
+    "float_member_index": 0,
+    "float_member_offset": 0,
+    "float_array_stride": 16,
+    "c8_to_c11_relative_offsets": [
+      128,
+      144,
+      160,
+      176
+    ],
+    "possible_storage": "UNIFORM_BUFFER or STORAGE_BUFFER; must inspect actual SPIR-V Block/BufferBlock and descriptor type"
+  },
+  "ordinary_descriptor_address_formula": "VkDescriptorBufferInfo.offset + reflected member Offset + register index * reflected ArrayStride",
+  "dynamic_descriptor_formula_if_present": "ordinary descriptor offset + bind-time dynamic offset + reflected member Offset + register index * reflected ArrayStride",
+  "public_reshade": {
+    "bind_descriptor_tables_signature_has_dynamic_offsets": false,
+    "buffer_range_fields": [
+      "buffer",
+      "offset",
+      "size"
+    ],
+    "ordinary_dxvk_offset_is_descriptor_update_visible": true,
+    "signature_sha256": "bac30f5c08a54605452cfc001a6fb3d953bc9134bc5de7086effceee1615d16a",
+    "dynamic_offset_limitation_is_current_standard_dxvk_blocker": false
+  },
+  "actual_native_shader_profiles": {
+    "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\Research\\NativeShaders\\native-uniform-profiles.json",
+    "profiles": 26,
+    "sha256": "d5fecb9a2158c7e710b75d839a75b49c89f576f6d1a887c0395748008fb7b95f",
+    "actual_spirv_layout_and_exact_native_vcs_origin_verified": true,
+    "main_view_and_frame_semantics_verified": false
+  },
+  "spirv_does_not_distinguish_ordinary_vs_dynamic_descriptor_type": true,
+  "ordinary_descriptor_claim_scope": "Matching upstream DXVK implementation, not a raw actual-game VkDescriptorSetLayout descriptorType capture.",
+  "still_unverified": [
+    "Actual installed binary equivalence with unmodified upstream v2.3.1; raw actual-game Vulkan descriptor type and bind-time dynamicOffsetCount have not been recorded.",
+    "Current draw descriptor association, buffer range/lifetime, CPU-write timing and GPU submission/frame provenance.",
+    "Current main view versus weapon/shadow/reflection/UI classification, projection conventions and correct frame alignment.",
+    "Existing native dense per-pixel motion vectors and previous deformation transforms."
+  ],
+  "native_camera_verified": false,
+  "native_motion_vectors_verified": false,
+  "game_files_modified": false,
+  "gpu_memory_read": false
+}

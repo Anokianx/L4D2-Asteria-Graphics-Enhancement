@@ -1,0 +1,190 @@
+vs_3_0
+def c1, -128, -64, 0.0158730168, 1
+def c2, -2, 1, 765.005859, 3.05175781e-005
+def c4, 9.99999975e-005, 3, 4, 0
+dcl_position v0
+dcl_blendweight v1
+dcl_blendindices v2
+dcl_normal v3
+dcl_texcoord v4
+dcl_position1 v5
+dcl_normal1 v6
+dcl_position o0
+dcl_texcoord o1.xy
+dcl_texcoord1 o2.xy
+dcl_texcoord4 o3.xyz
+dcl_texcoord7 o4
+dcl_texcoord6 o5
+add r0.xy, c1.x, v3
+slt r0.zw, r0.xyxy, c0.x
+add r0.xy, r0_abs, -r0.zwzw
+add r0.xy, r0, c1.y
+mad r0.z, r0.z, c2.x, c2.y
+slt r1.xy, r0, c0.x
+add r0.xy, r0_abs, -r1
+mad r0.w, r0.x, -c1.z, c1.w
+mad r2.z, r0.y, -c1.z, r0.w
+mad r1.xy, r1, c2.x, c2.y
+mul r2.xy, r0, c1.z
+nrm r3.xyz, r2
+mul r0.xy, r1, r3
+mul r0.w, r0.z, r3.z
+mad r0.xyz, v6, c13.x, r0.xyww
+add r1.xy, c0.y, v1
+mul r1.xy, r1, c2.w
+add r0.w, r1.y, r1.x
+add r0.w, -r0.w, c0.y
+mul r2.xyz, c2.z, v2.zyxw
+mova a0.xyz, r2
+mul r2, r1.y, c60[a0.y]
+mad r2, c60[a0.x], r1.x, r2
+mad r2, c60[a0.z], r0.w, r2
+dp3 r3.z, r0, r2
+mov r4.w, v0.w
+mov r5.xyz, v0
+mad r4.xyz, v5, c13.x, r5
+dp4 r2.z, r4, r2
+dp4 o1.x, v4, c48
+dp4 o1.y, v4, c49
+dp4 o2.x, v4, c52
+dp4 o2.y, v4, c53
+mul r5, r1.y, c58[a0.y]
+mad r5, c58[a0.x], r1.x, r5
+mad r5, c58[a0.z], r0.w, r5
+dp3 r3.x, r0, r5
+dp4 r2.x, r4, r5
+mul r5, r1.y, c59[a0.y]
+mad r1, c59[a0.x], r1.x, r5
+mad r1, c59[a0.z], r0.w, r1
+dp3 r3.y, r0, r1
+dp4 r2.y, r4, r1
+mov o4.xyz, r2
+mov r2.w, c0.y
+dp4 o0.w, r2, c11
+dp4 o0.x, r2, c8
+dp4 o0.y, r2, c9
+dp4 r0.x, r2, c10
+mov o4.w, r0.x
+mov o0.z, r0.x
+mov o5.w, c0.x
+nrm r0.xyz, r3
+mov r1.yz, c0
+if_ge c3.x, r1.y
+add r1.xyw, -r2.xyzz, c29.xyzz
+dp3 r3.x, r1.xyww, r1.xyww
+rsq r4.y, r3.x
+mad r5.xyz, r1.xyww, -r4.y, -c28
+mul r1.xyw, r1, r4.y
+dp3 r0.w, c28, -r1.xyww
+mad r1.xyw, c27.w, r5.xyzz, r1
+dp3 r1.x, r0, r1.xyww
+mov r3.y, c0.y
+mov r4.xz, c0.y
+mul r3.xyz, r3.yxxw, r4
+dp3 r1.y, c31, r3
+rcp r1.y, r1.y
+add r0.w, r0.w, -c30.z
+mul r0.w, r0.w, c30.w
+max r0.w, r0.w, c4.x
+pow r1.w, r0.w, c30.x
+min r0.w, r1.w, c0.y
+mad r0.w, r1.y, r0.w, -r1.y
+mad r0.w, c28.w, r0.w, r1.y
+max r1.x, r1.x, c0.x
+add r1.y, -r0.w, c0.y
+mad r0.w, c27.w, r1.y, r0.w
+mul r1.xyw, r1.x, c27.xyzz
+mul r1.xyw, r0.w, r1
+else
+mov r1.xyw, c0.x
+endif
+if_ge c3.x, r1.z
+add r3.xyz, -r2, c34
+dp3 r4.x, r3, r3
+rsq r5.y, r4.x
+mad r6.xyz, r3, -r5.y, -c33
+mul r3.xyz, r3, r5.y
+dp3 r0.w, c33, -r3
+mad r3.xyz, c32.w, r6, r3
+dp3 r1.z, r0, r3
+mov r4.y, c0.y
+mov r5.xz, c0.y
+mul r3.xyz, r4.yxxw, r5
+dp3 r2.w, c36, r3
+rcp r2.w, r2.w
+add r0.w, r0.w, -c35.z
+mul r0.w, r0.w, c35.w
+max r0.w, r0.w, c4.x
+pow r3.x, r0.w, c35.x
+min r0.w, r3.x, c0.y
+mad r0.w, r2.w, r0.w, -r2.w
+mad r0.w, c33.w, r0.w, r2.w
+max r1.z, r1.z, c0.x
+add r2.w, -r0.w, c0.y
+mad r0.w, c32.w, r2.w, r0.w
+mul r3.xyz, r1.z, c32
+mad r1.xyw, r3.xyzz, r0.w, r1
+endif
+mov r3.yz, c4
+if_ge c3.x, r3.y
+add r3.xyw, -r2.xyzz, c39.xyzz
+dp3 r4.x, r3.xyww, r3.xyww
+rsq r5.y, r4.x
+mad r6.xyz, r3.xyww, -r5.y, -c38
+mul r3.xyw, r3, r5.y
+dp3 r0.w, c38, -r3.xyww
+mad r3.xyw, c37.w, r6.xyzz, r3
+dp3 r1.z, r0, r3.xyww
+mov r4.y, c0.y
+mov r5.xz, c0.y
+mul r3.xyw, r4.yxzx, r5.xyzz
+dp3 r2.w, c41, r3.xyww
+rcp r2.w, r2.w
+add r0.w, r0.w, -c40.z
+mul r0.w, r0.w, c40.w
+max r0.w, r0.w, c4.x
+pow r3.x, r0.w, c40.x
+min r0.w, r3.x, c0.y
+mad r0.w, r2.w, r0.w, -r2.w
+mad r0.w, c38.w, r0.w, r2.w
+max r1.z, r1.z, c0.x
+add r2.w, -r0.w, c0.y
+mad r0.w, c37.w, r2.w, r0.w
+mul r3.xyw, r1.z, c37.xyzz
+mad r1.xyw, r3, r0.w, r1
+endif
+if_ge c3.x, r3.z
+add r2.xyz, -r2, c44
+dp3 r3.x, r2, r2
+rsq r4.y, r3.x
+mad r5.xyz, r2, -r4.y, -c43
+mul r2.xyz, r2, r4.y
+dp3 r0.w, c43, -r2
+mad r2.xyz, c42.w, r5, r2
+dp3 r1.z, r0, r2
+mov r3.y, c0.y
+mov r4.xz, c0.y
+mul r2.xyz, r3.yxxw, r4
+dp3 r2.x, c46, r2
+rcp r2.x, r2.x
+add r0.w, r0.w, -c45.z
+mul r0.w, r0.w, c45.w
+max r0.w, r0.w, c4.x
+pow r2.y, r0.w, c45.x
+min r0.w, r2.y, c0.y
+mad r0.w, r2.x, r0.w, -r2.x
+mad r0.w, c43.w, r0.w, r2.x
+max r1.z, r1.z, c0.x
+add r2.x, -r0.w, c0.y
+mad r0.w, c42.w, r2.x, r0.w
+mul r2.xyz, r1.z, c42
+mad r1.xyw, r2.xyzz, r0.w, r1
+endif
+slt r2.xyz, r0, c0.x
+mova a0.xyz, r2
+mul r2.xyz, r0, r0
+mul r3.xyz, r2.y, c23[a0.y]
+mad r2.xyw, r2.x, c21[a0.x].xyzz, r3.xyzz
+mad r2.xyz, r2.z, c25[a0.z], r2.xyww
+add o5.xyz, r1.xyww, r2
+mov o3.xyz, r0

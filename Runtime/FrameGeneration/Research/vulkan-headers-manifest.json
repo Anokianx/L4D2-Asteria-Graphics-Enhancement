@@ -1,0 +1,204 @@
+{
+  "repository": "https://github.com/KhronosGroup/Vulkan-Headers",
+  "tag": "v1.3.250",
+  "commit": "bae9700cd9425541a0f6029957f005e5ad3ef660",
+  "downloaded_bytes": 1033428,
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/LICENSE.txt",
+      "bytes": 11358,
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "include/vk_video/vulkan_video_codec_h264std.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vk_video/vulkan_video_codec_h264std.h",
+      "bytes": 13700,
+      "git_blob_sha1": "21c7b667fd5f8ee73a1d94703ae8597ac6791d70",
+      "sha256": "5725db044ee674d308e2647cb6d56f21564d53a58411ecc61e3492729fa734fd"
+    },
+    {
+      "path": "include/vk_video/vulkan_video_codec_h264std_decode.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vk_video/vulkan_video_codec_h264std_decode.h",
+      "bytes": 2591,
+      "git_blob_sha1": "f7eb8edbdf15a0283c9f1cb6727894a18c67ebdb",
+      "sha256": "a3697b4e76eb974fcd441d68c1e7fc5dc2613bd7165e85a859744d3952f8344f"
+    },
+    {
+      "path": "include/vk_video/vulkan_video_codec_h264std_encode.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vk_video/vulkan_video_codec_h264std_encode.h",
+      "bytes": 6563,
+      "git_blob_sha1": "d4edb40eeaa905efc374a4620d1d979910e0d9e2",
+      "sha256": "aa8bc568831090917b0985d5ae0f317b530aed62a1d5ccad27556faea5032dbb"
+    },
+    {
+      "path": "include/vk_video/vulkan_video_codec_h265std.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vk_video/vulkan_video_codec_h265std.h",
+      "bytes": 23243,
+      "git_blob_sha1": "4233bdc89ce5ff4457625aa3c5512ba7b5c051c5",
+      "sha256": "95d87a19ff10f24fd2d040b4cd57b178c8f6eb92cae8fb8baa2a3db5205c76b5"
+    },
+    {
+      "path": "include/vk_video/vulkan_video_codec_h265std_decode.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vk_video/vulkan_video_codec_h265std_decode.h",
+      "bytes": 2297,
+      "git_blob_sha1": "7eee9b389e0dba3443c843c083b69c73fe51a3dd",
+      "sha256": "66bdaae65aeb18af3451e8f3e0608dac57437285008c7e26d1e0ad519e774769"
+    },
+    {
+      "path": "include/vk_video/vulkan_video_codec_h265std_encode.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vk_video/vulkan_video_codec_h265std_encode.h",
+      "bytes": 7311,
+      "git_blob_sha1": "1a42b95e02860d165673e3e605ff510df79dbc94",
+      "sha256": "e71726a811ec651cd3de03ae99e3db9a056b6b423db5112f5ee291153185bae2"
+    },
+    {
+      "path": "include/vk_video/vulkan_video_codecs_common.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vk_video/vulkan_video_codecs_common.h",
+      "bytes": 515,
+      "git_blob_sha1": "f486d3ca3fed73ede9ad2f4bd0797c6f042d39c9",
+      "sha256": "5aedcf62bd0c68036e58fee76654261c54a10b3cbc1de4ac215b837685098a55"
+    },
+    {
+      "path": "include/vulkan/vk_icd.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vk_icd.h",
+      "bytes": 8719,
+      "git_blob_sha1": "2cd6c3d336db1a910b624050cf0d37a42b8008ed",
+      "sha256": "280e77ffc7397b06254d50cd93722311b11eaf41189f873f3560f90d36eb51f2"
+    },
+    {
+      "path": "include/vulkan/vk_layer.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vk_layer.h",
+      "bytes": 7630,
+      "git_blob_sha1": "7954f71d8312302dea24a794027d36341e53eb99",
+      "sha256": "884f89101435128ed68f944f19c078fb8311e55f6e3f9e31097f607a8447323a"
+    },
+    {
+      "path": "include/vulkan/vk_platform.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vk_platform.h",
+      "bytes": 2828,
+      "git_blob_sha1": "ed67a6004a890946484e410ced014e4b0cbf6b5e",
+      "sha256": "c2aa81456e5d24f5931f9b2052aaeb85d1a6362abac9ee5fb2029a57579e03a7"
+    },
+    {
+      "path": "include/vulkan/vulkan.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan.h",
+      "bytes": 1555,
+      "git_blob_sha1": "426cff58d72c9628d05ad03dca2f9cb37efd3395",
+      "sha256": "74d7a953a9e02b0f8c6edb8dd3304428ad9cfb14697e50bd5da46c7666717787"
+    },
+    {
+      "path": "include/vulkan/vulkan_android.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_android.h",
+      "bytes": 4870,
+      "git_blob_sha1": "2e1dfa9ba22be88aa0231a825deba4185a065002",
+      "sha256": "3c9dc96f0d2e4d4ac4ea9f5af537d0b5979ba31647bf4920b10e968890acbd04"
+    },
+    {
+      "path": "include/vulkan/vulkan_beta.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_beta.h",
+      "bytes": 26567,
+      "git_blob_sha1": "b0729cc37d72b82063c51177ed14dd8fc89e1786",
+      "sha256": "b03bfb8b0796df07d1e441c1d585298d10c4b514398e9195dfe34300b3c46c7a"
+    },
+    {
+      "path": "include/vulkan/vulkan_core.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_core.h",
+      "bytes": 865861,
+      "git_blob_sha1": "a2e7ed3cb7a88251b03de6f3c626a7c24b947a98",
+      "sha256": "ce0a0c0212956816bbad9cdc69ffde35ec348bd2bdf592c18e39050ec7f83944"
+    },
+    {
+      "path": "include/vulkan/vulkan_directfb.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_directfb.h",
+      "bytes": 1785,
+      "git_blob_sha1": "81d22fa7a46eacee31b796c688490e2061997493",
+      "sha256": "4737752e389f7ee314de03fff8788c93967e2ad283b87ca34ca0d511213a33db"
+    },
+    {
+      "path": "include/vulkan/vulkan_fuchsia.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_fuchsia.h",
+      "bytes": 12127,
+      "git_blob_sha1": "c11d9e65b59e14cbb5ce507a7b78e4c17c621e3c",
+      "sha256": "6b8ed362cff484037c86ba278ff377056a90ffc305dae14f79a5406ed71e584a"
+    },
+    {
+      "path": "include/vulkan/vulkan_ggp.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_ggp.h",
+      "bytes": 1730,
+      "git_blob_sha1": "2c0d5edf100f69e9ef76adc5729c45b582d91e59",
+      "sha256": "d88d523b27fe88ce1ebf6d532d5b3f5954e188a444c4db45327740ef1c659f7d"
+    },
+    {
+      "path": "include/vulkan/vulkan_ios.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_ios.h",
+      "bytes": 1233,
+      "git_blob_sha1": "8c6d9e72a57f18fafb0e810cc040c78cb4d02896",
+      "sha256": "0a8a30e3755ee09eaac6b318e9ad24e0dff40696db73252c8cf0fb98cfe785fa"
+    },
+    {
+      "path": "include/vulkan/vulkan_macos.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_macos.h",
+      "bytes": 1263,
+      "git_blob_sha1": "3310e11ab5264f86eea74bca21f6e21cecf5d105",
+      "sha256": "ee42fc9df7d66e1596e4af2484623264411aa87ddf7f21b44e3108c0c391fd33"
+    },
+    {
+      "path": "include/vulkan/vulkan_metal.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_metal.h",
+      "bytes": 5651,
+      "git_blob_sha1": "7127651c1da894e6839ecaca759a9c565ccabd95",
+      "sha256": "ff730b1cb29eae75305af7483f8b0980e723ebe3f73b6248d8eb6a4d30444794"
+    },
+    {
+      "path": "include/vulkan/vulkan_screen.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_screen.h",
+      "bytes": 1768,
+      "git_blob_sha1": "1067c046346cb67673cabc7192cf86f0f4e02d2f",
+      "sha256": "206cd78d762bebccdfd6d3dfe785b7241c94b892e83574ec056434e1c0ff270c"
+    },
+    {
+      "path": "include/vulkan/vulkan_vi.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_vi.h",
+      "bytes": 1208,
+      "git_blob_sha1": "6726470533c06050c4524db292423e21a7c0cb6d",
+      "sha256": "11bf9db57adff2ef8808491394c7ff12351dab016f77a4bb881dc5737f77e9d2"
+    },
+    {
+      "path": "include/vulkan/vulkan_wayland.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_wayland.h",
+      "bytes": 1786,
+      "git_blob_sha1": "42b28018490f9909227dffbbb872491134256979",
+      "sha256": "f721377e13e70f26db020ce44e9198feda750fc01e5756ee6758f4e904fde74e"
+    },
+    {
+      "path": "include/vulkan/vulkan_win32.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_win32.h",
+      "bytes": 14355,
+      "git_blob_sha1": "5b65a36a6d6b117a5755ce70612724410d065d1b",
+      "sha256": "b9d113e451986f4b78bac0e463229d54e0f755a79c7b7a74c5e4218669f66e80"
+    },
+    {
+      "path": "include/vulkan/vulkan_xcb.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_xcb.h",
+      "bytes": 1804,
+      "git_blob_sha1": "b49aa4e2c5c301635c861a51051c1d7846e5a013",
+      "sha256": "e4b5c297d7a717c1bdeb2a39681d94b591cbf29b30c71e18ea1514d569c6ea81"
+    },
+    {
+      "path": "include/vulkan/vulkan_xlib.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_xlib.h",
+      "bytes": 1784,
+      "git_blob_sha1": "186cdd5ef143c91d5b90d93166aa471555aa696a",
+      "sha256": "1d182afd41ad517907a19a22491941b93bb172521e402305e1fb08e398f7a4f1"
+    },
+    {
+      "path": "include/vulkan/vulkan_xlib_xrandr.h",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/Vulkan-Headers/bae9700cd9425541a0f6029957f005e5ad3ef660/include/vulkan/vulkan_xlib_xrandr.h",
+      "bytes": 1326,
+      "git_blob_sha1": "9a3b62991ab83e01ac6d104a029d1bee0de20fa6",
+      "sha256": "84909fb4afd740ef312753e7212ae4f982a266cf8db36feb03bfb5581c61cea4"
+    }
+  ]
+}

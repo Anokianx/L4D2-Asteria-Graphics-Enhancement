@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"H:/DANYRIA/danyria/Asteria/Runtime/FrameGeneration/Research/build-cpu-x86/cmake_install.cmake",
+		"H:/DANYRIA/danyria/Asteria/Runtime/FrameGeneration/Research/build-cpu-x86/frameinterpolation/cmake_install.cmake",
+		"H:/DANYRIA/danyria/Asteria/Runtime/FrameGeneration/Research/build-cpu-x86/opticalflow/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1632 @@
+{
+  "schema_version": 1,
+  "author": "Anokianx",
+  "date": "2026-10-15",
+  "profiles": [
+    {
+      "shader_sha256": "28109dd3ae893da241e46cf32ee71a557a09995a5d52f10d892a07dbd0b06302",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\28109dd3ae893da241e46cf32ee71a557a09995a5d52f10d892a07dbd0b06302.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs30.vcs",
+          "file_sha256": "9d74078546b192bd52054e44527c356402959af70d73e7da95965b691ccf52ae",
+          "static_id": 66,
+          "dynamic_id": 3,
+          "bytecode_bytes": 3312,
+          "bytecode_sha256": "76ed20af53d3a4e9c4bf430e99390c109159189292c0c91bd5abe026a0ecbb4b",
+          "raw_vcs_sha1": "c5cbf9e57bc0db3045bdc24060355db2789169a9",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "2e90d18beb4eb03bd1094a8cde2d9c924938ca41e9432b59ba8d30bc63120a31",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\2e90d18beb4eb03bd1094a8cde2d9c924938ca41e9432b59ba8d30bc63120a31.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9216,
+          "dynamic_id": 9,
+          "bytecode_bytes": 1184,
+          "bytecode_sha256": "5a738d6494b74ecbdfc832c72da56e3f889e23cf84cd229c237b0e85a51e6cdf",
+          "raw_vcs_sha1": "8214589ed88e9e88859338a7e3bcc0888d2ee55a",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9220,
+          "dynamic_id": 9,
+          "bytecode_bytes": 1184,
+          "bytecode_sha256": "5a738d6494b74ecbdfc832c72da56e3f889e23cf84cd229c237b0e85a51e6cdf",
+          "raw_vcs_sha1": "8214589ed88e9e88859338a7e3bcc0888d2ee55a",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "3824bece18da865e2ea4124679322447ac00cfca2907eb7aa858480d7166513a",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\3824bece18da865e2ea4124679322447ac00cfca2907eb7aa858480d7166513a.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/phong_vs30.vcs",
+          "file_sha256": "670a060e13e001ad3fba03380fdb99be4dcc6fca0e7c337c5b99b3d9f9418b13",
+          "static_id": 4,
+          "dynamic_id": 1,
+          "bytecode_bytes": 2948,
+          "bytecode_sha256": "dbb52fd1bc05cfef85a1ddf3a4e1943b3e9001182934ee4df94289cd7e27b91e",
+          "raw_vcs_sha1": "a0bf0159dda87f463f89dbe3d3f1c735c5a48eb5",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "3adbab4a728ab2110e4fb4eff3ca9ad192a6f164368d987582ceeed2d32267c4",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\3adbab4a728ab2110e4fb4eff3ca9ad192a6f164368d987582ceeed2d32267c4.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/phong_vs30.vcs",
+          "file_sha256": "670a060e13e001ad3fba03380fdb99be4dcc6fca0e7c337c5b99b3d9f9418b13",
+          "static_id": 4,
+          "dynamic_id": 3,
+          "bytecode_bytes": 3268,
+          "bytecode_sha256": "149c60569507ca934d0374759c8f998fa1ce0794937375a7a21b55549f8c7089",
+          "raw_vcs_sha1": "d1fc414da250c3ba664a32292225c95509b341f3",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "431c5850a559252bbe05eabe5fe4f8c0e4ffc3bcdf7de6babddbf4562b587816",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\431c5850a559252bbe05eabe5fe4f8c0e4ffc3bcdf7de6babddbf4562b587816.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9216,
+          "dynamic_id": 2,
+          "bytecode_bytes": 3024,
+          "bytecode_sha256": "c5ece14a03d3c003b608dad0cc9f3bacc986ea7895b845d8b02f693b01c0b025",
+          "raw_vcs_sha1": "0b3af077a42df0aebc925182bf86ab234686282f",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "4c48848bba48b0980283b5e34a06fcf008b6993cebb54c541db7aeaebeaab200",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\4c48848bba48b0980283b5e34a06fcf008b6993cebb54c541db7aeaebeaab200.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/infected_vs30.vcs",
+          "file_sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+          "static_id": 0,
+          "dynamic_id": 1,
+          "bytecode_bytes": 4836,
+          "bytecode_sha256": "2c119c5bad44bc264ff1793a0e61cd7a8b038d5e799c6228388bd20d1132a954",
+          "raw_vcs_sha1": "b055f12d0c1be9ca25b3ec8a971768a540f64269",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "4d0a50ac5defb4bb774df62c94b1277fe9a4d4df8e5d65c851d11971916ca32e",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\4d0a50ac5defb4bb774df62c94b1277fe9a4d4df8e5d65c851d11971916ca32e.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 2,
+          "dynamic_id": 5,
+          "bytecode_bytes": 1464,
+          "bytecode_sha256": "3abca444544598016360c77ad6843f72cd5225c4334bc48b2e8b43f69fca354f",
+          "raw_vcs_sha1": "481ffb896763de97c7573143bd856f922dc7c45a",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 6,
+          "dynamic_id": 5,
+          "bytecode_bytes": 1464,
+          "bytecode_sha256": "3abca444544598016360c77ad6843f72cd5225c4334bc48b2e8b43f69fca354f",
+          "raw_vcs_sha1": "481ffb896763de97c7573143bd856f922dc7c45a",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "520edcdfe44214c2121670a6702aff5334b850c7eae5669c7f70069857f831f9",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\520edcdfe44214c2121670a6702aff5334b850c7eae5669c7f70069857f831f9.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 1032,
+          "dynamic_id": 1,
+          "bytecode_bytes": 3156,
+          "bytecode_sha256": "1c7b57b10a3fcb17af34bcad6426cf1501bb99b60cf87a591e6623acb0d3e5b9",
+          "raw_vcs_sha1": "4cb7ae073363c8bc19642e49ac96b22ef820153c",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 1036,
+          "dynamic_id": 1,
+          "bytecode_bytes": 3156,
+          "bytecode_sha256": "1c7b57b10a3fcb17af34bcad6426cf1501bb99b60cf87a591e6623acb0d3e5b9",
+          "raw_vcs_sha1": "4cb7ae073363c8bc19642e49ac96b22ef820153c",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "5bf9acd1a26778c54690386bc25e30f2df729b5401acc5daef1253bdfa2ebeb4",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\5bf9acd1a26778c54690386bc25e30f2df729b5401acc5daef1253bdfa2ebeb4.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 1024,
+          "dynamic_id": 5,
+          "bytecode_bytes": 3124,
+          "bytecode_sha256": "aefbe756d0ec03be493c08b459c34928bbc02b0bcd26fca1a7d187ae35a5ae47",
+          "raw_vcs_sha1": "046a60e72bf2f924d7878f558133d586a9af2fb8",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 1028,
+          "dynamic_id": 5,
+          "bytecode_bytes": 3124,
+          "bytecode_sha256": "aefbe756d0ec03be493c08b459c34928bbc02b0bcd26fca1a7d187ae35a5ae47",
+          "raw_vcs_sha1": "046a60e72bf2f924d7878f558133d586a9af2fb8",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "5fd466866de598a822bd4d3dca368f1932daf0b48f797c53e6d2dc723b73594d",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\5fd466866de598a822bd4d3dca368f1932daf0b48f797c53e6d2dc723b73594d.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/infected_vs30.vcs",
+          "file_sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+          "static_id": 4,
+          "dynamic_id": 0,
+          "bytecode_bytes": 4628,
+          "bytecode_sha256": "e9f1650bedd1575e46c486f522d3d0bb8a40e1abb8d78eb0d281daf93a267d72",
+          "raw_vcs_sha1": "107ca5daee6224993e6d7990ade3cd68e1455db6",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "632c3182fed9ce40c05927ab56c0e9a8c4d876142eafdf2593c68d08eaeb9ff4",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\632c3182fed9ce40c05927ab56c0e9a8c4d876142eafdf2593c68d08eaeb9ff4.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9216,
+          "dynamic_id": 5,
+          "bytecode_bytes": 1256,
+          "bytecode_sha256": "3f0dcfc5d343b53977567aa370b5cb05db04f435cb75568d446d8a411de9deae",
+          "raw_vcs_sha1": "78bd54e54fc50e0d8d87885b60b357363e06d7c9",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9220,
+          "dynamic_id": 5,
+          "bytecode_bytes": 1256,
+          "bytecode_sha256": "3f0dcfc5d343b53977567aa370b5cb05db04f435cb75568d446d8a411de9deae",
+          "raw_vcs_sha1": "78bd54e54fc50e0d8d87885b60b357363e06d7c9",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "63cc0ba9e5e5fd6b78c5954dd09dc241a2671a1e46627fb9319034568138f774",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\63cc0ba9e5e5fd6b78c5954dd09dc241a2671a1e46627fb9319034568138f774.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 6152,
+          "dynamic_id": 0,
+          "bytecode_bytes": 1016,
+          "bytecode_sha256": "4c8ff30dde2016a58dcc55123ab722382f281a73d41b410a81a15a524b3faab0",
+          "raw_vcs_sha1": "a7cbc260bdc8397d97f2b9583b94b8109901146e",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 6156,
+          "dynamic_id": 0,
+          "bytecode_bytes": 1016,
+          "bytecode_sha256": "4c8ff30dde2016a58dcc55123ab722382f281a73d41b410a81a15a524b3faab0",
+          "raw_vcs_sha1": "a7cbc260bdc8397d97f2b9583b94b8109901146e",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "71c5f9d13da6d445618924f7bdb3190de5e0554af9824036dd9daf61f67c8ad3",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\71c5f9d13da6d445618924f7bdb3190de5e0554af9824036dd9daf61f67c8ad3.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9216,
+          "dynamic_id": 0,
+          "bytecode_bytes": 840,
+          "bytecode_sha256": "b5e6fcc090da45e2bc845d39489dd1263fd0d88b5f34b5e7695f1fdb7ed03766",
+          "raw_vcs_sha1": "f29e0e1eeb0d30b3e62e36574b1572b964559a09",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9216,
+          "dynamic_id": 1,
+          "bytecode_bytes": 840,
+          "bytecode_sha256": "b5e6fcc090da45e2bc845d39489dd1263fd0d88b5f34b5e7695f1fdb7ed03766",
+          "raw_vcs_sha1": "f29e0e1eeb0d30b3e62e36574b1572b964559a09",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9220,
+          "dynamic_id": 0,
+          "bytecode_bytes": 840,
+          "bytecode_sha256": "b5e6fcc090da45e2bc845d39489dd1263fd0d88b5f34b5e7695f1fdb7ed03766",
+          "raw_vcs_sha1": "f29e0e1eeb0d30b3e62e36574b1572b964559a09",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9220,
+          "dynamic_id": 1,
+          "bytecode_bytes": 840,
+          "bytecode_sha256": "b5e6fcc090da45e2bc845d39489dd1263fd0d88b5f34b5e7695f1fdb7ed03766",
+          "raw_vcs_sha1": "f29e0e1eeb0d30b3e62e36574b1572b964559a09",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "8452d45a80d8d596d72097a7af6d6461af44cbe211e3c3c8b3f7c7618ce4dd50",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\8452d45a80d8d596d72097a7af6d6461af44cbe211e3c3c8b3f7c7618ce4dd50.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs30.vcs",
+          "file_sha256": "9d74078546b192bd52054e44527c356402959af70d73e7da95965b691ccf52ae",
+          "static_id": 66,
+          "dynamic_id": 1,
+          "bytecode_bytes": 2992,
+          "bytecode_sha256": "d20ce5a35231f8505e17f75ba058628154fd92a15ee98db40ab6042f13015c59",
+          "raw_vcs_sha1": "df0de8268b2324e0710508af2b8fcd490aeca7d1",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "8b4981a1955464e94fecbc0ead89df2cf9a17a237dbe180307d6f71a6d2fba2f",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\8b4981a1955464e94fecbc0ead89df2cf9a17a237dbe180307d6f71a6d2fba2f.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs30.vcs",
+          "file_sha256": "9d74078546b192bd52054e44527c356402959af70d73e7da95965b691ccf52ae",
+          "static_id": 66,
+          "dynamic_id": 0,
+          "bytecode_bytes": 2668,
+          "bytecode_sha256": "7b36c9f7b3ef91e4a52fece7c8eb99ba56262c10009c9880ed0f7eb26ef3cb0c",
+          "raw_vcs_sha1": "fb1bf0b290d0b333f204c5698424ec3d4e42172e",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "8f5990e2305ea5e3ba20598f2e970f063a818f02125140f78f03001da87770cf",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\8f5990e2305ea5e3ba20598f2e970f063a818f02125140f78f03001da87770cf.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9216,
+          "dynamic_id": 7,
+          "bytecode_bytes": 3400,
+          "bytecode_sha256": "75aaa3285115fc81a674e713487ebff5f175dd1680c3fdb2337981502642ae83",
+          "raw_vcs_sha1": "0e086b463234a87026ec5e4c488e8ffb7ee75602",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "9823e0986ec08d8ded33437bd1977579d08134970746f9b166e4d55e3b226a98",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\9823e0986ec08d8ded33437bd1977579d08134970746f9b166e4d55e3b226a98.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 2,
+          "dynamic_id": 7,
+          "bytecode_bytes": 3604,
+          "bytecode_sha256": "3566b4c8bed75da732f7c8cdb1bce1bb1b5025c932916b2d739ec748f9b8526b",
+          "raw_vcs_sha1": "5841060bc9f3afa0cf86b9c226136c389352dfe0",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "a5dda8c7f41966ffb8155e9bd676b9d98907f5e3f32b21028bbba6cb633b0d6b",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\a5dda8c7f41966ffb8155e9bd676b9d98907f5e3f32b21028bbba6cb633b0d6b.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9216,
+          "dynamic_id": 3,
+          "bytecode_bytes": 3308,
+          "bytecode_sha256": "b6c144be03a8e2f014f1a057cf1cfa3adb4de838021aaf45cd469f66bedd9cc2",
+          "raw_vcs_sha1": "39a5ceea912eb5faa7ce1823a337754f7b672fb6",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "b100ebb6c83df3eb54ae3083b293022de6de42cec2f9838593f33dfbf813c1b9",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\b100ebb6c83df3eb54ae3083b293022de6de42cec2f9838593f33dfbf813c1b9.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 2,
+          "dynamic_id": 3,
+          "bytecode_bytes": 3512,
+          "bytecode_sha256": "3a9ebc14b4895b0614690472b2500c46c505ff282e6868472849900975493e41",
+          "raw_vcs_sha1": "8ae3e4ceaba888b1339389f958983b5bfec5ddfb",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "b172dc2501dd4b6aabc25602d29ec0ea335e8673ec7a000f63c821b11112bf52",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\b172dc2501dd4b6aabc25602d29ec0ea335e8673ec7a000f63c821b11112bf52.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/infected_vs30.vcs",
+          "file_sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+          "static_id": 3,
+          "dynamic_id": 1,
+          "bytecode_bytes": 1500,
+          "bytecode_sha256": "076b35ac1eefbb7cc1355dd3c863b4c443602e23f137052bc1692de7bbcc0f25",
+          "raw_vcs_sha1": "22294dfed588a8a28333c555074a43af837191c0",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/infected_vs30.vcs",
+          "file_sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+          "static_id": 3,
+          "dynamic_id": 3,
+          "bytecode_bytes": 1500,
+          "bytecode_sha256": "076b35ac1eefbb7cc1355dd3c863b4c443602e23f137052bc1692de7bbcc0f25",
+          "raw_vcs_sha1": "22294dfed588a8a28333c555074a43af837191c0",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "bae14fe1c6ab6b83dd9668c3144466f4e6d23f5b891b9039874b79b9144bf914",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\bae14fe1c6ab6b83dd9668c3144466f4e6d23f5b891b9039874b79b9144bf914.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 2,
+          "dynamic_id": 11,
+          "bytecode_bytes": 3820,
+          "bytecode_sha256": "8eb1c8546fb7d3536f008f1e09998cf034849f5f67f23fc1d2fa61cea69774f9",
+          "raw_vcs_sha1": "948f564f3269b00a7f27b09cffd74c2fb13ad235",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "c4d8a7769f217d4f23da124cb4d249f70c7d965c014491e570e07128bca3a9b6",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\c4d8a7769f217d4f23da124cb4d249f70c7d965c014491e570e07128bca3a9b6.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9220,
+          "dynamic_id": 11,
+          "bytecode_bytes": 3696,
+          "bytecode_sha256": "860757799a6de6f9f32297209f53078b7ca82f7787c052e57d6124c335f13f2e",
+          "raw_vcs_sha1": "ed1ff639eac7f20a7524731cfe4a3daadc2d535c",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "c5006cd6a5bc569d9b5b079851b0cf75ab2489510284356b1832e8d2c6e5046a",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\c5006cd6a5bc569d9b5b079851b0cf75ab2489510284356b1832e8d2c6e5046a.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9217,
+          "dynamic_id": 0,
+          "bytecode_bytes": 920,
+          "bytecode_sha256": "02106cc356dcc16c33166eff76d6455bb4802d33281ac286de2892f16cd9cfe7",
+          "raw_vcs_sha1": "3a36382a2a673db7a003581062f48671c1bf89e0",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9217,
+          "dynamic_id": 1,
+          "bytecode_bytes": 920,
+          "bytecode_sha256": "02106cc356dcc16c33166eff76d6455bb4802d33281ac286de2892f16cd9cfe7",
+          "raw_vcs_sha1": "3a36382a2a673db7a003581062f48671c1bf89e0",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9217,
+          "dynamic_id": 2,
+          "bytecode_bytes": 920,
+          "bytecode_sha256": "02106cc356dcc16c33166eff76d6455bb4802d33281ac286de2892f16cd9cfe7",
+          "raw_vcs_sha1": "3a36382a2a673db7a003581062f48671c1bf89e0",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9217,
+          "dynamic_id": 3,
+          "bytecode_bytes": 920,
+          "bytecode_sha256": "02106cc356dcc16c33166eff76d6455bb4802d33281ac286de2892f16cd9cfe7",
+          "raw_vcs_sha1": "3a36382a2a673db7a003581062f48671c1bf89e0",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "c8adadc99aca6e8876bf971e00117c9779742f5d7115bae9b2865942219893af",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\c8adadc99aca6e8876bf971e00117c9779742f5d7115bae9b2865942219893af.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 9216,
+          "dynamic_id": 11,
+          "bytecode_bytes": 3616,
+          "bytecode_sha256": "84e1a3321dd4b0e7630372d7c229e37cadea38db2833da73cbfdd5bc8b7dce0d",
+          "raw_vcs_sha1": "9e8ec9b5ea5fc5dfac3a653f1a960ac1362528d7",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "e6ef4085f22c53ac0a8c5480bfdb5fd9e65a2e6bee419834c32ee79005752912",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\e6ef4085f22c53ac0a8c5480bfdb5fd9e65a2e6bee419834c32ee79005752912.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 6152,
+          "dynamic_id": 9,
+          "bytecode_bytes": 1608,
+          "bytecode_sha256": "97789e89d8577fd687c9eac2bb15603fd4b4da357647bf1db1a07942e277771b",
+          "raw_vcs_sha1": "4b7379306fe4949d894960dbf9f09018751e780e",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 6156,
+          "dynamic_id": 9,
+          "bytecode_bytes": 1608,
+          "bytecode_sha256": "97789e89d8577fd687c9eac2bb15603fd4b4da357647bf1db1a07942e277771b",
+          "raw_vcs_sha1": "4b7379306fe4949d894960dbf9f09018751e780e",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    },
+    {
+      "shader_sha256": "fb7facfed3724900501ce3fb5e6c6d763ddee0e68d2c2cb36ec16768addc4f0e",
+      "spirv_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\InputProbe\\results\\GameNativeProvenance\\Provenance\\Shaders\\fb7facfed3724900501ce3fb5e6c6d763ddee0e68d2c2cb36ec16768addc4f0e.spv",
+      "stage": "vertex",
+      "descriptor_set": 2,
+      "binding": 0,
+      "relative_byte_offset": 384,
+      "byte_length": 64,
+      "source_dxvk_version": "2.3.1",
+      "vertex_entry_point": "main",
+      "native_vcs_exact_origins": [
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 6152,
+          "dynamic_id": 1,
+          "bytecode_bytes": 1288,
+          "bytecode_sha256": "2313f0962848a842a7b5967477c4ae1f8dafdcc458419737a2cb57b483d5c8ae",
+          "raw_vcs_sha1": "ae603de8616185ab410492049561044e632cb9ad",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        },
+        {
+          "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+          "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+          "static_id": 6156,
+          "dynamic_id": 1,
+          "bytecode_bytes": 1288,
+          "bytecode_sha256": "2313f0962848a842a7b5967477c4ae1f8dafdcc458419737a2cb57b483d5c8ae",
+          "raw_vcs_sha1": "ae603de8616185ab410492049561044e632cb9ad",
+          "c_viewproj_ctab": [
+            {
+              "name": "cViewProj",
+              "register_set": "float4",
+              "register_index": 8,
+              "register_count": 4,
+              "rows": 4,
+              "columns": 4,
+              "elements": 1,
+              "parameter_class": 3,
+              "parameter_type": 3,
+              "struct_members": 0
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "float_member_offset": 256,
+        "array_stride": 16,
+        "register_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_opdot_usage": true
+      },
+      "profile_candidate": true,
+      "camera_semantics_verified": false
+    }
+  ],
+  "native_camera_ready": false,
+  "camera_semantics_verified": false,
+  "source_sha1_hash_form": "Exact full raw VCS D3D9 bytecode, including original CTAB/comments/END; no stripping or mutation.",
+  "source_dxvk_commit": "037d0fa1ad093065b18dad968d5898cbcd143e0e",
+  "reflection_sha256": "cdcb5c7ec3ae46ae724606cfd2b5a76a4e1cb91a0293838a2ab986137cc842e1",
+  "main_view_and_frame_semantics_verified": false
+}

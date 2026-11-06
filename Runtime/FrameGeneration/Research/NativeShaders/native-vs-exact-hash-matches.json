@@ -1,0 +1,2204 @@
+{
+  "author": "Anokianx",
+  "date": "2026-10-15",
+  "hash_form": "Exact full raw VCS D3D9 bytecode, including original CTAB/comments/END; no stripping or mutation.",
+  "dxvk_source_commit": "037d0fa1ad093065b18dad968d5898cbcd143e0e",
+  "validated_vertex_source_files": 100,
+  "scanned_vertex_combinations": 37721,
+  "matches": {
+    "VS_3fd98757025273333db790f6481a590dc0c96113": [
+      {
+        "file": "hl2/shaders/fxc/depthwrite_vs30.vcs",
+        "file_sha256": "37385e4a7eba514dc4bc134769c34c6c8ee641803e6cbca7e5f8aba688a584f6",
+        "static_id": 0,
+        "dynamic_id": 3,
+        "bytecode_bytes": 812,
+        "bytecode_sha256": "98b9bd41a90731ae88650cd88d8109ad3986222b8934de2ffde7da6b9e3059ec",
+        "raw_vcs_sha1": "3fd98757025273333db790f6481a590dc0c96113",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_231abb410d477d4bc86a1bd1bd0b52c5024e7f99": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16404,
+        "dynamic_id": 0,
+        "bytecode_bytes": 948,
+        "bytecode_sha256": "a84f7e378eb73874c2d1dd3fb6dbde7f92106ecbc04875e03b0ab9f58b4d7326",
+        "raw_vcs_sha1": "231abb410d477d4bc86a1bd1bd0b52c5024e7f99",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_798de52d65c1d67086c20af1b75c7f09e8dabc49": [
+      {
+        "file": "hl2/shaders/fxc/splinecard_vs20.vcs",
+        "file_sha256": "286c2597426dde22b826b615a4d74beb5285488167bfec48787e451dd7c45a6a",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1128,
+        "bytecode_sha256": "05994f9fc500eda163b503f21f1440378bdbcaab6b31f9d254b51e666098d65b",
+        "raw_vcs_sha1": "798de52d65c1d67086c20af1b75c7f09e8dabc49",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_30191c6b2d94a5b44a803fdc1be4cdd857a3a734": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16386,
+        "dynamic_id": 1,
+        "bytecode_bytes": 740,
+        "bytecode_sha256": "91d5230525b8e8c028ec314a0ce925ad6127046bddb6d35191f7f9def275c735",
+        "raw_vcs_sha1": "30191c6b2d94a5b44a803fdc1be4cdd857a3a734",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_8d1b69af9fd9ef552891bdc1b5d1eb8c3d796e2a": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16412,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1076,
+        "bytecode_sha256": "11c53f43484023c660d3cd193e9085925ca1fc23cf473edae9213683334edd73",
+        "raw_vcs_sha1": "8d1b69af9fd9ef552891bdc1b5d1eb8c3d796e2a",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_3324b5fabde791bcf21e836a2e1fab44289c8f71": [],
+    "VS_eb47091808b70875a1cc1a1501fd5599adf617ee": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16416,
+        "dynamic_id": 1,
+        "bytecode_bytes": 604,
+        "bytecode_sha256": "c592c15ff11d57491385c3ab0ff63aba524b4eb3e0257cacd1aca6b09101f891",
+        "raw_vcs_sha1": "eb47091808b70875a1cc1a1501fd5599adf617ee",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_5d2f3439aa7466b8894e940e4c47be9a661b611c": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_flashlight_vs30.vcs",
+        "file_sha256": "823679db047c395c8e4455a793bda68691a8a67529a51db354925e3548f8de69",
+        "static_id": 17,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1236,
+        "bytecode_sha256": "7f617d370d4a08c5ffc6ba0609cf4161f76bc3f34626c58fc0eceae343cc9a9c",
+        "raw_vcs_sha1": "5d2f3439aa7466b8894e940e4c47be9a661b611c",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_16a2f58f724cd4fabf9be76738dba7603d895494": [
+      {
+        "file": "hl2/shaders/fxc/blurfilter_vs20.vcs",
+        "file_sha256": "defcd3549f91e5ed2d806a8692a8592a6aee1ba5542343b92cb8b5661e639414",
+        "static_id": 1,
+        "dynamic_id": 0,
+        "bytecode_bytes": 156,
+        "bytecode_sha256": "8a7c70bb778a33faed8f60fdd21199f3389c7932a42ba9e24d1983547a17125f",
+        "raw_vcs_sha1": "16a2f58f724cd4fabf9be76738dba7603d895494",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/depth_of_field_vs20.vcs",
+        "file_sha256": "405c2756381e240a0c60b6be02d623dd3b0360bfb0ccd60304e387f18e063ee3",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 156,
+        "bytecode_sha256": "8a7c70bb778a33faed8f60fdd21199f3389c7932a42ba9e24d1983547a17125f",
+        "raw_vcs_sha1": "16a2f58f724cd4fabf9be76738dba7603d895494",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/hdrcombineto16bit_vs20.vcs",
+        "file_sha256": "1a4085d16dcc800b0741fe46505e885ec9ac7098464bedb952ed7c76d723fa82",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 156,
+        "bytecode_sha256": "8a7c70bb778a33faed8f60fdd21199f3389c7932a42ba9e24d1983547a17125f",
+        "raw_vcs_sha1": "16a2f58f724cd4fabf9be76738dba7603d895494",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/hdrselectrange_vs20.vcs",
+        "file_sha256": "1a4085d16dcc800b0741fe46505e885ec9ac7098464bedb952ed7c76d723fa82",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 156,
+        "bytecode_sha256": "8a7c70bb778a33faed8f60fdd21199f3389c7932a42ba9e24d1983547a17125f",
+        "raw_vcs_sha1": "16a2f58f724cd4fabf9be76738dba7603d895494",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/motion_blur_vs20.vcs",
+        "file_sha256": "405c2756381e240a0c60b6be02d623dd3b0360bfb0ccd60304e387f18e063ee3",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 156,
+        "bytecode_sha256": "8a7c70bb778a33faed8f60fdd21199f3389c7932a42ba9e24d1983547a17125f",
+        "raw_vcs_sha1": "16a2f58f724cd4fabf9be76738dba7603d895494",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/rendertargetblit_vs20.vcs",
+        "file_sha256": "5001e264c1a0b516146ffcc3e1cf7e32f2e935a0a9fceda060f2601b2b7afa72",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 156,
+        "bytecode_sha256": "8a7c70bb778a33faed8f60fdd21199f3389c7932a42ba9e24d1983547a17125f",
+        "raw_vcs_sha1": "16a2f58f724cd4fabf9be76738dba7603d895494",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/screenspaceeffect_vs20.vcs",
+        "file_sha256": "2086dcd42f78a39a9be1ef35cf1d912eb9a835f1d6970e62f897e644a4eba069",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 156,
+        "bytecode_sha256": "8a7c70bb778a33faed8f60fdd21199f3389c7932a42ba9e24d1983547a17125f",
+        "raw_vcs_sha1": "16a2f58f724cd4fabf9be76738dba7603d895494",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/sfm_combine_vs20.vcs",
+        "file_sha256": "6285678ae99ecffead5952745abe2a2761d44912fc66f6a06000c8c49695920f",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 156,
+        "bytecode_sha256": "8a7c70bb778a33faed8f60fdd21199f3389c7932a42ba9e24d1983547a17125f",
+        "raw_vcs_sha1": "16a2f58f724cd4fabf9be76738dba7603d895494",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_1f7a5a11a802dd9298d19f952efd4034f984b789": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_flashlight_vs30.vcs",
+        "file_sha256": "823679db047c395c8e4455a793bda68691a8a67529a51db354925e3548f8de69",
+        "static_id": 24,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1056,
+        "bytecode_sha256": "678741e83676ed26374156e9c26e520b11cc8badd81fd498423cdfb149790f3a",
+        "raw_vcs_sha1": "1f7a5a11a802dd9298d19f952efd4034f984b789",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_65c2502fc23e8d93ed919e1756383b513fc485f3": [],
+    "VS_c5cbf9e57bc0db3045bdc24060355db2789169a9": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs30.vcs",
+        "file_sha256": "9d74078546b192bd52054e44527c356402959af70d73e7da95965b691ccf52ae",
+        "static_id": 66,
+        "dynamic_id": 3,
+        "bytecode_bytes": 3312,
+        "bytecode_sha256": "76ed20af53d3a4e9c4bf430e99390c109159189292c0c91bd5abe026a0ecbb4b",
+        "raw_vcs_sha1": "c5cbf9e57bc0db3045bdc24060355db2789169a9",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_aa46f819e19c6aa0ea5e29a4323ec73d5cf7759f": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 259,
+        "dynamic_id": 0,
+        "bytecode_bytes": 2160,
+        "bytecode_sha256": "2f802823485ac656b5c6bb3372cf6c9ffc0c48c04814002b7698bdc76b3d8487",
+        "raw_vcs_sha1": "aa46f819e19c6aa0ea5e29a4323ec73d5cf7759f",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_8214589ed88e9e88859338a7e3bcc0888d2ee55a": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9216,
+        "dynamic_id": 9,
+        "bytecode_bytes": 1184,
+        "bytecode_sha256": "5a738d6494b74ecbdfc832c72da56e3f889e23cf84cd229c237b0e85a51e6cdf",
+        "raw_vcs_sha1": "8214589ed88e9e88859338a7e3bcc0888d2ee55a",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9220,
+        "dynamic_id": 9,
+        "bytecode_bytes": 1184,
+        "bytecode_sha256": "5a738d6494b74ecbdfc832c72da56e3f889e23cf84cd229c237b0e85a51e6cdf",
+        "raw_vcs_sha1": "8214589ed88e9e88859338a7e3bcc0888d2ee55a",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_5a252a5e00780556b29328373005246e01f8f4d2": [
+      {
+        "file": "hl2/shaders/fxc/depthwrite_vs30.vcs",
+        "file_sha256": "37385e4a7eba514dc4bc134769c34c6c8ee641803e6cbca7e5f8aba688a584f6",
+        "static_id": 1,
+        "dynamic_id": 0,
+        "bytecode_bytes": 2184,
+        "bytecode_sha256": "b1ac903089a5fe735954daa6f610161348da0eb7a5d2605a7ce0ed20e6449791",
+        "raw_vcs_sha1": "5a252a5e00780556b29328373005246e01f8f4d2",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/depthwrite_vs30.vcs",
+        "file_sha256": "37385e4a7eba514dc4bc134769c34c6c8ee641803e6cbca7e5f8aba688a584f6",
+        "static_id": 1,
+        "dynamic_id": 1,
+        "bytecode_bytes": 2184,
+        "bytecode_sha256": "b1ac903089a5fe735954daa6f610161348da0eb7a5d2605a7ce0ed20e6449791",
+        "raw_vcs_sha1": "5a252a5e00780556b29328373005246e01f8f4d2",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_df8dfbd38fe0666dc57e43fb64f05496e14605df": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 256,
+        "dynamic_id": 1,
+        "bytecode_bytes": 2156,
+        "bytecode_sha256": "938c17e02a9e1bd88809e6ee3cda6dd206ee8ef2e88ebadb4c5ca9a4d17c8a8d",
+        "raw_vcs_sha1": "df8dfbd38fe0666dc57e43fb64f05496e14605df",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_9c881237cd4d4fce0a8cd1f5177cde18c04e4877": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_flashlight_vs30.vcs",
+        "file_sha256": "823679db047c395c8e4455a793bda68691a8a67529a51db354925e3548f8de69",
+        "static_id": 16,
+        "dynamic_id": 0,
+        "bytecode_bytes": 916,
+        "bytecode_sha256": "2d68b33bbf1a12ebf680371255cf80cead79f3b9558c4c433eeabbfae21b1696",
+        "raw_vcs_sha1": "9c881237cd4d4fce0a8cd1f5177cde18c04e4877",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_90d53045f6644591a48eb03dfdb29fef42936688": [
+      {
+        "file": "hl2/shaders/fxc/refract_vs20.vcs",
+        "file_sha256": "21750f715c256e54415f32efab46292615664cbfe412de2ca3d28482bf61df1b",
+        "static_id": 1,
+        "dynamic_id": 3,
+        "bytecode_bytes": 1916,
+        "bytecode_sha256": "b4541440c8925d94b4202e18efcd0d3778ff876fa066593e8b96b1520383480c",
+        "raw_vcs_sha1": "90d53045f6644591a48eb03dfdb29fef42936688",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_a0bf0159dda87f463f89dbe3d3f1c735c5a48eb5": [
+      {
+        "file": "hl2/shaders/fxc/phong_vs30.vcs",
+        "file_sha256": "670a060e13e001ad3fba03380fdb99be4dcc6fca0e7c337c5b99b3d9f9418b13",
+        "static_id": 4,
+        "dynamic_id": 1,
+        "bytecode_bytes": 2948,
+        "bytecode_sha256": "dbb52fd1bc05cfef85a1ddf3a4e1943b3e9001182934ee4df94289cd7e27b91e",
+        "raw_vcs_sha1": "a0bf0159dda87f463f89dbe3d3f1c735c5a48eb5",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_32466691d46c8c77b8e21ae8d60f4ff847a5261e": [
+      {
+        "file": "hl2/shaders/fxc/cable_vs20.vcs",
+        "file_sha256": "6adc033b7c2556e97c7f10e4884ce7ac5d7a381c5bd0abbe53cf1ee6e23f3ed6",
+        "static_id": 1,
+        "dynamic_id": 0,
+        "bytecode_bytes": 636,
+        "bytecode_sha256": "0d434d42be9e23bc2413bc0f7ece5ada0b41799de0ce9dea1a791d3373ffd1fc",
+        "raw_vcs_sha1": "32466691d46c8c77b8e21ae8d60f4ff847a5261e",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_d1fc414da250c3ba664a32292225c95509b341f3": [
+      {
+        "file": "hl2/shaders/fxc/phong_vs30.vcs",
+        "file_sha256": "670a060e13e001ad3fba03380fdb99be4dcc6fca0e7c337c5b99b3d9f9418b13",
+        "static_id": 4,
+        "dynamic_id": 3,
+        "bytecode_bytes": 3268,
+        "bytecode_sha256": "149c60569507ca934d0374759c8f998fa1ce0794937375a7a21b55549f8c7089",
+        "raw_vcs_sha1": "d1fc414da250c3ba664a32292225c95509b341f3",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_0b3af077a42df0aebc925182bf86ab234686282f": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9216,
+        "dynamic_id": 2,
+        "bytecode_bytes": 3024,
+        "bytecode_sha256": "c5ece14a03d3c003b608dad0cc9f3bacc986ea7895b845d8b02f693b01c0b025",
+        "raw_vcs_sha1": "0b3af077a42df0aebc925182bf86ab234686282f",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_96ed3e4973c03ae212c6df1e0935ecba912f1161": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1580,
+        "bytecode_sha256": "60686b52fa3507cc2285e1d98eceb5e45096631536537a39217435a3eed47d3b",
+        "raw_vcs_sha1": "96ed3e4973c03ae212c6df1e0935ecba912f1161",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_bf7c6abd623565ddc58e1bdf8cf38c2fdd714008": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_flashlight_vs30.vcs",
+        "file_sha256": "823679db047c395c8e4455a793bda68691a8a67529a51db354925e3548f8de69",
+        "static_id": 25,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1248,
+        "bytecode_sha256": "f9118baf24545070b2bc1130a796bf4795ac4c35ddf82f672eff0f441f4a47cc",
+        "raw_vcs_sha1": "bf7c6abd623565ddc58e1bdf8cf38c2fdd714008",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_22d7798113824cbe29192f1863b0604f4d3c4db4": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 1056,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1696,
+        "bytecode_sha256": "3f27ed9f17f4a62eaf49d71f7d4db36ab18036f725910a1a9001ad067f9cffe8",
+        "raw_vcs_sha1": "22d7798113824cbe29192f1863b0604f4d3c4db4",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_d4d30ad033a02ee3d53ee0f677918af978d4f6f2": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 3,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1932,
+        "bytecode_sha256": "ba1bcd4dc228c1b49d70e176cb570ec35986443e9b284313abbf71f8835b35a7",
+        "raw_vcs_sha1": "d4d30ad033a02ee3d53ee0f677918af978d4f6f2",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_344ef2785e78d6ffc29a39936446c486520bf504": [
+      {
+        "file": "hl2/shaders/fxc/decalmodulate_vs30.vcs",
+        "file_sha256": "ea437fa6e698796811d5cb1be064531e4401f2fd79f53f17cc2cda8555ede81a",
+        "static_id": 4,
+        "dynamic_id": 0,
+        "bytecode_bytes": 620,
+        "bytecode_sha256": "99e3871237d43d5efd73521925944bf12892619bdc71161aa57d6ea146e134a2",
+        "raw_vcs_sha1": "344ef2785e78d6ffc29a39936446c486520bf504",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/decalmodulate_vs30.vcs",
+        "file_sha256": "ea437fa6e698796811d5cb1be064531e4401f2fd79f53f17cc2cda8555ede81a",
+        "static_id": 4,
+        "dynamic_id": 1,
+        "bytecode_bytes": 620,
+        "bytecode_sha256": "99e3871237d43d5efd73521925944bf12892619bdc71161aa57d6ea146e134a2",
+        "raw_vcs_sha1": "344ef2785e78d6ffc29a39936446c486520bf504",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_c459122edb3fe832161b526bfaac9c453a6fd9e2": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16406,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1092,
+        "bytecode_sha256": "92c6106ef2b84ea03f91f906266d0befba19dfd6154aaf18d36baf0b9a231094",
+        "raw_vcs_sha1": "c459122edb3fe832161b526bfaac9c453a6fd9e2",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 22548,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1092,
+        "bytecode_sha256": "92c6106ef2b84ea03f91f906266d0befba19dfd6154aaf18d36baf0b9a231094",
+        "raw_vcs_sha1": "c459122edb3fe832161b526bfaac9c453a6fd9e2",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_b055f12d0c1be9ca25b3ec8a971768a540f64269": [
+      {
+        "file": "hl2/shaders/fxc/infected_vs30.vcs",
+        "file_sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+        "static_id": 0,
+        "dynamic_id": 1,
+        "bytecode_bytes": 4836,
+        "bytecode_sha256": "2c119c5bad44bc264ff1793a0e61cd7a8b038d5e799c6228388bd20d1132a954",
+        "raw_vcs_sha1": "b055f12d0c1be9ca25b3ec8a971768a540f64269",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_481ffb896763de97c7573143bd856f922dc7c45a": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 2,
+        "dynamic_id": 5,
+        "bytecode_bytes": 1464,
+        "bytecode_sha256": "3abca444544598016360c77ad6843f72cd5225c4334bc48b2e8b43f69fca354f",
+        "raw_vcs_sha1": "481ffb896763de97c7573143bd856f922dc7c45a",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 6,
+        "dynamic_id": 5,
+        "bytecode_bytes": 1464,
+        "bytecode_sha256": "3abca444544598016360c77ad6843f72cd5225c4334bc48b2e8b43f69fca354f",
+        "raw_vcs_sha1": "481ffb896763de97c7573143bd856f922dc7c45a",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_4cb7ae073363c8bc19642e49ac96b22ef820153c": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 1032,
+        "dynamic_id": 1,
+        "bytecode_bytes": 3156,
+        "bytecode_sha256": "1c7b57b10a3fcb17af34bcad6426cf1501bb99b60cf87a591e6623acb0d3e5b9",
+        "raw_vcs_sha1": "4cb7ae073363c8bc19642e49ac96b22ef820153c",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 1036,
+        "dynamic_id": 1,
+        "bytecode_bytes": 3156,
+        "bytecode_sha256": "1c7b57b10a3fcb17af34bcad6426cf1501bb99b60cf87a591e6623acb0d3e5b9",
+        "raw_vcs_sha1": "4cb7ae073363c8bc19642e49ac96b22ef820153c",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_046a60e72bf2f924d7878f558133d586a9af2fb8": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 1024,
+        "dynamic_id": 5,
+        "bytecode_bytes": 3124,
+        "bytecode_sha256": "aefbe756d0ec03be493c08b459c34928bbc02b0bcd26fca1a7d187ae35a5ae47",
+        "raw_vcs_sha1": "046a60e72bf2f924d7878f558133d586a9af2fb8",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 1028,
+        "dynamic_id": 5,
+        "bytecode_bytes": 3124,
+        "bytecode_sha256": "aefbe756d0ec03be493c08b459c34928bbc02b0bcd26fca1a7d187ae35a5ae47",
+        "raw_vcs_sha1": "046a60e72bf2f924d7878f558133d586a9af2fb8",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_107ca5daee6224993e6d7990ade3cd68e1455db6": [
+      {
+        "file": "hl2/shaders/fxc/infected_vs30.vcs",
+        "file_sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+        "static_id": 4,
+        "dynamic_id": 0,
+        "bytecode_bytes": 4628,
+        "bytecode_sha256": "e9f1650bedd1575e46c486f522d3d0bb8a40e1abb8d78eb0d281daf93a267d72",
+        "raw_vcs_sha1": "107ca5daee6224993e6d7990ade3cd68e1455db6",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_78bd54e54fc50e0d8d87885b60b357363e06d7c9": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9216,
+        "dynamic_id": 5,
+        "bytecode_bytes": 1256,
+        "bytecode_sha256": "3f0dcfc5d343b53977567aa370b5cb05db04f435cb75568d446d8a411de9deae",
+        "raw_vcs_sha1": "78bd54e54fc50e0d8d87885b60b357363e06d7c9",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9220,
+        "dynamic_id": 5,
+        "bytecode_bytes": 1256,
+        "bytecode_sha256": "3f0dcfc5d343b53977567aa370b5cb05db04f435cb75568d446d8a411de9deae",
+        "raw_vcs_sha1": "78bd54e54fc50e0d8d87885b60b357363e06d7c9",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_a7cbc260bdc8397d97f2b9583b94b8109901146e": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 6152,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1016,
+        "bytecode_sha256": "4c8ff30dde2016a58dcc55123ab722382f281a73d41b410a81a15a524b3faab0",
+        "raw_vcs_sha1": "a7cbc260bdc8397d97f2b9583b94b8109901146e",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 6156,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1016,
+        "bytecode_sha256": "4c8ff30dde2016a58dcc55123ab722382f281a73d41b410a81a15a524b3faab0",
+        "raw_vcs_sha1": "a7cbc260bdc8397d97f2b9583b94b8109901146e",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_aed1d625f6745bd46a9435fedbeca3ba6656511a": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 288,
+        "dynamic_id": 3,
+        "bytecode_bytes": 2208,
+        "bytecode_sha256": "73fa204cb119ad93b05a135ca4e988ecc08a3fbda69cad5cfb125f8aa7bf8c1d",
+        "raw_vcs_sha1": "aed1d625f6745bd46a9435fedbeca3ba6656511a",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_14be1ed8b84abeb4013aa2bc7f1026e91be90a29": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_flashlight_vs30.vcs",
+        "file_sha256": "823679db047c395c8e4455a793bda68691a8a67529a51db354925e3548f8de69",
+        "static_id": 27,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1272,
+        "bytecode_sha256": "9957c77c85bbe295f56d43834ccec6346efae0ee768c3a3d3b3e619509a9e497",
+        "raw_vcs_sha1": "14be1ed8b84abeb4013aa2bc7f1026e91be90a29",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_f29e0e1eeb0d30b3e62e36574b1572b964559a09": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9216,
+        "dynamic_id": 0,
+        "bytecode_bytes": 840,
+        "bytecode_sha256": "b5e6fcc090da45e2bc845d39489dd1263fd0d88b5f34b5e7695f1fdb7ed03766",
+        "raw_vcs_sha1": "f29e0e1eeb0d30b3e62e36574b1572b964559a09",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9216,
+        "dynamic_id": 1,
+        "bytecode_bytes": 840,
+        "bytecode_sha256": "b5e6fcc090da45e2bc845d39489dd1263fd0d88b5f34b5e7695f1fdb7ed03766",
+        "raw_vcs_sha1": "f29e0e1eeb0d30b3e62e36574b1572b964559a09",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9220,
+        "dynamic_id": 0,
+        "bytecode_bytes": 840,
+        "bytecode_sha256": "b5e6fcc090da45e2bc845d39489dd1263fd0d88b5f34b5e7695f1fdb7ed03766",
+        "raw_vcs_sha1": "f29e0e1eeb0d30b3e62e36574b1572b964559a09",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9220,
+        "dynamic_id": 1,
+        "bytecode_bytes": 840,
+        "bytecode_sha256": "b5e6fcc090da45e2bc845d39489dd1263fd0d88b5f34b5e7695f1fdb7ed03766",
+        "raw_vcs_sha1": "f29e0e1eeb0d30b3e62e36574b1572b964559a09",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_a2dbfaf098a220584fc7c29cb219844e443c1c80": [
+      {
+        "file": "hl2/shaders/fxc/unlitgeneric_vs30.vcs",
+        "file_sha256": "7778231d19d25dff7b4b525a54e4d9991bf6ea1a1c2a136ec15ba0f5aaafd870",
+        "static_id": 2,
+        "dynamic_id": 3,
+        "bytecode_bytes": 1060,
+        "bytecode_sha256": "48d4961442b7d49580aaf938e91ff321bddd1a1fb371a8ab7c6da258b0023544",
+        "raw_vcs_sha1": "a2dbfaf098a220584fc7c29cb219844e443c1c80",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_8cb72939f6b1117655ded1050864c010f27e0ee8": [
+      {
+        "file": "hl2/shaders/fxc/emissive_scroll_blended_pass_vs30.vcs",
+        "file_sha256": "eba00e59669ce7b1f3192903dbe9631870d6eade992669ba00a3d04b82d2e3c5",
+        "static_id": 0,
+        "dynamic_id": 3,
+        "bytecode_bytes": 812,
+        "bytecode_sha256": "38bbd1312196c778b8e22785ed54892e50aeed953dc14df38a05fa3a8991ba13",
+        "raw_vcs_sha1": "8cb72939f6b1117655ded1050864c010f27e0ee8",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_b1e6ffbe806b04b468bb516192d759f63a5c15d2": [
+      {
+        "file": "hl2/shaders/fxc/depthwrite_vs30.vcs",
+        "file_sha256": "37385e4a7eba514dc4bc134769c34c6c8ee641803e6cbca7e5f8aba688a584f6",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 468,
+        "bytecode_sha256": "bbfd284b09d4a7aef00310c9bdbf31704126ba764a4e9c105c858573e82e7e51",
+        "raw_vcs_sha1": "b1e6ffbe806b04b468bb516192d759f63a5c15d2",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/depthwrite_vs30.vcs",
+        "file_sha256": "37385e4a7eba514dc4bc134769c34c6c8ee641803e6cbca7e5f8aba688a584f6",
+        "static_id": 0,
+        "dynamic_id": 1,
+        "bytecode_bytes": 468,
+        "bytecode_sha256": "bbfd284b09d4a7aef00310c9bdbf31704126ba764a4e9c105c858573e82e7e51",
+        "raw_vcs_sha1": "b1e6ffbe806b04b468bb516192d759f63a5c15d2",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/emissive_scroll_blended_pass_vs30.vcs",
+        "file_sha256": "eba00e59669ce7b1f3192903dbe9631870d6eade992669ba00a3d04b82d2e3c5",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 468,
+        "bytecode_sha256": "bbfd284b09d4a7aef00310c9bdbf31704126ba764a4e9c105c858573e82e7e51",
+        "raw_vcs_sha1": "b1e6ffbe806b04b468bb516192d759f63a5c15d2",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/emissive_scroll_blended_pass_vs30.vcs",
+        "file_sha256": "eba00e59669ce7b1f3192903dbe9631870d6eade992669ba00a3d04b82d2e3c5",
+        "static_id": 0,
+        "dynamic_id": 1,
+        "bytecode_bytes": 468,
+        "bytecode_sha256": "bbfd284b09d4a7aef00310c9bdbf31704126ba764a4e9c105c858573e82e7e51",
+        "raw_vcs_sha1": "b1e6ffbe806b04b468bb516192d759f63a5c15d2",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_ccf3b032ae083fe538cee42ac6adc8bddc942110": [
+      {
+        "file": "hl2/shaders/fxc/unlitgeneric_vs30.vcs",
+        "file_sha256": "7778231d19d25dff7b4b525a54e4d9991bf6ea1a1c2a136ec15ba0f5aaafd870",
+        "static_id": 2,
+        "dynamic_id": 0,
+        "bytecode_bytes": 716,
+        "bytecode_sha256": "462103db8083f1de759a3a6ded7d4ee594b0dfaf2c32fb937a910b3ec3df3b25",
+        "raw_vcs_sha1": "ccf3b032ae083fe538cee42ac6adc8bddc942110",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/unlitgeneric_vs30.vcs",
+        "file_sha256": "7778231d19d25dff7b4b525a54e4d9991bf6ea1a1c2a136ec15ba0f5aaafd870",
+        "static_id": 2,
+        "dynamic_id": 1,
+        "bytecode_bytes": 716,
+        "bytecode_sha256": "462103db8083f1de759a3a6ded7d4ee594b0dfaf2c32fb937a910b3ec3df3b25",
+        "raw_vcs_sha1": "ccf3b032ae083fe538cee42ac6adc8bddc942110",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_df0de8268b2324e0710508af2b8fcd490aeca7d1": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs30.vcs",
+        "file_sha256": "9d74078546b192bd52054e44527c356402959af70d73e7da95965b691ccf52ae",
+        "static_id": 66,
+        "dynamic_id": 1,
+        "bytecode_bytes": 2992,
+        "bytecode_sha256": "d20ce5a35231f8505e17f75ba058628154fd92a15ee98db40ab6042f13015c59",
+        "raw_vcs_sha1": "df0de8268b2324e0710508af2b8fcd490aeca7d1",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_0d47f090f8bcc8dc629e8ae93aa8d6005b1cb42f": [
+      {
+        "file": "hl2/shaders/fxc/downsample_vs20.vcs",
+        "file_sha256": "6047368e1c96152b12b390d92cf0d834d3f8c872a12a0fe0f6d8140f006c7e94",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 256,
+        "bytecode_sha256": "3017f18ebfe830c69aba2f93fd95d73305f3a21bfa1819c0c129567b7a6d4bcc",
+        "raw_vcs_sha1": "0d47f090f8bcc8dc629e8ae93aa8d6005b1cb42f",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_fb1bf0b290d0b333f204c5698424ec3d4e42172e": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_bump_vs30.vcs",
+        "file_sha256": "9d74078546b192bd52054e44527c356402959af70d73e7da95965b691ccf52ae",
+        "static_id": 66,
+        "dynamic_id": 0,
+        "bytecode_bytes": 2668,
+        "bytecode_sha256": "7b36c9f7b3ef91e4a52fece7c8eb99ba56262c10009c9880ed0f7eb26ef3cb0c",
+        "raw_vcs_sha1": "fb1bf0b290d0b333f204c5698424ec3d4e42172e",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_6145810ad77e5151f758f6b15f17a5397babd7dc": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16416,
+        "dynamic_id": 0,
+        "bytecode_bytes": 888,
+        "bytecode_sha256": "9b1b36b478abc89aa5d22fef710694403bc6b9fa4edfc96b5020dbdd99322501",
+        "raw_vcs_sha1": "6145810ad77e5151f758f6b15f17a5397babd7dc",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_0e086b463234a87026ec5e4c488e8ffb7ee75602": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9216,
+        "dynamic_id": 7,
+        "bytecode_bytes": 3400,
+        "bytecode_sha256": "75aaa3285115fc81a674e713487ebff5f175dd1680c3fdb2337981502642ae83",
+        "raw_vcs_sha1": "0e086b463234a87026ec5e4c488e8ffb7ee75602",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_c50bc9ea1efc759f4685f80e9c4064c035ab968f": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 17492,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1096,
+        "bytecode_sha256": "38e9cf74be2f5b968261a61d6c66b7a7795cd08831147322b15e1eebbea18421",
+        "raw_vcs_sha1": "c50bc9ea1efc759f4685f80e9c4064c035ab968f",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_5841060bc9f3afa0cf86b9c226136c389352dfe0": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 2,
+        "dynamic_id": 7,
+        "bytecode_bytes": 3604,
+        "bytecode_sha256": "3566b4c8bed75da732f7c8cdb1bce1bb1b5025c932916b2d739ec748f9b8526b",
+        "raw_vcs_sha1": "5841060bc9f3afa0cf86b9c226136c389352dfe0",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_2900f0b8c1d46b70e611198962b40b30e9521356": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 32,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1596,
+        "bytecode_sha256": "b20dc36c8db14993e6c71f585a4fd574f379ba81f066e98afdac12e665c6855d",
+        "raw_vcs_sha1": "2900f0b8c1d46b70e611198962b40b30e9521356",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_da02e0102c7b8c37c955a4a0a626df295bb2ba3e": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 288,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1856,
+        "bytecode_sha256": "b0f46476e390766a5e2165d702cfe76a04f31fcddbb65c21f94fd4c5c3afd7cc",
+        "raw_vcs_sha1": "da02e0102c7b8c37c955a4a0a626df295bb2ba3e",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_d54d844afef4bec449fad2a334a9c30e3ab953df": [
+      {
+        "file": "hl2/shaders/fxc/writez_vs20.vcs",
+        "file_sha256": "1c7af4cc839d15ca04c4a63061d982556970b9852e718a1915ab4b8974505f69",
+        "static_id": 1,
+        "dynamic_id": 0,
+        "bytecode_bytes": 228,
+        "bytecode_sha256": "2288ea1d2aacd3382eedc7ac2b1fe62b0ad9961b559b7a73859152a4cec2060b",
+        "raw_vcs_sha1": "d54d844afef4bec449fad2a334a9c30e3ab953df",
+        "c_viewproj_ctab": []
+      },
+      {
+        "file": "hl2/shaders/fxc/writez_vs20.vcs",
+        "file_sha256": "1c7af4cc839d15ca04c4a63061d982556970b9852e718a1915ab4b8974505f69",
+        "static_id": 1,
+        "dynamic_id": 1,
+        "bytecode_bytes": 228,
+        "bytecode_sha256": "2288ea1d2aacd3382eedc7ac2b1fe62b0ad9961b559b7a73859152a4cec2060b",
+        "raw_vcs_sha1": "d54d844afef4bec449fad2a334a9c30e3ab953df",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_2d8688924085923454a205c5d7d5b4086a2b2790": [
+      {
+        "file": "hl2/shaders/fxc/splinecard_vs20.vcs",
+        "file_sha256": "286c2597426dde22b826b615a4d74beb5285488167bfec48787e451dd7c45a6a",
+        "static_id": 2,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1380,
+        "bytecode_sha256": "31941414937514af581fb40689daf21eb1fb0cef4331c07684641c1e1c95043a",
+        "raw_vcs_sha1": "2d8688924085923454a205c5d7d5b4086a2b2790",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_39a5ceea912eb5faa7ce1823a337754f7b672fb6": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9216,
+        "dynamic_id": 3,
+        "bytecode_bytes": 3308,
+        "bytecode_sha256": "b6c144be03a8e2f014f1a057cf1cfa3adb4de838021aaf45cd469f66bedd9cc2",
+        "raw_vcs_sha1": "39a5ceea912eb5faa7ce1823a337754f7b672fb6",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_8ae3e4ceaba888b1339389f958983b5bfec5ddfb": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 2,
+        "dynamic_id": 3,
+        "bytecode_bytes": 3512,
+        "bytecode_sha256": "3a9ebc14b4895b0614690472b2500c46c505ff282e6868472849900975493e41",
+        "raw_vcs_sha1": "8ae3e4ceaba888b1339389f958983b5bfec5ddfb",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_22294dfed588a8a28333c555074a43af837191c0": [
+      {
+        "file": "hl2/shaders/fxc/infected_vs30.vcs",
+        "file_sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+        "static_id": 3,
+        "dynamic_id": 1,
+        "bytecode_bytes": 1500,
+        "bytecode_sha256": "076b35ac1eefbb7cc1355dd3c863b4c443602e23f137052bc1692de7bbcc0f25",
+        "raw_vcs_sha1": "22294dfed588a8a28333c555074a43af837191c0",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/infected_vs30.vcs",
+        "file_sha256": "148d31da97a50a4f30dcfdffedd2b3d02a26a39f9cae5f1eb770274f56e132af",
+        "static_id": 3,
+        "dynamic_id": 3,
+        "bytecode_bytes": 1500,
+        "bytecode_sha256": "076b35ac1eefbb7cc1355dd3c863b4c443602e23f137052bc1692de7bbcc0f25",
+        "raw_vcs_sha1": "22294dfed588a8a28333c555074a43af837191c0",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_0e5ae6227d82dcaff296a401fcf032fd4470ac8a": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16404,
+        "dynamic_id": 1,
+        "bytecode_bytes": 660,
+        "bytecode_sha256": "2b546a221cd394c1673bd08c959f427ec23e0d71f08ebee5935001cb4d68adb1",
+        "raw_vcs_sha1": "0e5ae6227d82dcaff296a401fcf032fd4470ac8a",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_8d2236c01e92670a1e857c3d0246aab0b7aa3daf": [
+      {
+        "file": "hl2/shaders/fxc/shadow_vs20.vcs",
+        "file_sha256": "536656bfb254c7e372b3e33475cfd16f30c3d205777de36b291bd01beb499bc6",
+        "static_id": 2,
+        "dynamic_id": 0,
+        "bytecode_bytes": 840,
+        "bytecode_sha256": "1ff486ce8dc3854d43bc8db780a87c6eb7e9be7c92b4a63deada2afc708141ea",
+        "raw_vcs_sha1": "8d2236c01e92670a1e857c3d0246aab0b7aa3daf",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_4de31c4dfd8b53b6f4337608c1cb78a8557681b9": [
+      {
+        "file": "hl2/shaders/fxc/blurfilter_vs20.vcs",
+        "file_sha256": "defcd3549f91e5ed2d806a8692a8592a6aee1ba5542343b92cb8b5661e639414",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 300,
+        "bytecode_sha256": "433848bcb2df4776b92696d462c4185b933d29fddc357441234fd58a648eabb7",
+        "raw_vcs_sha1": "4de31c4dfd8b53b6f4337608c1cb78a8557681b9",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_948f564f3269b00a7f27b09cffd74c2fb13ad235": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 2,
+        "dynamic_id": 11,
+        "bytecode_bytes": 3820,
+        "bytecode_sha256": "8eb1c8546fb7d3536f008f1e09998cf034849f5f67f23fc1d2fa61cea69774f9",
+        "raw_vcs_sha1": "948f564f3269b00a7f27b09cffd74c2fb13ad235",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_b0871efd7e97b9afd18b84e72ffacc9fc7d26d4e": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16387,
+        "dynamic_id": 1,
+        "bytecode_bytes": 736,
+        "bytecode_sha256": "b4661eb88b338c522062d5341dd9828e0f56e53ec729a029ce08d093f7722f14",
+        "raw_vcs_sha1": "b0871efd7e97b9afd18b84e72ffacc9fc7d26d4e",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_4599a3e6ad08a04fee473a674027f0906cee8f80": [
+      {
+        "file": "hl2/shaders/fxc/splinerope_vs20.vcs",
+        "file_sha256": "47b52aa2cedc8a3ef38db2a470b00b98901e2a0894148dd9ee15b059e0aa619c",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1516,
+        "bytecode_sha256": "87c8586bf245b4e8317face278c869dc1a4a692874d5a75d40a59cbe63cda135",
+        "raw_vcs_sha1": "4599a3e6ad08a04fee473a674027f0906cee8f80",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_ed1ff639eac7f20a7524731cfe4a3daadc2d535c": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9220,
+        "dynamic_id": 11,
+        "bytecode_bytes": 3696,
+        "bytecode_sha256": "860757799a6de6f9f32297209f53078b7ca82f7787c052e57d6124c335f13f2e",
+        "raw_vcs_sha1": "ed1ff639eac7f20a7524731cfe4a3daadc2d535c",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_3a36382a2a673db7a003581062f48671c1bf89e0": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9217,
+        "dynamic_id": 0,
+        "bytecode_bytes": 920,
+        "bytecode_sha256": "02106cc356dcc16c33166eff76d6455bb4802d33281ac286de2892f16cd9cfe7",
+        "raw_vcs_sha1": "3a36382a2a673db7a003581062f48671c1bf89e0",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9217,
+        "dynamic_id": 1,
+        "bytecode_bytes": 920,
+        "bytecode_sha256": "02106cc356dcc16c33166eff76d6455bb4802d33281ac286de2892f16cd9cfe7",
+        "raw_vcs_sha1": "3a36382a2a673db7a003581062f48671c1bf89e0",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9217,
+        "dynamic_id": 2,
+        "bytecode_bytes": 920,
+        "bytecode_sha256": "02106cc356dcc16c33166eff76d6455bb4802d33281ac286de2892f16cd9cfe7",
+        "raw_vcs_sha1": "3a36382a2a673db7a003581062f48671c1bf89e0",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9217,
+        "dynamic_id": 3,
+        "bytecode_bytes": 920,
+        "bytecode_sha256": "02106cc356dcc16c33166eff76d6455bb4802d33281ac286de2892f16cd9cfe7",
+        "raw_vcs_sha1": "3a36382a2a673db7a003581062f48671c1bf89e0",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_9e8ec9b5ea5fc5dfac3a653f1a960ac1362528d7": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 9216,
+        "dynamic_id": 11,
+        "bytecode_bytes": 3616,
+        "bytecode_sha256": "84e1a3321dd4b0e7630372d7c229e37cadea38db2833da73cbfdd5bc8b7dce0d",
+        "raw_vcs_sha1": "9e8ec9b5ea5fc5dfac3a653f1a960ac1362528d7",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_4aed45a992582a94ac8b51b55162bd6a62d77259": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 256,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1840,
+        "bytecode_sha256": "07ebfe4c7d2d81dedc974d9044fdd20d2e3ed71951c9d79745b6c2cf9f0cf47c",
+        "raw_vcs_sha1": "4aed45a992582a94ac8b51b55162bd6a62d77259",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_1a19a5ae7c04dec72b33837dd5035cdbde3b8b90": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16384,
+        "dynamic_id": 1,
+        "bytecode_bytes": 596,
+        "bytecode_sha256": "cdeed06ab60cb37f91efc179b5af2198a4540bf86b076e0bac129bee53e6cf6c",
+        "raw_vcs_sha1": "1a19a5ae7c04dec72b33837dd5035cdbde3b8b90",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_4b7379306fe4949d894960dbf9f09018751e780e": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 6152,
+        "dynamic_id": 9,
+        "bytecode_bytes": 1608,
+        "bytecode_sha256": "97789e89d8577fd687c9eac2bb15603fd4b4da357647bf1db1a07942e277771b",
+        "raw_vcs_sha1": "4b7379306fe4949d894960dbf9f09018751e780e",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 6156,
+        "dynamic_id": 9,
+        "bytecode_bytes": 1608,
+        "bytecode_sha256": "97789e89d8577fd687c9eac2bb15603fd4b4da357647bf1db1a07942e277771b",
+        "raw_vcs_sha1": "4b7379306fe4949d894960dbf9f09018751e780e",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_598ba732c2245472303f6c1eb08318f49eb27280": [
+      {
+        "file": "hl2/shaders/fxc/spritecard_vs20.vcs",
+        "file_sha256": "02423978c75c7f43e16bf3fd2084556a714e6aefa0865f9cbee46059f37307c4",
+        "static_id": 96,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1656,
+        "bytecode_sha256": "68184e0ead62a2aeb0320539f0e8cb003d8d766f1a22e4e1c1291c91dad9b2c8",
+        "raw_vcs_sha1": "598ba732c2245472303f6c1eb08318f49eb27280",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_fd1cd5a35ea3d729abd0e4114553b4963d6ae1c4": [
+      {
+        "file": "hl2/shaders/fxc/depthwrite_vs30.vcs",
+        "file_sha256": "37385e4a7eba514dc4bc134769c34c6c8ee641803e6cbca7e5f8aba688a584f6",
+        "static_id": 0,
+        "dynamic_id": 2,
+        "bytecode_bytes": 780,
+        "bytecode_sha256": "1633eb21fbe525468b2b0965d37742ad7907527fcca4a7d83f78b0b36f10e8ea",
+        "raw_vcs_sha1": "fd1cd5a35ea3d729abd0e4114553b4963d6ae1c4",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_7288fc568aa797fcb70f2d139fcd0f6f4dabeec3": [
+      {
+        "file": "hl2/shaders/fxc/eye_refract_vs30.vcs",
+        "file_sha256": "7e02776fb847a06a52c50060c364e188ab89eae38ab51517634ff3d79ddf5b6a",
+        "static_id": 17,
+        "dynamic_id": 7,
+        "bytecode_bytes": 5396,
+        "bytecode_sha256": "153f1a69f5f11eca3f546f09b7d0364b0fb2fa11202c9082a18c2fc4672d72dc",
+        "raw_vcs_sha1": "7288fc568aa797fcb70f2d139fcd0f6f4dabeec3",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_06b601bc53d9d6e059cde153de1cf210c0998e4b": [
+      {
+        "file": "hl2/shaders/fxc/eye_refract_vs30.vcs",
+        "file_sha256": "7e02776fb847a06a52c50060c364e188ab89eae38ab51517634ff3d79ddf5b6a",
+        "static_id": 19,
+        "dynamic_id": 3,
+        "bytecode_bytes": 3412,
+        "bytecode_sha256": "cef4df4fa18136a3d4825b148ac886fd4289bb21fb9513af4fa8f72c4fdc991d",
+        "raw_vcs_sha1": "06b601bc53d9d6e059cde153de1cf210c0998e4b",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/eye_refract_vs30.vcs",
+        "file_sha256": "7e02776fb847a06a52c50060c364e188ab89eae38ab51517634ff3d79ddf5b6a",
+        "static_id": 19,
+        "dynamic_id": 7,
+        "bytecode_bytes": 3412,
+        "bytecode_sha256": "cef4df4fa18136a3d4825b148ac886fd4289bb21fb9513af4fa8f72c4fdc991d",
+        "raw_vcs_sha1": "06b601bc53d9d6e059cde153de1cf210c0998e4b",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_1363a1cbba614de6f7fc140464f648d384061e8e": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16384,
+        "dynamic_id": 0,
+        "bytecode_bytes": 880,
+        "bytecode_sha256": "d1f6af3cfea8ccf16f51bd1dae95f3b1d937d41b37b559bd68589d2fb29b3a67",
+        "raw_vcs_sha1": "1363a1cbba614de6f7fc140464f648d384061e8e",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_b6cb1b9f552d15113a057796b6c7ae233f6f999f": [
+      {
+        "file": "hl2/shaders/fxc/splinecard_vs20.vcs",
+        "file_sha256": "286c2597426dde22b826b615a4d74beb5285488167bfec48787e451dd7c45a6a",
+        "static_id": 0,
+        "dynamic_id": 3,
+        "bytecode_bytes": 1176,
+        "bytecode_sha256": "08444103d8ab8839971a1e02c3e1a778a774e2c43887cb26d6bc260a6f6802d5",
+        "raw_vcs_sha1": "b6cb1b9f552d15113a057796b6c7ae233f6f999f",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_2aae57a188018bf64b3039c576b4f4e26a4bd73e": [
+      {
+        "file": "hl2/shaders/fxc/black_vs20.vcs",
+        "file_sha256": "0293db75b0aba6e381b5e3246ece429633f3e01a439a52ba37f2592eb705b82d",
+        "static_id": 0,
+        "dynamic_id": 0,
+        "bytecode_bytes": 676,
+        "bytecode_sha256": "53c0594b55fd6961e5b62c24c45ad22fd4a028dc195f14fd31799a9a3c73e105",
+        "raw_vcs_sha1": "2aae57a188018bf64b3039c576b4f4e26a4bd73e",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_04f41f95e266d266ba1a3716c31ecf5f25b0f149": [
+      {
+        "file": "hl2/shaders/fxc/unlitgeneric_vs30.vcs",
+        "file_sha256": "7778231d19d25dff7b4b525a54e4d9991bf6ea1a1c2a136ec15ba0f5aaafd870",
+        "static_id": 2,
+        "dynamic_id": 2,
+        "bytecode_bytes": 1028,
+        "bytecode_sha256": "6856dddb56a27c2accfda4f30222ebd229cf14e18f09d41ca01f7af508a01e69",
+        "raw_vcs_sha1": "04f41f95e266d266ba1a3716c31ecf5f25b0f149",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_194ef9b09ed72f56486a770b5376c9323be6f3aa": [
+      {
+        "file": "hl2/shaders/fxc/lightmappedgeneric_vs20.vcs",
+        "file_sha256": "c22073c3037c3fb663127a20cf511cc647dde92abb8c38fc0e6f5c009e14ec36",
+        "static_id": 16406,
+        "dynamic_id": 1,
+        "bytecode_bytes": 804,
+        "bytecode_sha256": "6bb035b50eee338d5d959deb4dccddb816024a0609a68c08e47693664a23d55d",
+        "raw_vcs_sha1": "194ef9b09ed72f56486a770b5376c9323be6f3aa",
+        "c_viewproj_ctab": []
+      }
+    ],
+    "VS_5a10b08039a7a6e5efa99515f8f9d87cd6421e0b": [
+      {
+        "file": "hl2/shaders/fxc/sprite_vs20.vcs",
+        "file_sha256": "8cf4711ebde13496dfb30b28f255e797596ebf3793a8374e1c0661fbb584f1cd",
+        "static_id": 5,
+        "dynamic_id": 0,
+        "bytecode_bytes": 612,
+        "bytecode_sha256": "fcccf641bc58a1ed05f59b165d5baf23d2a7033b575dcc51e9d42069de152172",
+        "raw_vcs_sha1": "5a10b08039a7a6e5efa99515f8f9d87cd6421e0b",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_ae603de8616185ab410492049561044e632cb9ad": [
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 6152,
+        "dynamic_id": 1,
+        "bytecode_bytes": 1288,
+        "bytecode_sha256": "2313f0962848a842a7b5967477c4ae1f8dafdcc458419737a2cb57b483d5c8ae",
+        "raw_vcs_sha1": "ae603de8616185ab410492049561044e632cb9ad",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/vertexlit_and_unlit_generic_vs30.vcs",
+        "file_sha256": "a649de54f94c0cf7145d7d0b520b1e004b05d09b89084f2a8cc82153b692f9b2",
+        "static_id": 6156,
+        "dynamic_id": 1,
+        "bytecode_bytes": 1288,
+        "bytecode_sha256": "2313f0962848a842a7b5967477c4ae1f8dafdcc458419737a2cb57b483d5c8ae",
+        "raw_vcs_sha1": "ae603de8616185ab410492049561044e632cb9ad",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ],
+    "VS_b8ba64c342f18652669d83f595bac3e3870f4d42": [
+      {
+        "file": "hl2/shaders/fxc/refract_vs20.vcs",
+        "file_sha256": "21750f715c256e54415f32efab46292615664cbfe412de2ca3d28482bf61df1b",
+        "static_id": 2,
+        "dynamic_id": 0,
+        "bytecode_bytes": 1208,
+        "bytecode_sha256": "a199459fe0eadcc177070f9f8f559117c4dc178a57ad24372eb55e1f20c29ef1",
+        "raw_vcs_sha1": "b8ba64c342f18652669d83f595bac3e3870f4d42",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      },
+      {
+        "file": "hl2/shaders/fxc/refract_vs20.vcs",
+        "file_sha256": "21750f715c256e54415f32efab46292615664cbfe412de2ca3d28482bf61df1b",
+        "static_id": 2,
+        "dynamic_id": 2,
+        "bytecode_bytes": 1208,
+        "bytecode_sha256": "a199459fe0eadcc177070f9f8f559117c4dc178a57ad24372eb55e1f20c29ef1",
+        "raw_vcs_sha1": "b8ba64c342f18652669d83f595bac3e3870f4d42",
+        "c_viewproj_ctab": [
+          {
+            "name": "cViewProj",
+            "register_set": "float4",
+            "register_index": 8,
+            "register_count": 4,
+            "rows": 4,
+            "columns": 4,
+            "elements": 1,
+            "parameter_class": 3,
+            "parameter_type": 3,
+            "struct_members": 0
+          }
+        ]
+      }
+    ]
+  }
+}

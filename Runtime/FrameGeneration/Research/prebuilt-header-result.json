@@ -1,0 +1,11 @@
+{
+  "commit": "60f4ea81909200d8542eca14dccb2628b763a9a3",
+  "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/60f4ea81909200d8542eca14dccb2628b763a9a3/Kits/FidelityFX/signedbin/amd_fidelityfx_framegeneration_dx12.dll",
+  "http_status": 206,
+  "content_range": "bytes 0-4095/40085776",
+  "inspected_bytes": 4096,
+  "header_sha256": "fd583a5dfe00c97602bf9963b5f5b30dfae396ca014bdccae0a9dda0bc1a6681",
+  "pe_machine": "0x8664",
+  "architecture": "x64",
+  "full_dll_downloaded": false
+}

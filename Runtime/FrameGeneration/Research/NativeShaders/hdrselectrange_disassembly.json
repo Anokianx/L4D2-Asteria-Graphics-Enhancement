@@ -1,0 +1,20 @@
+{
+  "author": "Anokianx",
+  "source_path": "H:\\SteamLibrary\\steamapps\\common\\Left 4 Dead 2\\hl2\\shaders\\fxc\\hdrselectrange_ps20.vcs",
+  "source_sha256": "525e8abfe4fcedf9ef35a33c00b6e45498158263045df67f9508d40beb48d5de",
+  "static_record_index": 0,
+  "dynamic_combo_id": 0,
+  "bytecode_sha256": "eadae192cf609a2a199dcf427dd29b9c8acd16dab2f0096a807b13dc1d7d385f",
+  "tool": "Microsoft D3DXDisassembleShader, system d3dx9_43.dll",
+  "instructions": [
+    "ps_2_x",
+    "def c0, 0, 0, 0, 1",
+    "dcl t0.xy",
+    "dcl_2d s1",
+    "texld r0, t0, s1",
+    "mov r0.w, c0.w",
+    "mov oC1, r0",
+    "mov r0, c0",
+    "mov oC0, r0"
+  ]
+}

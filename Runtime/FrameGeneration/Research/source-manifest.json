@@ -1,0 +1,1233 @@
+{
+  "repository": "https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK",
+  "tag": "v1.1.4",
+  "commit": "c6efa6bf7f2027b3ec94f28578bb5965eabb9e55",
+  "downloaded_bytes": 2377303,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/CMakeLists.txt",
+      "bytes": 6388,
+      "git_blob_sha1": "1355fe2760fe66300249bf417ee9be7028a80f05",
+      "sha256": "c77e32525114e011a404ef5f2d2509f8308e84231edaf02c32d093763a60c481"
+    },
+    {
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/LICENSE.txt",
+      "bytes": 1115,
+      "git_blob_sha1": "3712e34adea415aa00dab08625ce7224b27f1706",
+      "sha256": "82cf74fc23885107c7f69249ac3f1dac55898ff68320eb2c753984cae6b2d78a"
+    },
+    {
+      "path": "docs/getting-started/building-samples.md",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/docs/getting-started/building-samples.md",
+      "bytes": 2064,
+      "git_blob_sha1": "a8cf4c3d27cb7ed8d78991944630b9b6a743f58c",
+      "sha256": "4b56bef6a859828bf9806d8f10ed68f9c7a756eb6fb7a88267bbbb38dd4dff99"
+    },
+    {
+      "path": "docs/getting-started/ffx-api.md",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/docs/getting-started/ffx-api.md",
+      "bytes": 8957,
+      "git_blob_sha1": "78b099280a4e623f3fe147422f59f0863c75cfbf",
+      "sha256": "628a6f7fd2fe2888d2b54d85fd7ec480bbe106ee4b9efbfb062a0900ed502a6c"
+    },
+    {
+      "path": "docs/getting-started/migrating-to-fsr-3-1.md",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/docs/getting-started/migrating-to-fsr-3-1.md",
+      "bytes": 15335,
+      "git_blob_sha1": "56682b9921e72ca953589775ca8086e2f5a49448",
+      "sha256": "df616647ce5dcf03e95ca36b278d05a7750cc7ff3f8bda64cf4589e92d24eef0"
+    },
+    {
+      "path": "docs/techniques/frame-interpolation-swap-chain.md",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/docs/techniques/frame-interpolation-swap-chain.md",
+      "bytes": 12673,
+      "git_blob_sha1": "878cbf4b1509c410131d7402a451cbcbb6556622",
+      "sha256": "b0f119a111a9a23a19aeb76bb8286094a08d01a763bae24156e5a548957f0d74"
+    },
+    {
+      "path": "docs/techniques/frame-interpolation.md",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/docs/techniques/frame-interpolation.md",
+      "bytes": 18112,
+      "git_blob_sha1": "f972a2a3140dc4b0dc6528594c2d599d8f02c2ff",
+      "sha256": "eacdcabdd9e39dcb082b95b1ff855099346402560d70c5833da9a02a0e055d1f"
+    },
+    {
+      "path": "docs/techniques/optical-flow.md",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/docs/techniques/optical-flow.md",
+      "bytes": 9892,
+      "git_blob_sha1": "3e649040e9c083c6a9a1fc8399f6973437a4bac3",
+      "sha256": "1bb8df96bf222d8b6a6e7b62218a199cd5f403e9a9fc9531bfabcff914b3475e"
+    },
+    {
+      "path": "docs/techniques/super-resolution-interpolation.md",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/docs/techniques/super-resolution-interpolation.md",
+      "bytes": 38360,
+      "git_blob_sha1": "16a80c8a230850c53f30ee19db2719ef7b96fb7d",
+      "sha256": "b766dd7e3b937336429d0fe6a2fc6f024080cbfe6a402d1fa877920b9cfc9776"
+    },
+    {
+      "path": "ffx-api/BuildFfxApiDll.bat",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/BuildFfxApiDll.bat",
+      "bytes": 1613,
+      "git_blob_sha1": "6c90d77468f6bd0fb15271a751e48091e0dc992e",
+      "sha256": "7c54ef6ede39f603ea6bcb62ed097bdc647d7a22a8121b1e1e3d7d30183a5286"
+    },
+    {
+      "path": "ffx-api/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/CMakeLists.txt",
+      "bytes": 5979,
+      "git_blob_sha1": "83e20ba9d23aff2aa2f60888ffb2e541b0fac7a2",
+      "sha256": "8054d4f1a8407993670632213eb878487148154eb2065087118478f7ab3017a9"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/dx12/ffx_api_dx12.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/dx12/ffx_api_dx12.h",
+      "bytes": 13073,
+      "git_blob_sha1": "fd174ec8629356a8d43c3c71c66cc07f2ff6c7b8",
+      "sha256": "215804fba316acb81d2c463b6bbce36c53cc63465c15b8c9858554c8111fae24"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/dx12/ffx_api_dx12.hpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/dx12/ffx_api_dx12.hpp",
+      "bytes": 4676,
+      "git_blob_sha1": "b33c5c511b2fc6c5c30722548cd69e7434a85bc5",
+      "sha256": "ab1cef2b97d2e3fb3294ed59d1e26ecf45d4d0483aa001ced37e7ddbd1be9dd6"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/ffx_api.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/ffx_api.h",
+      "bytes": 7623,
+      "git_blob_sha1": "e1361915ac3f554179537d0e2b21f425c7b7e14c",
+      "sha256": "408b4203545e8299ed188fbb1d9ddfe0932b73ea6e8b14fe10edcf1f45771561"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/ffx_api.hpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/ffx_api.hpp",
+      "bytes": 4999,
+      "git_blob_sha1": "e1189a358f03665938ce111873cc2fdd13170b5c",
+      "sha256": "42470189c0241feca12eed959cf90ade15806bb9ecc578b65f8c20ca9365c34d"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/ffx_api_loader.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/ffx_api_loader.h",
+      "bytes": 2022,
+      "git_blob_sha1": "9df9ac32b813d8ace5c2d506aa8aab8d0f9ff8d2",
+      "sha256": "7be51b7bf1e640b84c0c7f22a9db50a6816debce3755b51224e56c89501659c3"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/ffx_api_types.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/ffx_api_types.h",
+      "bytes": 14748,
+      "git_blob_sha1": "87a9d0bd3364565ea01133515f2f73ebde4cd93c",
+      "sha256": "dee2782813d22047c068e0fb27d1347324f8ce79d280a4672848b3b294cb12fe"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/ffx_framegeneration.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/ffx_framegeneration.h",
+      "bytes": 13847,
+      "git_blob_sha1": "12f996d5a87371564c6b248f67e8be526a66cc53",
+      "sha256": "344936dccf49267d4421d1d74dc6db617d0a83c5a9f5991841325e812a38f127"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/ffx_framegeneration.hpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/ffx_framegeneration.hpp",
+      "bytes": 3872,
+      "git_blob_sha1": "5cc52a1cc590ed4c5c32193cd8e57fa71dd94bae",
+      "sha256": "30225b7c0596cff734b7c1fc5217d5ac39ccc629bcccb3bcdeeadbcac317fbcd"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/ffx_upscale.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/ffx_upscale.h",
+      "bytes": 13946,
+      "git_blob_sha1": "e581b47c3da71ea0ec67f80fbff590b4c437aecb",
+      "sha256": "1155bcdcea9c10e6a95507bc9422ca062a853ac84250f0b09a637a66836b3ac1"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/ffx_upscale.hpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/ffx_upscale.hpp",
+      "bytes": 3729,
+      "git_blob_sha1": "caaf82172ce743e5950230ed93f9ae13e9ef0fdf",
+      "sha256": "6451754c2539a7e991429a7bd8365bb848f51abebad1982715f345989cc0a234"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/vk/ffx_api_vk.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/vk/ffx_api_vk.h",
+      "bytes": 15949,
+      "git_blob_sha1": "1f56ea6db296516067abeacc541cf455318aae28",
+      "sha256": "a50a8d5ff5689a10a6ce378f2df5569fd880c89ec46e8356aaf35eb40512edd9"
+    },
+    {
+      "path": "ffx-api/include/ffx_api/vk/ffx_api_vk.hpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/include/ffx_api/vk/ffx_api_vk.hpp",
+      "bytes": 4451,
+      "git_blob_sha1": "6eb2cce7fabf5e42d7e1bc3c91a3ebf9f5f900ec",
+      "sha256": "b4eab5ed043de7590c786c1904eba7064449ee8a8c9e302eb6363ccc7035172e"
+    },
+    {
+      "path": "ffx-api/src/backends.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/backends.cpp",
+      "bytes": 5184,
+      "git_blob_sha1": "b532a2e98bea66ddfc44eb65b5be99c76dfa6f3c",
+      "sha256": "877d505a1c2b624c56434c4705c341ff78c0c27493c9a26b0ee01c89b2e5e0b8"
+    },
+    {
+      "path": "ffx-api/src/backends.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/backends.h",
+      "bytes": 1800,
+      "git_blob_sha1": "4ac2a5467255b6cdebf4adb8f08c76806a2175c4",
+      "sha256": "b93c7c41d33e68e50f8bac708780cb42ac9ec53297b15facdf86c7af1f2e7621"
+    },
+    {
+      "path": "ffx-api/src/dx12/ffx_provider_framegenerationswapchain_dx12.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/dx12/ffx_provider_framegenerationswapchain_dx12.cpp",
+      "bytes": 8333,
+      "git_blob_sha1": "9fac8eeb3b9e68710bf2bf1b4891b86006a1d7a2",
+      "sha256": "7197f7b769c3649b2868938c5af33ddcb8840b94fd044a4d503850054aa14cfd"
+    },
+    {
+      "path": "ffx-api/src/dx12/ffx_provider_framegenerationswapchain_dx12.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/dx12/ffx_provider_framegenerationswapchain_dx12.h",
+      "bytes": 2257,
+      "git_blob_sha1": "095b7866ecccd84b64904de07c97276f763fbfed",
+      "sha256": "aff67518e43815e5afdc3bd079417df7114ecccdec61970daaae5187f170a757"
+    },
+    {
+      "path": "ffx-api/src/ffx_api.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_api.cpp",
+      "bytes": 4917,
+      "git_blob_sha1": "9852e632954d58e7ec17a48935e7fe086f382671",
+      "sha256": "95c78f444c31cbeb277ec96417132eaa5f1d6720f685f716b4d50662e742dfb8"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider.cpp",
+      "bytes": 8077,
+      "git_blob_sha1": "d7c0e64b70ac7a535b9811ebc43ab0a2f0cefb83",
+      "sha256": "d391e49656109902978351d9e3920f6d96c3ee4e12e0c98c42cba2f85b4b9ab9"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider.h",
+      "bytes": 5214,
+      "git_blob_sha1": "d501887ee870b77e042a7e37dd785abfc3baad79",
+      "sha256": "22adce3eda551c1cc9ed7ad83fe82d6028c80ceabac73686acecb0f0d9700f6b"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider_external.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider_external.h",
+      "bytes": 3348,
+      "git_blob_sha1": "edaadffec8f8bc2f69c0904b9596664caf0c9c5b",
+      "sha256": "f6e33a6dc357fe00515f7ea73a0b347743719aed9b63db4ce162bdf491526280"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider_framegeneration.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider_framegeneration.cpp",
+      "bytes": 32348,
+      "git_blob_sha1": "5b6e9d7a6f010f53191ce03e9016775b16f87204",
+      "sha256": "f0e8dda9af646539e7e4239517d9473a08c764e3551c5e8a089623fb94364a08"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider_framegeneration.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider_framegeneration.h",
+      "bytes": 2147,
+      "git_blob_sha1": "c02514f947d92128fc7899b66d56aeafd669d438",
+      "sha256": "cffe5f18dbfbd5e4955fb7b294c513dd4ccf1619a5e92d5636cb133aa81c6fda"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider_fsr2.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider_fsr2.cpp",
+      "bytes": 13329,
+      "git_blob_sha1": "1c9e5514c99f49802c2971ff7e4c6040a24c326d",
+      "sha256": "2053f1130dffd935d470d96577bcd169fded358adfff1dad1cb1e2972af91f90"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider_fsr2.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider_fsr2.h",
+      "bytes": 2108,
+      "git_blob_sha1": "6a60827a09674f8d2d6a3119d1eafb8943dc8086",
+      "sha256": "6e143e2fac9020a287ef5f9f7fddf0d5acfe718f6adca34070cb8fdc5c4eb4f3"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider_fsr3upscale.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider_fsr3upscale.cpp",
+      "bytes": 18186,
+      "git_blob_sha1": "c1e140c2eddb000d2a0909eb7ba211ea9f1c5710",
+      "sha256": "fed6c5669e2b684f84259b55229b16872ba7a090ef9a656409bfe15430ffd5b8"
+    },
+    {
+      "path": "ffx-api/src/ffx_provider_fsr3upscale.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/ffx_provider_fsr3upscale.h",
+      "bytes": 2139,
+      "git_blob_sha1": "14bce1b2f21cf6aa01eab298c9afdaf7733bf59b",
+      "sha256": "3369566775ddf786c232a13ce49fdfaccc7af445f42571a6b5569ec5dbbd1722"
+    },
+    {
+      "path": "ffx-api/src/resource/ffx_api_dll.rc",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/resource/ffx_api_dll.rc",
+      "bytes": 5664,
+      "git_blob_sha1": "81c0df6dfa201b17e59db3f865aa4dd2c38aaf80",
+      "sha256": "27f67173f5c62b185369d0981c33f9266b803517b00453f87c5194ad736c826d"
+    },
+    {
+      "path": "ffx-api/src/resource/resource.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/resource/resource.h",
+      "bytes": 391,
+      "git_blob_sha1": "e330b3f379b1665b2794e2bcdb63c4e7fda5aeb6",
+      "sha256": "34f8646284565a3dab30339677fa96c3b8c556554a28e127f71a2506adcad051"
+    },
+    {
+      "path": "ffx-api/src/validation.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/validation.cpp",
+      "bytes": 6624,
+      "git_blob_sha1": "6c638be26520dc903bb8ad7837f1b6ff8664a03d",
+      "sha256": "1479ceef4d30e15b61a3f25c52fe4f7f1485664f9ca90ca4ae1403f323443430"
+    },
+    {
+      "path": "ffx-api/src/validation.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/validation.h",
+      "bytes": 1612,
+      "git_blob_sha1": "93730b908d2fa016810472372def642418240c02",
+      "sha256": "a12e1a62a87597eb47b2aa86d289de61a9a32eb62a63d6c8943f9ff3cacb167a"
+    },
+    {
+      "path": "ffx-api/src/vk/ffx_provider_framegenerationswapchain_vk.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/vk/ffx_provider_framegenerationswapchain_vk.cpp",
+      "bytes": 12107,
+      "git_blob_sha1": "9239318bbb2f835e7ff50955f259533bee0bc5ad",
+      "sha256": "04fde205afbfe98ff78159411519bcd0c8c3d6079ccb06489998a1fcf79c5c6e"
+    },
+    {
+      "path": "ffx-api/src/vk/ffx_provider_framegenerationswapchain_vk.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/ffx-api/src/vk/ffx_provider_framegenerationswapchain_vk.h",
+      "bytes": 2198,
+      "git_blob_sha1": "dcebf4f63e9352686f606a0d13ac60b31ec8be95",
+      "sha256": "92ec246cfee93d2ec0fe55ee24564f62cfc962ebb557ffca8085e548c4e84141"
+    },
+    {
+      "path": "sdk/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/CMakeLists.txt",
+      "bytes": 10836,
+      "git_blob_sha1": "bfa1349348a744af5a56602435151bb2a6b733e2",
+      "sha256": "6bdf05e3f98c3cbce90e550f6257f9c2813a91cb0a757688f604b6de479814d5"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/ffx_common_types.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/ffx_common_types.h",
+      "bytes": 16164,
+      "git_blob_sha1": "2c4f0ba02dfd399abcc2a1f18cdb059629a3e683",
+      "sha256": "a19560f837c09f0c990e98b5925b731135d908e372af41c5895cbfa70cc9e5c8"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/ffx_core.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/ffx_core.h",
+      "bytes": 2522,
+      "git_blob_sha1": "d1ed14419b783587e2e3c2e380d1776cab824f2b",
+      "sha256": "e439aa5f516b2d2ebf070ff1d24561f04fa5f00262a2e4f760764a7d07de7997"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/ffx_core_cpu.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/ffx_core_cpu.h",
+      "bytes": 15402,
+      "git_blob_sha1": "4b6c41aa5b287b6579996b8692ffb5473cf5a588",
+      "sha256": "bdb58574cf3ba80803c4198b4661e3a1cd63c877d59833f22bf15962b164a7fe"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/ffx_core_glsl.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/ffx_core_glsl.h",
+      "bytes": 60377,
+      "git_blob_sha1": "c8dccacdbc44460160d3b9fe3ce569ea2b2615e8",
+      "sha256": "01afe5b65549b2c0951b494ca4bf570ee2aa89a64344e4c7d98ef86e6613ab42"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/ffx_core_gpu_common.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/ffx_core_gpu_common.h",
+      "bytes": 87724,
+      "git_blob_sha1": "da03b07aaf998ed6575d0826578960eb86f783a5",
+      "sha256": "0e3c50cb0b4592c051d87e028a1dfa54fbd097942ebb3146964db801dec095d0"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/ffx_core_gpu_common_half.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/ffx_core_gpu_common_half.h",
+      "bytes": 98319,
+      "git_blob_sha1": "6b071d590f5a3ce5ffb5062f0bc62366bfe28775",
+      "sha256": "d10466cbf027c8c23858a25f8e8cbbbf521d29f373db663c9354221651e9a498"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/ffx_core_hlsl.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/ffx_core_hlsl.h",
+      "bytes": 60833,
+      "git_blob_sha1": "28827d98652f4c747615435fb28177b6cff5e9ff",
+      "sha256": "98722d4b1331c437f5aee645e6f12ed722b721f2ffcb0ec523ee817857f394c7"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/ffx_core_portability.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/ffx_core_portability.h",
+      "bytes": 1682,
+      "git_blob_sha1": "12147b9a7bfedf006ef8abb5a67aca8a8dcf58cb",
+      "sha256": "a7c3a1c213ec083bec401181036cffe7a222af2c430c0bab6bd8c14e83e8a567"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/CMakeCompileFrameinterpolationShaders.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/CMakeCompileFrameinterpolationShaders.txt",
+      "bytes": 2634,
+      "git_blob_sha1": "9652cb0dd4e06ffbdfa5770ba840dc6c7f7d37d7",
+      "sha256": "b3547ee2dc78ef763a9467cb9e9669d3df1b089ef60741b4ae068d87c03b446f"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation.h",
+      "bytes": 8181,
+      "git_blob_sha1": "ccf2e23b87f79cbcf32cb154903ab4f73111437c",
+      "sha256": "9b9280a86a00850e2930fd6e19442d2984aa36964dd22a077a328a573f7b4830"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_callbacks_glsl.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_callbacks_glsl.h",
+      "bytes": 29229,
+      "git_blob_sha1": "20c5c296728faaa981faacac10e9af7354a9b45c",
+      "sha256": "e1e132729a80fe8e812c83d527056a17d62e7d815a79511465bfd1b0f8483095"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_callbacks_hlsl.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_callbacks_hlsl.h",
+      "bytes": 31916,
+      "git_blob_sha1": "a58743d2f60c2262a03288294b559e714c1aa441",
+      "sha256": "001340a5c8e7873d830846474b340ab920b73eb981b1ee855de05b60c24cd6ac"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_common.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_common.h",
+      "bytes": 16208,
+      "git_blob_sha1": "8206bf43bca1c8470d5e0f9ce1b2c1486ccb2fe1",
+      "sha256": "3e0e8a8109e4ba19441216e1400d52370a37ab7a1520029d5456368df24a22cb"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_compute_game_vector_field_inpainting_pyramid.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_compute_game_vector_field_inpainting_pyramid.h",
+      "bytes": 4079,
+      "git_blob_sha1": "75b3e1e2cfaac16f8ac17603a96bf0b559377dfc",
+      "sha256": "78b97b96fda75b0aa7c84dde5594eb63883e43c39dc098b8d05c648674a4b16e"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_compute_inpainting_pyramid.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_compute_inpainting_pyramid.h",
+      "bytes": 4062,
+      "git_blob_sha1": "da2b6728a3f4f4ec9f7e17f881ca6a5c7a468744",
+      "sha256": "dd29e6171180b949342585bdfe70f8f8aec631058b19773432150f48da73d45b"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_debug_view.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_debug_view.h",
+      "bytes": 6143,
+      "git_blob_sha1": "bcd3a52a79411f81713d2dc2e45aefe1b9b1724f",
+      "sha256": "2ea6e00a345968b50e5aa89f4dbd2c1037eebb97066d9b322de6ed0afa024558"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_disocclusion_mask.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_disocclusion_mask.h",
+      "bytes": 7366,
+      "git_blob_sha1": "03adc96f3a88b9df26ac8ab7ca43065862d3a93b",
+      "sha256": "5e7fe2cb7a60e838c6f0d2e009db2dfa5e09b2c2813e62726795cfb983bf0ea5"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_game_motion_vector_field.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_game_motion_vector_field.h",
+      "bytes": 6801,
+      "git_blob_sha1": "574e3dff267062d6a919c576f1bbda2c0f83600b",
+      "sha256": "8f998e6c2a71e70bf54dc02db63cd64df6131ee6508b5dde702cce5320d467b4"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_inpainting.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_inpainting.h",
+      "bytes": 5282,
+      "git_blob_sha1": "7ad3630e0eab6bebb745a72edd11f5c896d13a23",
+      "sha256": "42cc6f6b11f98d4c2a827834da9707c43f5bc817f190aeb3b1a071c5b8ca1149"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_optical_flow_vector_field.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_optical_flow_vector_field.h",
+      "bytes": 5304,
+      "git_blob_sha1": "8432132604d186f81d885a2488844f12629d8d5d",
+      "sha256": "950e5736eb49d0886f9c5703fa0bccea1210c8834170243f29b3d8a07cd1a8c3"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_reconstruct_dilated_velocity_and_previous_depth.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_reconstruct_dilated_velocity_and_previous_depth.h",
+      "bytes": 4783,
+      "git_blob_sha1": "e92a57900a6bff6be6cc5f574f8126ec62f80978",
+      "sha256": "80a8cc026cc9352185ffb7366fbc275f3957b1fef2e1fdf9345509e1188c5ff4"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_reconstruct_previous_depth.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_reconstruct_previous_depth.h",
+      "bytes": 3002,
+      "git_blob_sha1": "d85f67312c59ead11eb928dd9bbd0e3e564a99ae",
+      "sha256": "64bdc3e1b6e5278955c1ef66ed65918e11e05b1452d7411c6601ea7bd77edbcc"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_resources.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_resources.h",
+      "bytes": 6643,
+      "git_blob_sha1": "5505f6d1586931bc187e8f7748cb40d50833a6b5",
+      "sha256": "aa9daea4d768cdc014de54bd42890673ffdef2d7d8cf796c986c2b873ad98ac9"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_setup.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/frameinterpolation/ffx_frameinterpolation_setup.h",
+      "bytes": 2057,
+      "git_blob_sha1": "60dd3237762151d7c2f3b53c560df9c0e0f15929",
+      "sha256": "b8c785a0b09a8f148f12a19ca928f5a8178e82429c1f32e176ef300ae5e87493"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/CMakeCompileOpticalflowShaders.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/CMakeCompileOpticalflowShaders.txt",
+      "bytes": 2612,
+      "git_blob_sha1": "5e4c27333c9c2334f6309bf39b30f8929e251c40",
+      "sha256": "d48338a9d28695405b0d5c23b578e9de49fddf0516b76100466eef5f4833214e"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_callbacks_glsl.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_callbacks_glsl.h",
+      "bytes": 22746,
+      "git_blob_sha1": "da315ec314830467a5ddf829392e3344067cbcb4",
+      "sha256": "a6105db7ddfee06ab636dcd9a54e783d14e63980b844df64806f642eddce646b"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_callbacks_hlsl.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_callbacks_hlsl.h",
+      "bytes": 25808,
+      "git_blob_sha1": "bd1d48493a85d2d21c2ebecf472e790c2593337c",
+      "sha256": "9161766e8f639d573591362822b4ff6a06dbbbda4e412ce80d6b7fb12504260b"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_common.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_common.h",
+      "bytes": 3449,
+      "git_blob_sha1": "907e7ac796fe4a90b7506a42c207a2732c1c9d4e",
+      "sha256": "9d4b9466bf831e7d4a9c1c3e5e61af4977582c4e24439751eca8b866feadb33a"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_compute_luminance_pyramid.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_compute_luminance_pyramid.h",
+      "bytes": 3246,
+      "git_blob_sha1": "b83710c95821a0142264cec7f7d6bba9cc298468",
+      "sha256": "c5cda3dbbceffe27b9837952b04440a3095fb16fbe15092f8568b5b78f6c6d69"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_compute_optical_flow_v5.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_compute_optical_flow_v5.h",
+      "bytes": 10887,
+      "git_blob_sha1": "9c1b522b6dbc5657556146af090bb414155bfa32",
+      "sha256": "8360c1840cb067b47485cbef4853392eae5f8826e9de17fa50af746502acb7a0"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_compute_scd_divergence.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_compute_scd_divergence.h",
+      "bytes": 6875,
+      "git_blob_sha1": "7f473f657a5b5b180959bf52aee166662fe35b3d",
+      "sha256": "c254d8777507fccfaffdcaad304d5bd484473c0b19f38e35a3d05396537aa7b6"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_filter_optical_flow_v5.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_filter_optical_flow_v5.h",
+      "bytes": 2122,
+      "git_blob_sha1": "8ebf0beb1786bc5fd735a13c8006d161e9f16ab3",
+      "sha256": "b4818d2e0ad597d2dcfee9c3d4f2b513f483cebb94098012ececc01a7c126a61"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_generate_scd_histogram.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_generate_scd_histogram.h",
+      "bytes": 3652,
+      "git_blob_sha1": "aead438689334a12b98516fa6f9660cb60d4ced4",
+      "sha256": "0c941d937d2dcb87e423016fb41fe24c39e6b4884c74445e41a276cb282f2351"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_prepare_luma.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_prepare_luma.h",
+      "bytes": 3977,
+      "git_blob_sha1": "57fd8a74b4abf7d96d28045e5eac5365fab09a31",
+      "sha256": "6f3cec87a8ad0d68c2d8bd78e8b0862eea7143e708580946eea85cfbfe5a32a4"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_resources.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_resources.h",
+      "bytes": 3604,
+      "git_blob_sha1": "4676af409f44ff7d1484624cba2a5efbc4b94f1d",
+      "sha256": "cbb2a75305c6bb45d8efd2dd5b4e471529afed9005a8003eed39a330f2cfa079"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_scale_optical_flow_advanced_v5.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/opticalflow/ffx_opticalflow_scale_optical_flow_advanced_v5.h",
+      "bytes": 3598,
+      "git_blob_sha1": "16238f4e6405d679a81617296851a929883f2531",
+      "sha256": "8e1f3d2e2b98a25e836e1dadb97fcbba5b0b126a2113f1551be45cdc1e696d4d"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/spd/CMakeCompileSPDShaders.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/spd/CMakeCompileSPDShaders.txt",
+      "bytes": 1860,
+      "git_blob_sha1": "daeaad4f0a9e825d46d43b3a9b6e459d32fc6346",
+      "sha256": "02587c400c10b22aaba13b4784599669e618f7c3d014fa5b89058ae8e00b8807"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/spd/ffx_spd.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/spd/ffx_spd.h",
+      "bytes": 42614,
+      "git_blob_sha1": "c3ee50f02734801e71bbb16efbefef396e53c06e",
+      "sha256": "d276f32ee18948cb053c991f3c8821f9664c93f12cb2483dd2978f333bca67b2"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/spd/ffx_spd_callbacks_glsl.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/spd/ffx_spd_callbacks_glsl.h",
+      "bytes": 7017,
+      "git_blob_sha1": "55244eb42c77582bc545d34ddeda70dd47a7ab7b",
+      "sha256": "87b1172d08d80767d91242cdb1ebc2a1127fd6e0787fa799732c8341fdf4b76e"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/spd/ffx_spd_callbacks_hlsl.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/spd/ffx_spd_callbacks_hlsl.h",
+      "bytes": 9146,
+      "git_blob_sha1": "d86f66ffbec25adb7e337a07eff083402c1c9e50",
+      "sha256": "dafecd4a2556828fafe4a57cb542903b2782426b1850610cc42984e539804ac0"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/spd/ffx_spd_downsample.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/spd/ffx_spd_downsample.h",
+      "bytes": 4992,
+      "git_blob_sha1": "84d4039787d43d062e142fdd08bcfca89d0edf23",
+      "sha256": "985cf820915f2b36bc3cc0a5f6cbd1d56fb86e34492df06fa970b32fc48dfcac"
+    },
+    {
+      "path": "sdk/include/FidelityFX/gpu/spd/ffx_spd_resources.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/gpu/spd/ffx_spd_resources.h",
+      "bytes": 3008,
+      "git_blob_sha1": "a346656aa4fa2aa41932c52a0d5b898d7a5d1feb",
+      "sha256": "b5b4eaa8cdc613ee1d3104a0be64ea4bac96afa1bffe1699ac7d0888e03a9c27"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/backends/vk/ffx_vk.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/backends/vk/ffx_vk.h",
+      "bytes": 18724,
+      "git_blob_sha1": "b31d589278b2c9ff9a19e1b982f3be03dcbaa4db",
+      "sha256": "75343f8508cfa609bd79a7deddf2df572f0ff876ead8b5ddd1bd9c46f96f1459"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_assert.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_assert.h",
+      "bytes": 5322,
+      "git_blob_sha1": "ab554c3322f590211db47176f52f47ed1ba0cf9e",
+      "sha256": "d64fb7b916773d2ac96903fc699e438099b8702ecf5ce7aba051bd7e0a109ee1"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_blur.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_blur.h",
+      "bytes": 8142,
+      "git_blob_sha1": "8012070df8a8ef963931f43b4718f6f97d7cd100",
+      "sha256": "60422a79aa766da8ad6e84e2771546dd8ef44a9fb4562c2faf0ec1b2b2618baf"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_breadcrumbs.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_breadcrumbs.h",
+      "bytes": 25143,
+      "git_blob_sha1": "64a4bd5bcfe11d7f529a1a1c6350e68572eca34e",
+      "sha256": "3e3937c5499497d3a16f7a858842e9a95015b18aa42207261349727530da70c8"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_brixelizer.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_brixelizer.h",
+      "bytes": 20030,
+      "git_blob_sha1": "9860b4cd75ff5a3e941c30b5285443391221868b",
+      "sha256": "ad56278963aaf211a07c1e76c5e442a6d67144c3aaca3062fb3d1aae86fd8048"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_brixelizer_raw.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_brixelizer_raw.h",
+      "bytes": 38219,
+      "git_blob_sha1": "a6bc500f8a029eded9d4201e5d938af0d03f5fa3",
+      "sha256": "83f050a38e430678d1478fcdf727518549c3f95e01796ef8acc20c0ff50e9eb7"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_brixelizergi.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_brixelizergi.h",
+      "bytes": 17427,
+      "git_blob_sha1": "75e63e609eb47b2bf60c3da0eb77399b7b0a04e8",
+      "sha256": "12d67ee2b705c87e777883b5888bcb8c93cbdf44d4e1bff4eaf08237632dbc63"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_cacao.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_cacao.h",
+      "bytes": 25662,
+      "git_blob_sha1": "c067839e4c7484a0120f3909a1c84712f3f25ee9",
+      "sha256": "932e367523774a174078e06b11266884d1110ee0db95ec7b740b907981039ba2"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_cas.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_cas.h",
+      "bytes": 9375,
+      "git_blob_sha1": "872d7d793fb7da8c400a648248e4e56833269658",
+      "sha256": "b23f16998287cd4544c280c422e818e8f25212aef08c230d2d9baf093dd42f5b"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_classifier.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_classifier.h",
+      "bytes": 15015,
+      "git_blob_sha1": "267154d63e21d8e24eac37417443cac4c9dedb34",
+      "sha256": "09b166c4ae8e93b6f74818ac8fe2c747933198d2038de3ad53bc28aaf62ff74b"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_denoiser.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_denoiser.h",
+      "bytes": 15401,
+      "git_blob_sha1": "5f9d23d7e0040e3a6eef447a4da91f40805b475d",
+      "sha256": "4282c032f1a32d6b0e97c6491e47ac8843003b5cc079185a3ddf5a3712008c5e"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_dof.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_dof.h",
+      "bytes": 12630,
+      "git_blob_sha1": "58ac2f4c1d39c977151c68e4f54362f66eb2593a",
+      "sha256": "b6a358cef30f9957c81890f6d1b2343a310a8796a5d732772d148e29e88ce1ef"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_error.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_error.h",
+      "bytes": 4267,
+      "git_blob_sha1": "381621d84e21c6ec26730deb8121d0f4b8c5246c",
+      "sha256": "511ba2b3d99aaa3ac450de7c548244647df146939a7de105bd85713bde4a36c0"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_frameinterpolation.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_frameinterpolation.h",
+      "bytes": 19760,
+      "git_blob_sha1": "2340d044432e1d4bafa4d2787a50fddaddc7224b",
+      "sha256": "6851204a5f5fcbb83c9aafa0830859d9e8dacbb028d3e50f8e52e3ce5ca97bbd"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_fsr1.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_fsr1.h",
+      "bytes": 14215,
+      "git_blob_sha1": "0ac7c96fea61911e09e00d16b5734e4b3cd11607",
+      "sha256": "9e548017e56016530bee0d683f69176cc3dcd98d908da16c7ddf9cd6a0fe5691"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_fsr2.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_fsr2.h",
+      "bytes": 30703,
+      "git_blob_sha1": "dc15d1754eea8c506f3097a0eb84d3b5e1313838",
+      "sha256": "3a1b4ec5c6aee40f49959f0043b3855e9f49b3025f8ea22a441d1347d352f307"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_fsr3.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_fsr3.h",
+      "bytes": 32483,
+      "git_blob_sha1": "5a734d3f7abf8c879772b696230b0fb6b6bcab6e",
+      "sha256": "de42c62316d63475bc2bb3c75831b4a7cf094d85450f3b39d764534038306d72"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_fsr3upscaler.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_fsr3upscaler.h",
+      "bytes": 37302,
+      "git_blob_sha1": "25cbef552caa3145530fe005c910893bb7c34feb",
+      "sha256": "686cf613f70a1b01a9fa1302fb15f896b86cf2a68b069b3f5f2b5c0bcd9ea15b"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_fx.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_fx.h",
+      "bytes": 1995,
+      "git_blob_sha1": "c8b65f52fbaf78c6bfdad9d9444f51b7e33a81ce",
+      "sha256": "af113a090b417b81b7f8a8a15a8ff0b97ff11a53efc4807fdf58f57b64c91bfd"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_interface.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_interface.h",
+      "bytes": 33472,
+      "git_blob_sha1": "d7ba8acbebf565f76aa5b6131653737acf7eb4f6",
+      "sha256": "0b012be0256c47663905e51fa31873f8bf2c5536c40211e1b01cf117eb5988d6"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_lens.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_lens.h",
+      "bytes": 9452,
+      "git_blob_sha1": "bb111697282e7d6a922000dace3daed49c9dbc50",
+      "sha256": "15ebabd198d1332e0c07bea923bf9c8f9f766880e089133fcc98b8fe514b6f46"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_lpm.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_lpm.h",
+      "bytes": 11573,
+      "git_blob_sha1": "14f65f62ec6a7d1a454df775e90b911f175c50a3",
+      "sha256": "ba5c1fb27bd33228b940abcc86ef5618b692bf9d30f3b54d5f519390a89917c2"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_message.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_message.h",
+      "bytes": 2291,
+      "git_blob_sha1": "aa15ca6f834ac417c50148b1d967306aa78537cf",
+      "sha256": "48c125292b054be1ad208e36b24fb174a9cae80a3fd780a2cb52c4674e6bf4fe"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_opticalflow.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_opticalflow.h",
+      "bytes": 9508,
+      "git_blob_sha1": "20f388d0e0d66ec088d617bc29b21c97a87fe7bd",
+      "sha256": "efe99c1a3ea28b7378ed65be369a6582bbe2eaf36d37cbd40bf740bdc224bd78"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_parallelsort.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_parallelsort.h",
+      "bytes": 10154,
+      "git_blob_sha1": "f74b359805d2d644b30a8ad922fc738e851d5097",
+      "sha256": "17e0f1522e6e907e91ae873d40089e1aaf5e1f89c4e1f2b03570a7ffb04460ed"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_spd.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_spd.h",
+      "bytes": 9166,
+      "git_blob_sha1": "14e3230e0b4b2e16b225ca4cae9bfb94d42144c6",
+      "sha256": "2b88f8aee337488e61fc936016ca6f1d6b613897ceea1091ac18dd68bb5de28f"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_sssr.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_sssr.h",
+      "bytes": 15518,
+      "git_blob_sha1": "0083eb8e722d43453a0ad5933820a7cf1b4bd100",
+      "sha256": "69f511c378280458928b02c1b7bfb56b7c376dc9202846ceeb20eed157da5501"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_types.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_types.h",
+      "bytes": 61768,
+      "git_blob_sha1": "ca9bc37913580cdfca3927b58db0de66ea8d9648",
+      "sha256": "057535d46b7241bb25163a21dc4e59b0029f2d3da6a474b1c1028f921d5eb6f8"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_util.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_util.h",
+      "bytes": 6056,
+      "git_blob_sha1": "f06a368d2b1bec28f8af99c61cbea1cf094a2da2",
+      "sha256": "efe50400378277356116f0a3989ec69367b08aaae65892fdf3a4cf931a4c7bb8"
+    },
+    {
+      "path": "sdk/include/FidelityFX/host/ffx_vrs.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/include/FidelityFX/host/ffx_vrs.h",
+      "bytes": 10085,
+      "git_blob_sha1": "3533976fdaceeb260e5069a08d5f0bd452fc903c",
+      "sha256": "536e0aacf8e245e772e87d5f0b33eea5482bcceb3d25e5edbf7f413757eb2abd"
+    },
+    {
+      "path": "sdk/src/backends/shared/blob_accessors/ffx_frameinterpolation_shaderblobs.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/shared/blob_accessors/ffx_frameinterpolation_shaderblobs.cpp",
+      "bytes": 18610,
+      "git_blob_sha1": "3b778a21256be944fef5e38a11802f70dc239499",
+      "sha256": "49dfd52a3eaf4e3a61320b5ba6f295fd925f5ac9efa5a39c28260dab81e3dadb"
+    },
+    {
+      "path": "sdk/src/backends/shared/blob_accessors/ffx_frameinterpolation_shaderblobs.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/shared/blob_accessors/ffx_frameinterpolation_shaderblobs.h",
+      "bytes": 1829,
+      "git_blob_sha1": "63242c392572282b7697bc6ed792cacdaa9eb980",
+      "sha256": "53146bf5b9fbbf89050965b4a1266d3047b777c6a71ef3b20916425567fa9e8d"
+    },
+    {
+      "path": "sdk/src/backends/shared/blob_accessors/ffx_opticalflow_shaderblobs.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/shared/blob_accessors/ffx_opticalflow_shaderblobs.cpp",
+      "bytes": 12291,
+      "git_blob_sha1": "40bf72f59c30d6ed250a794ed4c10b2c209aef6c",
+      "sha256": "5455c1b000b33ffbe3bcaf236c99e77e3d7e35fb52b0179e8e29da7a0b0c9d81"
+    },
+    {
+      "path": "sdk/src/backends/shared/blob_accessors/ffx_opticalflow_shaderblobs.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/shared/blob_accessors/ffx_opticalflow_shaderblobs.h",
+      "bytes": 1774,
+      "git_blob_sha1": "ea776ce19457c04024bdfc27979c446efbd5b782",
+      "sha256": "2cf1a06cf615c30a86ba56575c6c4876bfe79a4ccaa6d01dae5a7979261ed366"
+    },
+    {
+      "path": "sdk/src/backends/shared/ffx_shader_blobs.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/shared/ffx_shader_blobs.cpp",
+      "bytes": 13182,
+      "git_blob_sha1": "6ec2c86c1cfa78ec383789c9102b019e640f7672",
+      "sha256": "cdd8bd85bec136aca6c3dcb0e51ab7152b7af093445b14786a7ab7bd3b5c164a"
+    },
+    {
+      "path": "sdk/src/backends/shared/ffx_shader_blobs.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/shared/ffx_shader_blobs.h",
+      "bytes": 1806,
+      "git_blob_sha1": "aab037a6a438ad1bd4b13bd27a041a566b472dcf",
+      "sha256": "d139f399b80ebf2f232c3fd64139edd1ea62f4d5f28ff144c3971fffdc5771a4"
+    },
+    {
+      "path": "sdk/src/backends/vk/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/CMakeLists.txt",
+      "bytes": 20328,
+      "git_blob_sha1": "f66866b8ac66a0564d3746a4e77747b0fb427286",
+      "sha256": "7662011bfb30ad656fd3d8aa1c30170a5cff2278f08e96b47200248ff4f4b610"
+    },
+    {
+      "path": "sdk/src/backends/vk/CMakeShadersFrameinterpolation.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/CMakeShadersFrameinterpolation.txt",
+      "bytes": 1421,
+      "git_blob_sha1": "267e45539a13e8bbf8894ac908a836dd70d555c7",
+      "sha256": "303f22b312157fba3a4e4fb4368d98d9a7bfa48fa63e87a46e21e218994fb1da"
+    },
+    {
+      "path": "sdk/src/backends/vk/CMakeShadersOpticalflow.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/CMakeShadersOpticalflow.txt",
+      "bytes": 1400,
+      "git_blob_sha1": "488573ffd34bc9de07ccfc5f5ec4e27c6b77bba1",
+      "sha256": "4904adfcf6159cd7d31865a489148e59160f40911852dbeb3277c33e532cdde3"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainDebugPacingPS.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainDebugPacingPS.glsl",
+      "bytes": 1705,
+      "git_blob_sha1": "c52d7befde45d80c27168d80e9418cbd9ab8184f",
+      "sha256": "7084870967209842eb0a2d6a0173f500e481515fb71147b3e8dfdf7df81f167b"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainDebugPacingPS.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainDebugPacingPS.h",
+      "bytes": 4423,
+      "git_blob_sha1": "9785012a0a8455b997535e5179a0c38826cb57fe",
+      "sha256": "82e84eac330f04382a40ddf326aa5beea90e4131d319a7e56b7f2c49569406ab"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainDebugPacingVS.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainDebugPacingVS.glsl",
+      "bytes": 1307,
+      "git_blob_sha1": "8609e18a70afac859069ce04df452e91be2cbd3f",
+      "sha256": "5b5c8aa54b7d3bc97a8bc3c41ebc4412bbbf79adfe757bf06871478881209ea3"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainDebugPacingVS.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainDebugPacingVS.h",
+      "bytes": 4028,
+      "git_blob_sha1": "2a427fb3555f2b7189a068af5eb7808bd828f59d",
+      "sha256": "fca1ebb7b4ae6ffaa571735a066402d977fe5ebc3f8b51a7a9072a508db26820"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionPS.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionPS.glsl",
+      "bytes": 1765,
+      "git_blob_sha1": "bd4db9728c79efcac12de2af26a522169fadb054",
+      "sha256": "ce625a676b9e3543c7000d8b680355c5e93dede44887a0a76e8c82c4f0db9db4"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionPS.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionPS.h",
+      "bytes": 4275,
+      "git_blob_sha1": "c4d536555f6007b6b2f2b98e906b65f1a4a6d224",
+      "sha256": "489545cf854bc5651fb47c70c25817496b43ab78e7ad54b4b757876f64dba8e5"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionPremulPS.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionPremulPS.h",
+      "bytes": 4292,
+      "git_blob_sha1": "99b29b81925824fdbc627c9d788113ade262b3fe",
+      "sha256": "dd6d2d79979b648ee1835b91e6128f0dbfde915e467fb998eff238db1a0463d2"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionPremulVS.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionPremulVS.h",
+      "bytes": 4022,
+      "git_blob_sha1": "a57b6f7ecbbbb38b035c8644528cf16778175414",
+      "sha256": "f849bdde91e9713eeaba9ccf1caa8926c7a52c3a4c9b1ae45a7be5f8fb97b506"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionVS.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionVS.glsl",
+      "bytes": 1307,
+      "git_blob_sha1": "8609e18a70afac859069ce04df452e91be2cbd3f",
+      "sha256": "5b5c8aa54b7d3bc97a8bc3c41ebc4412bbbf79adfe757bf06871478881209ea3"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionVS.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainUiCompositionVS.h",
+      "bytes": 4016,
+      "git_blob_sha1": "957ce37e6e99113f430156bf4a050df1c67611ed",
+      "sha256": "386051d190e4bd0cbf6447d08e5b2f482b759f552cd568f1966334a74c7f8443"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK.cpp",
+      "bytes": 143034,
+      "git_blob_sha1": "5c47b25b4e2d388dc8d4bf9eb462069b96eabbaa",
+      "sha256": "304dbc09949cb68a3708611a17d9ace5e2131116c8865e5777ad6146f637739f"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK.h",
+      "bytes": 16055,
+      "git_blob_sha1": "0218ade18db50774e02da2a0f0455f83fcba661e",
+      "sha256": "ae1d0b9d179b0a08bf6562db2f2cf25a547fbd9d77addf0423342903aa8e8e74"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_DebugPacing.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_DebugPacing.cpp",
+      "bytes": 29399,
+      "git_blob_sha1": "48af082b38e037ebe609fdfb014604bdda2dd3a9",
+      "sha256": "9b4a97b1cdc5b7cf431077adb1b64de9679635028446cc6d1f0e43a0d941558b"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_DebugPacing.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_DebugPacing.h",
+      "bytes": 1733,
+      "git_blob_sha1": "3a6bdd7d9520a440eec260e4a8ddec3739ad8874",
+      "sha256": "2008c4d797fad982a8711edce66e2d70f2618b92c19f6f17835e92f9c8484cd7"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_Helpers.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_Helpers.cpp",
+      "bytes": 4314,
+      "git_blob_sha1": "267d9fd18051252f25ff94e6126830b3c35efc97",
+      "sha256": "14e82d56b4b9b5a3ffd6b7be70a540b1ad5f0738aeb3632c3916df151f45fa5c"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_Helpers.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_Helpers.h",
+      "bytes": 12274,
+      "git_blob_sha1": "25f2c1edf5c015f38afbbd716ae232cf8abc2402",
+      "sha256": "c709acf5641ee5b1a7b9d41dfaa9ecd6b6709efd25cace23469f4bb28d01b23d"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_UiComposition.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_UiComposition.cpp",
+      "bytes": 39290,
+      "git_blob_sha1": "eb8843087b7b230b343746400387d64835faa8a9",
+      "sha256": "bb87ab25474fc29920506d12e462a08180271181fc53987e453e04f1e72c3e58"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_UiComposition.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/FrameInterpolationSwapchainVK_UiComposition.h",
+      "bytes": 1663,
+      "git_blob_sha1": "0aa8ea324951957f2ffd6f7a8707084db2c0aff2",
+      "sha256": "fc04dd5876575cde5dd8b24ba0cc7c8c0aa9344b765e70388725bb2c79fca845"
+    },
+    {
+      "path": "sdk/src/backends/vk/FrameInterpolationSwapchain/recompileUiCompositionGLSL.bat",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/FrameInterpolationSwapchain/recompileUiCompositionGLSL.bat",
+      "bytes": 2885,
+      "git_blob_sha1": "223de052910e06805661b035be44085a4cbbc253",
+      "sha256": "b1c9077f59a2c0b263d8d402cf32fcf8a355c4629119b55fef75697604f5e4b7"
+    },
+    {
+      "path": "sdk/src/backends/vk/ffx_vk.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/ffx_vk.cpp",
+      "bytes": 233521,
+      "git_blob_sha1": "d9144791f4e2b2ca6b7df38af74ef16ecc379f93",
+      "sha256": "9fa430949184fadb357e6949d7564cf0f8e4653ead683a99755a6f15c4a76589"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_compute_game_vector_field_inpainting_pyramid_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_compute_game_vector_field_inpainting_pyramid_pass.glsl",
+      "bytes": 4080,
+      "git_blob_sha1": "5ece11aee5e350b8341d9efb13bf23c2a4e0ee17",
+      "sha256": "0637a0d5ecf54a5e1b4161dc48db334c1cdf33a6cdd475b5262254d74d8dd506"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_compute_inpainting_pyramid_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_compute_inpainting_pyramid_pass.glsl",
+      "bytes": 3828,
+      "git_blob_sha1": "cdb7bde4d7af9df5095851f3286181aa7128700c",
+      "sha256": "0641760d7ccc676c4cfbc8a5b958435933eb523bb736fcdd42d270d05e5cc180"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_debug_view_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_debug_view_pass.glsl",
+      "bytes": 3422,
+      "git_blob_sha1": "a089510fcc4bbc1148212ce6c1ba28c3c3f5f790",
+      "sha256": "a4bc6277a40c00b847ad9b3dbea2114344ddec7caa1b976d83777735d3fab19f"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_disocclusion_mask_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_disocclusion_mask_pass.glsl",
+      "bytes": 3179,
+      "git_blob_sha1": "40bb7356167260a473f119d9631a8cad97d2cce2",
+      "sha256": "5e8a4eafecc3c4c72ba076e2c45ea066f9abf083f962a55bd62b3a4bdbdec9d1"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_game_motion_vector_field_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_game_motion_vector_field_pass.glsl",
+      "bytes": 3100,
+      "git_blob_sha1": "1071d629a02a4f185ce0008455a54700c69fb42e",
+      "sha256": "30ba7806d9451d89f6568b670eee6f1c6cc0f3fb5d98a89f6fafb75f51595b37"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_inpainting_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_inpainting_pass.glsl",
+      "bytes": 3012,
+      "git_blob_sha1": "facfca25c7d18adc4f526484151e3808a6aac2fe",
+      "sha256": "0e9e87f6f323c1e7284ea3dd86022035be1db37953a9b988feee57a45d4ffb38"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_optical_flow_vector_field_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_optical_flow_vector_field_pass.glsl",
+      "bytes": 3111,
+      "git_blob_sha1": "0de21e29cb9ac69b537dac1b38df0bf384001a10",
+      "sha256": "30279e09bba6c44051fd0e7d5c7e5e0606ff472c168985fba8250ab1eb6a874e"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_pass.glsl",
+      "bytes": 3415,
+      "git_blob_sha1": "733bd396edf7b91848eea62917678f754a256b26",
+      "sha256": "d7787ed6241e4f5f3951997abf6a35389dd9f215923306c81e8c4b3977c6cd0f"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_reconstruct_and_dilate_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_reconstruct_and_dilate_pass.glsl",
+      "bytes": 2912,
+      "git_blob_sha1": "d29bddd1a606ef43954a7144ffaebb65c29769b5",
+      "sha256": "4728c67aeaf2b480668e2a54a5c0acd2780303ccfe86f3056c150bc97a7f52d7"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_reconstruct_previous_depth_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_reconstruct_previous_depth_pass.glsl",
+      "bytes": 2943,
+      "git_blob_sha1": "3608a62efab6c6d6fa4378b1006770b6af5a46ce",
+      "sha256": "b5fc5291656ed9770e22216fd90dddd354f17891b4ec84d300642c0584556cb5"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_setup_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_setup_pass.glsl",
+      "bytes": 3094,
+      "git_blob_sha1": "eaf18634f235caf2aca1346761c54eae08e62535",
+      "sha256": "23f1bd8bb68060c2a5f95cd0261bbc42dce74054690e884bdda33a3aea7aa57e"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_compute_luminance_pyramid_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_compute_luminance_pyramid_pass.glsl",
+      "bytes": 2952,
+      "git_blob_sha1": "7713dcddacccec941cc5a2ef7f0c73447d0c5b1d",
+      "sha256": "09c878c33ddac648cff4669a8544016e233a5d6784f9ab08fb39085f23a26d3d"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_compute_optical_flow_advanced_pass_v5.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_compute_optical_flow_advanced_pass_v5.glsl",
+      "bytes": 2935,
+      "git_blob_sha1": "8844c2ae9e379ab64a4882b24c61661774dac668",
+      "sha256": "43adca846366f513cd65f818de14147cca58f0534fc8f1513b7db2c3f0611bcf"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_compute_scd_divergence_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_compute_scd_divergence_pass.glsl",
+      "bytes": 2894,
+      "git_blob_sha1": "0df8d985ffa24e7f4cfaffb8b0b1a96e3adec5b1",
+      "sha256": "cb01c895ac97f986bcff9174574b2e7a37a913333f505f80f3d161b719a6bbfa"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_filter_optical_flow_pass_v5.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_filter_optical_flow_pass_v5.glsl",
+      "bytes": 2611,
+      "git_blob_sha1": "01bb11a4583b9ce0e61e0963cccc5a580c9404a0",
+      "sha256": "a313c2174790efc245ee722c2899f3743fef96ede28709ab636626930b66d4b5"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_generate_scd_histogram_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_generate_scd_histogram_pass.glsl",
+      "bytes": 2730,
+      "git_blob_sha1": "0462ef15be3f6147ac1faa7e2d42f3c2bd0d4424",
+      "sha256": "aa831f7f27d7f49ed2da9476b2ad9e0daad79ea6ed59a5166c9ca5ba3ebc2d97"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_prepare_luma_pass.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_prepare_luma_pass.glsl",
+      "bytes": 2496,
+      "git_blob_sha1": "bb37011eff17fdf4a7ffc50d1e4b9a0bbdc740ff",
+      "sha256": "4ce523b2c9596565f836cc1975404aedca0f3341f62d16316ddf9e4e4260218d"
+    },
+    {
+      "path": "sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_scale_optical_flow_advanced_pass_v5.glsl",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/backends/vk/shaders/opticalflow/ffx_opticalflow_scale_optical_flow_advanced_pass_v5.glsl",
+      "bytes": 2852,
+      "git_blob_sha1": "70142c25f176f3c4b001bdcd764726e02bd5988c",
+      "sha256": "82637bbf53fe960034e972fc00d0621dfbca84d91f608c737e2a6d74252fdf77"
+    },
+    {
+      "path": "sdk/src/components/frameinterpolation/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/components/frameinterpolation/CMakeLists.txt",
+      "bytes": 2563,
+      "git_blob_sha1": "9b922299c04e7f1f7bdbf68ebd2a6a0873037880",
+      "sha256": "4ed47c7c3b3c34df1cc515bf75490481655ed9bfde2265eed098d127baa78642"
+    },
+    {
+      "path": "sdk/src/components/frameinterpolation/ffx_frameinterpolation.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/components/frameinterpolation/ffx_frameinterpolation.cpp",
+      "bytes": 78954,
+      "git_blob_sha1": "a60ff6a55ce5b9478e8fc9940f37ab273e062b9a",
+      "sha256": "a0d322d4753cbf7f174fe945a18aef536c23ec4447a7e127de2fa3f5bbb75969"
+    },
+    {
+      "path": "sdk/src/components/frameinterpolation/ffx_frameinterpolation_private.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/components/frameinterpolation/ffx_frameinterpolation_private.h",
+      "bytes": 6223,
+      "git_blob_sha1": "e4c67e890e76c54190033262ce4473a4fa68b960",
+      "sha256": "e14534f233c2f824361f303fe9df82a2959dc871a482c064601cda5cc009f150"
+    },
+    {
+      "path": "sdk/src/components/opticalflow/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/components/opticalflow/CMakeLists.txt",
+      "bytes": 2501,
+      "git_blob_sha1": "02423adff8bf8563a3f3d42eb4c0a88aafbae795",
+      "sha256": "5ce3959577ac45e6d3136018c6007e451bb3b2e7f67daf906d0832e6dd90d802"
+    },
+    {
+      "path": "sdk/src/components/opticalflow/ffx_opticalflow.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/components/opticalflow/ffx_opticalflow.cpp",
+      "bytes": 67613,
+      "git_blob_sha1": "ae94c2d04f6d6edc6766847c41e6f99254b2fdd9",
+      "sha256": "4ffe3b19a4d1dea4f59e08cf2311441c6f3fc847c8ee161343a6aede5b5abb07"
+    },
+    {
+      "path": "sdk/src/components/opticalflow/ffx_opticalflow_private.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/components/opticalflow/ffx_opticalflow_private.h",
+      "bytes": 4468,
+      "git_blob_sha1": "bfea4c4fc346cfe11fc843ae8286ee5641109e87",
+      "sha256": "7ec5a22c60d5525b1276442e6793c70b0f9ca7770484a4cef1b37031b27a9215"
+    },
+    {
+      "path": "sdk/src/shared/ffx_assert.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/shared/ffx_assert.cpp",
+      "bytes": 2671,
+      "git_blob_sha1": "ab24ef1a075931243ca4023aefa166a9f5abff8b",
+      "sha256": "c84efb3fe942e3c80b6a595cc68e580154d2380717a88f2ac37939e156b27952"
+    },
+    {
+      "path": "sdk/src/shared/ffx_breadcrumbs_list.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/shared/ffx_breadcrumbs_list.cpp",
+      "bytes": 1884,
+      "git_blob_sha1": "c1491bf0949fc5d301c0cfe87af2e178a9d83350",
+      "sha256": "fbe34fcdda7db272b7cdb97619ba4d800829fcbabd42cac6e9862d7f898de14a"
+    },
+    {
+      "path": "sdk/src/shared/ffx_breadcrumbs_list.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/shared/ffx_breadcrumbs_list.h",
+      "bytes": 9634,
+      "git_blob_sha1": "facc77efbb4ddbad82c772ecfe6c884cd14364e7",
+      "sha256": "06c6a58888cbb0d9a74b330682adf3ad0a50d4aea8bce8e69e52c2e5b9c724e6"
+    },
+    {
+      "path": "sdk/src/shared/ffx_message.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/shared/ffx_message.cpp",
+      "bytes": 2288,
+      "git_blob_sha1": "7dd5127d1a217eba6ad15927a73ed3d4abc654ce",
+      "sha256": "96c5a2d576f0688aa77249bf9a85ff8ce3e85c874ccc3d7d4201693f95818811"
+    },
+    {
+      "path": "sdk/src/shared/ffx_object_management.cpp",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/shared/ffx_object_management.cpp",
+      "bytes": 2171,
+      "git_blob_sha1": "03fc3b7b1e01207b9c2dfcf348246f9a575dc8fa",
+      "sha256": "607b93de58b16eaa891056b6664d719699c83f8ba9e039aa1a9e44fcecd1ab09"
+    },
+    {
+      "path": "sdk/src/shared/ffx_object_management.h",
+      "url": "https://raw.githubusercontent.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/c6efa6bf7f2027b3ec94f28578bb5965eabb9e55/sdk/src/shared/ffx_object_management.h",
+      "bytes": 1792,
+      "git_blob_sha1": "7c4e0f2767bec987ce438fd27773fa7c46e9f877",
+      "sha256": "e388d1af28f4d3f7388e524257b9692be867884cff720414031d9768995bf223"
+    }
+  ]
+}

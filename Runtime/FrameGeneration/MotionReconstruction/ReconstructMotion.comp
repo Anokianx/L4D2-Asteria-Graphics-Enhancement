@@ -1,0 +1,75 @@
+#version 450
+layout(local_size_x = 8, local_size_y = 8) in;
+layout(set = 0, binding = 0, r32f) uniform readonly image2D currentDepth;
+layout(set = 0, binding = 1, r32f) uniform readonly image2D previousDepth;
+layout(set = 0, binding = 2, rg32f) uniform writeonly image2D motionOutput;
+layout(set = 0, binding = 3, r32f) uniform writeonly image2D confidenceOutput;
+layout(std140, row_major, set = 0, binding = 4) uniform Parameters
+{
+    mat4 inverseCurrentViewProjection;
+    mat4 previousViewProjection;
+    uvec4 extentFlags;
+    vec4 depthLimits;
+    vec4 previousDepthControls;
+    vec4 currentViewportRectangle;
+    vec4 previousViewportRectangle;
+    vec4 viewportDepthRanges;
+    uvec4 viewportModes;
+} parameters;
+
+bool finiteValue(float value) { return !isnan(value) && !isinf(value); }
+bool finiteVector(vec4 value) { return !any(isnan(value)) && !any(isinf(value)); }
+bool validDepth(float depth)
+{
+    return finiteValue(depth) && depth >= parameters.depthLimits.x && depth <= parameters.depthLimits.y &&
+           abs(depth - parameters.depthLimits.z) > parameters.depthLimits.w;
+}
+
+void main()
+{
+    ivec2 pixel = ivec2(gl_GlobalInvocationID.xy);
+    ivec2 extent = ivec2(parameters.extentFlags.xy);
+    if (any(greaterThanEqual(pixel, extent))) return;
+    imageStore(motionOutput, pixel, vec4(0));
+    imageStore(confidenceOutput, pixel, vec4(0));
+    if ((parameters.extentFlags.z & 1u) == 0u || (parameters.extentFlags.z & 2u) != 0u) return;
+    float depth = imageLoad(currentDepth, pixel).r;
+    if (!validDepth(depth)) return;
+    vec2 currentUV = (vec2(pixel) + vec2(0.5)) / vec2(extent);
+    vec3 currentNDC = vec3(2.0 * currentUV.x - 1.0, 1.0 - 2.0 * currentUV.y, depth);
+    if (parameters.viewportModes.x == 1u)
+    {
+        currentNDC.xy = 2.0 * ((vec2(pixel) + vec2(0.5) - parameters.currentViewportRectangle.xy) / parameters.currentViewportRectangle.zw) - 1.0;
+        currentNDC.z = (depth - parameters.viewportDepthRanges.x) / (parameters.viewportDepthRanges.y - parameters.viewportDepthRanges.x);
+        if (!finiteVector(vec4(currentNDC, 1)) || any(lessThan(currentNDC.xy, vec2(-1))) || any(greaterThan(currentNDC.xy, vec2(1))) ||
+            currentNDC.z < 0 || currentNDC.z > 1) return;
+    }
+    vec4 world = parameters.inverseCurrentViewProjection * vec4(currentNDC, 1.0);
+    if (!finiteVector(world) || abs(world.w) <= 1e-7) return;
+    world /= world.w;
+    vec4 previousClip = parameters.previousViewProjection * world;
+    if (!finiteVector(previousClip) || previousClip.w <= 1e-7) return;
+    vec3 previousNDC = previousClip.xyz / previousClip.w;
+    if (!finiteVector(vec4(previousNDC, 1))) return;
+    float projectedDepth = previousNDC.z;
+    vec2 previousUV = vec2(0.5 * previousNDC.x + 0.5, 0.5 - 0.5 * previousNDC.y);
+    if (parameters.viewportModes.y == 1u)
+    {
+        if (any(lessThan(previousNDC.xy, vec2(-1))) || any(greaterThan(previousNDC.xy, vec2(1))) || previousNDC.z < 0 || previousNDC.z > 1) return;
+        previousUV = (parameters.previousViewportRectangle.xy + 0.5 * parameters.previousViewportRectangle.zw * (previousNDC.xy + 1.0)) / vec2(extent);
+        projectedDepth = parameters.viewportDepthRanges.z + (parameters.viewportDepthRanges.w - parameters.viewportDepthRanges.z) * previousNDC.z;
+    }
+    if (!finiteValue(projectedDepth) || projectedDepth < parameters.depthLimits.x || projectedDepth > parameters.depthLimits.y) return;
+    if (any(lessThan(previousUV, vec2(0))) || any(greaterThanEqual(previousUV, vec2(1)))) return;
+    if ((parameters.extentFlags.z & 4u) != 0u)
+    {
+        ivec2 previousPixel = ivec2(floor(previousUV * vec2(extent)));
+        float sampledDepth = imageLoad(previousDepth, previousPixel).r;
+        if (!validDepth(sampledDepth)) return;
+        float threshold = max(parameters.previousDepthControls.x,
+                              parameters.previousDepthControls.y * max(abs(sampledDepth), abs(projectedDepth)));
+        if (abs(sampledDepth - projectedDepth) > threshold) return;
+    }
+    imageStore(motionOutput, pixel, vec4(previousUV - currentUV, 0, 0));
+    imageStore(confidenceOutput, pixel, vec4(1, 0, 0, 0));
+}

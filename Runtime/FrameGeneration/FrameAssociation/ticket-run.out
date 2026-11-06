@@ -1,0 +1,15 @@
+{
+  "author": "Anokianx",
+  "bounded_ticket_history": true,
+  "checks": 818,
+  "cpu_mock_contract_only": true,
+  "exact_owner_generation_image_serial_match": true,
+  "game_fg_ready": false,
+  "game_started": false,
+  "gpu_frame_aligned": false,
+  "legacy_no_ticket_path_preserved": true,
+  "main_view_verified": false,
+  "passed": true,
+  "stale_reuse_resize_foreign_duplicate_fail_closed": true,
+  "ticket_never_upgrades_gpu_or_game_readiness": true
+}

@@ -1,0 +1,77 @@
+{
+  "author": "Anokianx",
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "status": "pass",
+  "source_files_verified": 13,
+  "source_bytes_verified": 629850,
+  "facts": {
+    "rife_public_cpu_mat_interface": true,
+    "rife_vulkan_uploads_cpu_input": true,
+    "rife_vulkan_downloads_cpu_output": true,
+    "rife_waits_for_gpu_completion": true,
+    "rife_windows_ci_targets_x64": true,
+    "ncnn_constructs_device_from_gpu_index": true,
+    "ncnn_creates_own_vkdevice": true,
+    "third_party_licenses_preserved": true
+  },
+  "files": [
+    {
+      "path": "Upstream\\nihui_rife-ncnn-vulkan\\LICENSE",
+      "sha256": "a73beab18143600af0b10c6050a953ec233775ce31c2bf3373a794db535329fd"
+    },
+    {
+      "path": "Upstream\\nihui_rife-ncnn-vulkan\\README.md",
+      "sha256": "41c0b4aca03751978d7bdd04b8a274e73e772b60e71519d685be9242c6fa934a"
+    },
+    {
+      "path": "Upstream\\nihui_rife-ncnn-vulkan\\src\\rife.h",
+      "sha256": "785386d7d63c28f09f74fa1e3c6e0e7ae84e8a7efd15b7f68d238d578aad1298"
+    },
+    {
+      "path": "Upstream\\nihui_rife-ncnn-vulkan\\src\\rife.cpp",
+      "sha256": "375beadc59ca08a4f925baa16378f46cfffdf34e752a5392732d1f9d9c78c339"
+    },
+    {
+      "path": "Upstream\\nihui_rife-ncnn-vulkan\\src\\CMakeLists.txt",
+      "sha256": "70e21b3ce5cf8649c697dc5a5cae1c4c24a715fb115a990c3ff1c74dad8e34dc"
+    },
+    {
+      "path": "Upstream\\nihui_rife-ncnn-vulkan\\.github\\workflows\\CI.yml",
+      "sha256": "537a32f87901322a0cd91733da4f88462014299821cb708abf063176086552c2"
+    },
+    {
+      "path": "Upstream\\nihui_rife-ncnn-vulkan\\.gitmodules",
+      "sha256": "64d0d2347ca9bc8072fdef2470349d9fe16d270f6aef917a376f86494f160f1e"
+    },
+    {
+      "path": "Upstream\\Tencent_ncnn\\LICENSE.txt",
+      "sha256": "7c974bac98848df46be1af5bdaa3c3c9c01f6082a90f55caeb7f60c6208aa255"
+    },
+    {
+      "path": "Upstream\\Tencent_ncnn\\src\\gpu.h",
+      "sha256": "aa8eded1530c7cb754ad66235bc001dd4d1e3b3bb0dad6bdfbf4c354f67ce60c"
+    },
+    {
+      "path": "Upstream\\Tencent_ncnn\\src\\gpu.cpp",
+      "sha256": "fac1d02693d2ad090e63921f622010b97de7ba6220a486ff8721ec1a42cd8aa2"
+    },
+    {
+      "path": "Upstream\\Tencent_ncnn\\src\\mat.h",
+      "sha256": "b184b00e03aca72f78605d5d88b9052f0da81ed24e258e09f9d157ddfa5f2495"
+    },
+    {
+      "path": "Upstream\\Tencent_ncnn\\docs\\how-to-use-and-FAQ\\FAQ-ncnn-vulkan.md",
+      "sha256": "28af55037cc876b545d0c55dda7dd6d8862a2232d34eec3923151b050cc15563"
+    },
+    {
+      "path": "Upstream\\Tencent_ncnn\\docs\\how-to-build\\how-to-build.md",
+      "sha256": "9d1902127ac0410013a2fc883811a1e0ab430f75cd0b27a283761281dcd9f31b"
+    }
+  ],
+  "inference_model_downloaded": false,
+  "inference_runtime_built": false,
+  "x86_vulkan_inference_proven": false,
+  "game_frame_generation_qualified": false,
+  "production_runtime_modified": false
+}

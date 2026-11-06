@@ -1,0 +1,62 @@
+{
+  "version": "v6.7.2",
+  "upstream": "https://github.com/crosire/reshade",
+  "retrieved": "2026-10-26",
+  "purpose": "backend immediate submission, CPU coherent allocation, host barrier and startup display control reference; not binary reproducibility proof",
+  "files": [
+    {
+      "path": "source/runtime.cpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/source/runtime.cpp",
+      "bytes": 207607,
+      "sha256": "29a5d2efcc4c207072c8055df38402880fc913caaf757bf886ba0b19f04f51fb"
+    },
+    {
+      "path": "source/runtime_gui.cpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/source/runtime_gui.cpp",
+      "bytes": 203579,
+      "sha256": "b6d3b8969ff2d36cc014b2e8bb2c272da9ffa9bf973524f4a09609a024b0b157"
+    },
+    {
+      "path": "source/vulkan/vulkan_impl_command_queue.cpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/source/vulkan/vulkan_impl_command_queue.cpp",
+      "bytes": 5797,
+      "sha256": "3953a2050ed991205f3f53df46f7a086e022de88194eef298c69021e741e9da6"
+    },
+    {
+      "path": "source/vulkan/vulkan_impl_device.cpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/source/vulkan/vulkan_impl_device.cpp",
+      "bytes": 108766,
+      "sha256": "fe8fcc36bb0c276d4644772d4663cfd8ef8d8a3e9a993341c0c6fac40755d860"
+    },
+    {
+      "path": "source/vulkan/vulkan_impl_type_convert.cpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/source/vulkan/vulkan_impl_type_convert.cpp",
+      "bytes": 105522,
+      "sha256": "bc6d5e22aedfdd430aaca259a774d1fc39d3d8d93ef42f3f77fe6f33daee6974"
+    },
+    {
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/LICENSE.md",
+      "bytes": 1481,
+      "sha256": "237ded5b8344f820113efab1e65e91e1f159d9202c5b4856606a0590d3ffdab0"
+    },
+    {
+      "path": "source/vulkan/vulkan_hooks_swapchain.cpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/source/vulkan/vulkan_hooks_swapchain.cpp",
+      "bytes": 30238,
+      "sha256": "559d8e79a72e218ab093d1f1c29b03da857b52c6e7a6a8fdbb401ea213d2d214"
+    },
+    {
+      "path": "include/reshade_api_resource.hpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/include/reshade_api_resource.hpp",
+      "bytes": 26760,
+      "sha256": "c5e2f458dffbebab2c840fd0830e529d62e003e17d6fbd27be0c5297b6293944"
+    },
+    {
+      "path": "include/reshade_api_device.hpp",
+      "url": "https://raw.githubusercontent.com/crosire/reshade/v6.7.2/include/reshade_api_device.hpp",
+      "bytes": 85222,
+      "sha256": "299cdb57cc6cefa2dec8a689b365c3f4d14f11087ab0710c4242236ed2f86a20"
+    }
+  ]
+}

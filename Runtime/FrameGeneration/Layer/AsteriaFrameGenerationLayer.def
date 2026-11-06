@@ -1,0 +1,17 @@
+LIBRARY AsteriaFrameGenerationLayer
+EXPORTS
+    vkNegotiateLoaderLayerInterfaceVersion=_vkNegotiateLoaderLayerInterfaceVersion@4
+    vkGetInstanceProcAddr=_LayerGetInstanceProcAddr@8
+    vkGetDeviceProcAddr=_LayerGetDeviceProcAddr@8
+    vkGetPhysicalDeviceProcAddr=_LayerGetPhysicalDeviceProcAddr@8
+    AsteriaValidateNextDispatch=_AsteriaValidateNextDispatch@8
+    AsteriaCopyMappedBufferBytes=_AsteriaCopyMappedBufferBytes@32
+    AsteriaQueryBoundBufferDescriptor=_AsteriaQueryBoundBufferDescriptor@36
+    AsteriaQueryNativeViewportV1=_AsteriaQueryNativeViewportV1@24
+    AsteriaQueryDrawViewportV1=_AsteriaQueryDrawViewportV1@24
+    AsteriaQueryDrawViewportDiagnosticV1=_AsteriaQueryDrawViewportDiagnosticV1@24
+    AsteriaSubmitFrameGenerationCamera=_AsteriaSubmitFrameGenerationCamera@4
+    AsteriaRegisterFrameInputProviderV1=_AsteriaRegisterFrameInputProviderV1@8
+    AsteriaUnregisterFrameInputProviderV1=_AsteriaUnregisterFrameInputProviderV1@8
+    AsteriaQueryFrameInputTicketV1=_AsteriaQueryFrameInputTicketV1@28
+    AsteriaSubmitFrameInputsV1=_AsteriaSubmitFrameInputsV1@4

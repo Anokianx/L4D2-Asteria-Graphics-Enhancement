@@ -1,0 +1,145 @@
+#pragma once
+
+#include <reshade_api_format.hpp>
+
+namespace asteria_native_input
+{
+inline const char *ApiFormatName(reshade::api::format value)
+{
+    switch (value)
+    {
+    case reshade::api::format::unknown: return "UNKNOWN";
+    case reshade::api::format::r1_unorm: return "R1_UNORM";
+    case reshade::api::format::r8_typeless: return "R8_TYPELESS";
+    case reshade::api::format::r8_unorm: return "R8_UNORM";
+    case reshade::api::format::r8_uint: return "R8_UINT";
+    case reshade::api::format::r8_snorm: return "R8_SNORM";
+    case reshade::api::format::r8_sint: return "R8_SINT";
+    case reshade::api::format::l8_unorm: return "L8_UNORM";
+    case reshade::api::format::a8_unorm: return "A8_UNORM";
+    case reshade::api::format::r8g8_typeless: return "R8G8_TYPELESS";
+    case reshade::api::format::r8g8_unorm: return "R8G8_UNORM";
+    case reshade::api::format::r8g8_uint: return "R8G8_UINT";
+    case reshade::api::format::r8g8_snorm: return "R8G8_SNORM";
+    case reshade::api::format::r8g8_sint: return "R8G8_SINT";
+    case reshade::api::format::l8a8_unorm: return "L8A8_UNORM";
+    case reshade::api::format::r8g8b8_typeless: return "R8G8B8_TYPELESS";
+    case reshade::api::format::r8g8b8_unorm: return "R8G8B8_UNORM";
+    case reshade::api::format::r8g8b8_unorm_srgb: return "R8G8B8_UNORM_SRGB";
+    case reshade::api::format::r8g8b8_uint: return "R8G8B8_UINT";
+    case reshade::api::format::r8g8b8_snorm: return "R8G8B8_SNORM";
+    case reshade::api::format::r8g8b8_sint: return "R8G8B8_SINT";
+    case reshade::api::format::b8g8r8_typeless: return "B8G8R8_TYPELESS";
+    case reshade::api::format::b8g8r8_unorm: return "B8G8R8_UNORM";
+    case reshade::api::format::b8g8r8_unorm_srgb: return "B8G8R8_UNORM_SRGB";
+    case reshade::api::format::r8g8b8a8_typeless: return "R8G8B8A8_TYPELESS";
+    case reshade::api::format::r8g8b8a8_unorm: return "R8G8B8A8_UNORM";
+    case reshade::api::format::r8g8b8a8_unorm_srgb: return "R8G8B8A8_UNORM_SRGB";
+    case reshade::api::format::r8g8b8a8_uint: return "R8G8B8A8_UINT";
+    case reshade::api::format::r8g8b8a8_snorm: return "R8G8B8A8_SNORM";
+    case reshade::api::format::r8g8b8a8_sint: return "R8G8B8A8_SINT";
+    case reshade::api::format::r8g8b8x8_unorm: return "R8G8B8X8_UNORM";
+    case reshade::api::format::r8g8b8x8_unorm_srgb: return "R8G8B8X8_UNORM_SRGB";
+    case reshade::api::format::b8g8r8a8_typeless: return "B8G8R8A8_TYPELESS";
+    case reshade::api::format::b8g8r8a8_unorm: return "B8G8R8A8_UNORM";
+    case reshade::api::format::b8g8r8a8_unorm_srgb: return "B8G8R8A8_UNORM_SRGB";
+    case reshade::api::format::b8g8r8x8_typeless: return "B8G8R8X8_TYPELESS";
+    case reshade::api::format::b8g8r8x8_unorm: return "B8G8R8X8_UNORM";
+    case reshade::api::format::b8g8r8x8_unorm_srgb: return "B8G8R8X8_UNORM_SRGB";
+    case reshade::api::format::r10g10b10a2_typeless: return "R10G10B10A2_TYPELESS";
+    case reshade::api::format::r10g10b10a2_unorm: return "R10G10B10A2_UNORM";
+    case reshade::api::format::r10g10b10a2_uint: return "R10G10B10A2_UINT";
+    case reshade::api::format::r10g10b10a2_xr_bias: return "R10G10B10A2_XR_BIAS";
+    case reshade::api::format::b10g10r10a2_typeless: return "B10G10R10A2_TYPELESS";
+    case reshade::api::format::b10g10r10a2_unorm: return "B10G10R10A2_UNORM";
+    case reshade::api::format::b10g10r10a2_uint: return "B10G10R10A2_UINT";
+    case reshade::api::format::r16_typeless: return "R16_TYPELESS";
+    case reshade::api::format::r16_float: return "R16_FLOAT";
+    case reshade::api::format::r16_unorm: return "R16_UNORM";
+    case reshade::api::format::r16_uint: return "R16_UINT";
+    case reshade::api::format::r16_snorm: return "R16_SNORM";
+    case reshade::api::format::r16_sint: return "R16_SINT";
+    case reshade::api::format::l16_unorm: return "L16_UNORM";
+    case reshade::api::format::l16a16_unorm: return "L16A16_UNORM";
+    case reshade::api::format::r16g16_typeless: return "R16G16_TYPELESS";
+    case reshade::api::format::r16g16_float: return "R16G16_FLOAT";
+    case reshade::api::format::r16g16_unorm: return "R16G16_UNORM";
+    case reshade::api::format::r16g16_uint: return "R16G16_UINT";
+    case reshade::api::format::r16g16_snorm: return "R16G16_SNORM";
+    case reshade::api::format::r16g16_sint: return "R16G16_SINT";
+    case reshade::api::format::r16g16b16_typeless: return "R16G16B16_TYPELESS";
+    case reshade::api::format::r16g16b16_float: return "R16G16B16_FLOAT";
+    case reshade::api::format::r16g16b16_unorm: return "R16G16B16_UNORM";
+    case reshade::api::format::r16g16b16_uint: return "R16G16B16_UINT";
+    case reshade::api::format::r16g16b16_snorm: return "R16G16B16_SNORM";
+    case reshade::api::format::r16g16b16_sint: return "R16G16B16_SINT";
+    case reshade::api::format::r16g16b16a16_typeless: return "R16G16B16A16_TYPELESS";
+    case reshade::api::format::r16g16b16a16_float: return "R16G16B16A16_FLOAT";
+    case reshade::api::format::r16g16b16a16_unorm: return "R16G16B16A16_UNORM";
+    case reshade::api::format::r16g16b16a16_uint: return "R16G16B16A16_UINT";
+    case reshade::api::format::r16g16b16a16_snorm: return "R16G16B16A16_SNORM";
+    case reshade::api::format::r16g16b16a16_sint: return "R16G16B16A16_SINT";
+    case reshade::api::format::r32_typeless: return "R32_TYPELESS";
+    case reshade::api::format::r32_float: return "R32_FLOAT";
+    case reshade::api::format::r32_uint: return "R32_UINT";
+    case reshade::api::format::r32_sint: return "R32_SINT";
+    case reshade::api::format::r32g32_typeless: return "R32G32_TYPELESS";
+    case reshade::api::format::r32g32_float: return "R32G32_FLOAT";
+    case reshade::api::format::r32g32_uint: return "R32G32_UINT";
+    case reshade::api::format::r32g32_sint: return "R32G32_SINT";
+    case reshade::api::format::r32g32b32_typeless: return "R32G32B32_TYPELESS";
+    case reshade::api::format::r32g32b32_float: return "R32G32B32_FLOAT";
+    case reshade::api::format::r32g32b32_uint: return "R32G32B32_UINT";
+    case reshade::api::format::r32g32b32_sint: return "R32G32B32_SINT";
+    case reshade::api::format::r32g32b32a32_typeless: return "R32G32B32A32_TYPELESS";
+    case reshade::api::format::r32g32b32a32_float: return "R32G32B32A32_FLOAT";
+    case reshade::api::format::r32g32b32a32_uint: return "R32G32B32A32_UINT";
+    case reshade::api::format::r32g32b32a32_sint: return "R32G32B32A32_SINT";
+    case reshade::api::format::r9g9b9e5: return "R9G9B9E5";
+    case reshade::api::format::r11g11b10_float: return "R11G11B10_FLOAT";
+    case reshade::api::format::b5g6r5_unorm: return "B5G6R5_UNORM";
+    case reshade::api::format::b5g5r5a1_unorm: return "B5G5R5A1_UNORM";
+    case reshade::api::format::b5g5r5x1_unorm: return "B5G5R5X1_UNORM";
+    case reshade::api::format::b4g4r4a4_unorm: return "B4G4R4A4_UNORM";
+    case reshade::api::format::a4b4g4r4_unorm: return "A4B4G4R4_UNORM";
+    case reshade::api::format::s8_uint: return "S8_UINT";
+    case reshade::api::format::d16_unorm: return "D16_UNORM";
+    case reshade::api::format::d16_unorm_s8_uint: return "D16_UNORM_S8_UINT";
+    case reshade::api::format::d24_unorm_x8_uint: return "D24_UNORM_X8_UINT";
+    case reshade::api::format::d24_unorm_s8_uint: return "D24_UNORM_S8_UINT";
+    case reshade::api::format::d32_float: return "D32_FLOAT";
+    case reshade::api::format::d32_float_s8_uint: return "D32_FLOAT_S8_UINT";
+    case reshade::api::format::r24_g8_typeless: return "R24_G8_TYPELESS";
+    case reshade::api::format::r24_unorm_x8_uint: return "R24_UNORM_X8_UINT";
+    case reshade::api::format::x24_unorm_g8_uint: return "X24_UNORM_G8_UINT";
+    case reshade::api::format::r32_g8_typeless: return "R32_G8_TYPELESS";
+    case reshade::api::format::r32_float_x8_uint: return "R32_FLOAT_X8_UINT";
+    case reshade::api::format::x32_float_g8_uint: return "X32_FLOAT_G8_UINT";
+    case reshade::api::format::bc1_typeless: return "BC1_TYPELESS";
+    case reshade::api::format::bc1_unorm: return "BC1_UNORM";
+    case reshade::api::format::bc1_unorm_srgb: return "BC1_UNORM_SRGB";
+    case reshade::api::format::bc2_typeless: return "BC2_TYPELESS";
+    case reshade::api::format::bc2_unorm: return "BC2_UNORM";
+    case reshade::api::format::bc2_unorm_srgb: return "BC2_UNORM_SRGB";
+    case reshade::api::format::bc3_typeless: return "BC3_TYPELESS";
+    case reshade::api::format::bc3_unorm: return "BC3_UNORM";
+    case reshade::api::format::bc3_unorm_srgb: return "BC3_UNORM_SRGB";
+    case reshade::api::format::bc4_typeless: return "BC4_TYPELESS";
+    case reshade::api::format::bc4_unorm: return "BC4_UNORM";
+    case reshade::api::format::bc4_snorm: return "BC4_SNORM";
+    case reshade::api::format::bc5_typeless: return "BC5_TYPELESS";
+    case reshade::api::format::bc5_unorm: return "BC5_UNORM";
+    case reshade::api::format::bc5_snorm: return "BC5_SNORM";
+    case reshade::api::format::bc6h_typeless: return "BC6H_TYPELESS";
+    case reshade::api::format::bc6h_ufloat: return "BC6H_UFLOAT";
+    case reshade::api::format::bc6h_sfloat: return "BC6H_SFLOAT";
+    case reshade::api::format::bc7_typeless: return "BC7_TYPELESS";
+    case reshade::api::format::bc7_unorm: return "BC7_UNORM";
+    case reshade::api::format::bc7_unorm_srgb: return "BC7_UNORM_SRGB";
+    case reshade::api::format::r8g8_b8g8_unorm: return "R8G8_B8G8_UNORM";
+    case reshade::api::format::g8r8_g8b8_unorm: return "G8R8_G8B8_UNORM";
+    case reshade::api::format::intz: return "INTZ";
+    default: return "UNRECOGNIZED_API_FORMAT";
+    }
+}
+}

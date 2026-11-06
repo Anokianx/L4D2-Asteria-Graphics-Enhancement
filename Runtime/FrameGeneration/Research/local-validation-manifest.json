@@ -1,0 +1,57 @@
+{
+  "generated_frames": 0,
+  "gpu_context_created": false,
+  "vulkan_x86_compile_exit": 2,
+  "files": [
+    {
+      "path": "cpu-probe-result.json",
+      "bytes": 247,
+      "sha256": "11263917aac672b0c3f00feb616ec1c0a3360dc7e77f837790b6462459a2d259"
+    },
+    {
+      "path": "cpu-source-build-x86.log",
+      "bytes": 298,
+      "sha256": "1fa9ec25a0e44574cafbbc4a750d7b4bea72b66cb15db36f4c489ee8ac468f1c"
+    },
+    {
+      "path": "vulkan-source-build-x86.log",
+      "bytes": 29116,
+      "sha256": "94ee5733c981dc40a70b1483f73287e5a935141896fffe82d35ba42bd6a45817"
+    },
+    {
+      "path": "source-manifest.json",
+      "bytes": 80651,
+      "sha256": "d06795a67a7af6e13516c0293f8f018c2dbd6a7d1bd6480db7f417a8dc1c6a52"
+    },
+    {
+      "path": "vulkan-headers-manifest.json",
+      "bytes": 11263,
+      "sha256": "e10b2f055b1ce666167a632f8e56129abcb94649290716dbd7c524567d691408"
+    },
+    {
+      "path": "legacy-prebuilt-header-result.json",
+      "bytes": 2661,
+      "sha256": "f5ece70036c1c785488a47d5ba67509bfa811b6dacaea81bcd60706a1fe283e1"
+    },
+    {
+      "path": "prebuilt-header-result.json",
+      "bytes": 526,
+      "sha256": "7ed08e8cbf5f56ffb4a7a6ee9d138d5aa853b7234840b1fc1947958d695ab52e"
+    },
+    {
+      "path": "build-cpu-x86/AsteriaOfficialFGCoreProbe.exe",
+      "bytes": 259072,
+      "sha256": "c9cfd1528f3f1a028f98f12c5d03d8f45847c6c6bc051793d743ff90ea984741"
+    },
+    {
+      "path": "build-cpu-x86/frameinterpolation/ffx_frameinterpolation_x86.lib",
+      "bytes": 68286,
+      "sha256": "be8b1ac818f2c5c917aa12225872eab58e21281605b872fd7be0b43436d2a086"
+    },
+    {
+      "path": "build-cpu-x86/opticalflow/ffx_opticalflow_x86.lib",
+      "bytes": 140810,
+      "sha256": "deaf81dd2f776c11caa7f830215762de1f37a7c3b7081cfe87e6b890f2724363"
+    }
+  ]
+}

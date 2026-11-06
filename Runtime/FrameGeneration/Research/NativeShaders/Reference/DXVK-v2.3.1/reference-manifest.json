@@ -1,0 +1,134 @@
+{
+  "author": "Anokianx",
+  "version": "v2.3.1",
+  "commit": "037d0fa1ad093065b18dad968d5898cbcd143e0e",
+  "upstream": "https://github.com/doitsujin/dxvk",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/LICENSE",
+      "bytes": 970,
+      "sha256": "03ca4af84f5cd28cef3ed3f1ef4d17996992d35ccdbe82b29cc020ca02c16f3d"
+    },
+    {
+      "path": "src/d3d9/d3d9_caps.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/d3d9/d3d9_caps.h",
+      "bytes": 1282,
+      "sha256": "e9ac7ba8e73d1fe8afb3cafb5c55ed8ceb5d109dcb5579df8b0221748f5f6cae"
+    },
+    {
+      "path": "src/d3d9/d3d9_device.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/d3d9/d3d9_device.cpp",
+      "bytes": 273503,
+      "sha256": "95a0baf038d0c6149bed3b428f77bba181586218038f3d4db9af7882fbb552e6"
+    },
+    {
+      "path": "src/d3d9/d3d9_shader.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/d3d9/d3d9_shader.cpp",
+      "bytes": 4910,
+      "sha256": "6666e56b2106ed36547d4967f206dd803e4dd5c0b099077b8519bd9f79513535"
+    },
+    {
+      "path": "src/d3d9/d3d9_constant_buffer.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/d3d9/d3d9_constant_buffer.cpp",
+      "bytes": 4408,
+      "sha256": "69823e0533247d2a9a9e8b9d1fb6d87df6f2aff5eecd8b2b5e1d39c7ba3e95a7"
+    },
+    {
+      "path": "src/d3d9/d3d9_constant_buffer.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/d3d9/d3d9_constant_buffer.h",
+      "bytes": 2074,
+      "sha256": "ee1cf7fe1467bbeba753894444b22fe5f057378a33884fb78a94e4a97725a572"
+    },
+    {
+      "path": "src/d3d9/d3d9_constant_layout.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/d3d9/d3d9_constant_layout.h",
+      "bytes": 846,
+      "sha256": "cdd4952604b09a82115bde0e6db23c4b941f9d126f01c1111bedb77f84ef11df"
+    },
+    {
+      "path": "src/d3d9/d3d9_constant_set.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/d3d9/d3d9_constant_set.h",
+      "bytes": 1254,
+      "sha256": "a91396cd2802c7430f2fafc9cda371c78a3858ef19bcfadf7af69b6d6b95ca18"
+    },
+    {
+      "path": "src/dxso/dxso_compiler.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxso/dxso_compiler.cpp",
+      "bytes": 129588,
+      "sha256": "5def3cf7872d97974d27d7055306f8d24a32612439a50986f03c7b8b59437200"
+    },
+    {
+      "path": "src/dxso/dxso_module.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxso/dxso_module.cpp",
+      "bytes": 2628,
+      "sha256": "2307df1d5ef70769673e366537594e73b0a8e8e209a32dedcd58f0881bbf5da3"
+    },
+    {
+      "path": "src/dxso/dxso_isgn.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxso/dxso_isgn.h",
+      "bytes": 906,
+      "sha256": "c9b32987f04e7e713761133320efd1cf0f8778e5aeee529c039c027d346693be"
+    },
+    {
+      "path": "src/dxso/dxso_common.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxso/dxso_common.h",
+      "bytes": 1770,
+      "sha256": "2042166cf996db505f33ca7280888096e1e61e3c58ef4197e320ed922451bb69"
+    },
+    {
+      "path": "src/dxso/dxso_util.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxso/dxso_util.h",
+      "bytes": 1651,
+      "sha256": "f7cfeb3a32101a1c0e681c2b32926e0d421d7d73739fee6b0c2ed1f02c6f8c25"
+    },
+    {
+      "path": "src/dxvk/dxvk_shader.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxvk/dxvk_shader.cpp",
+      "bytes": 49485,
+      "sha256": "ec1c9544d1f3f58459b4f63b16f9306c79ae1060eeb9c1c4688538ec67ccfd48"
+    },
+    {
+      "path": "src/dxvk/dxvk_pipelayout.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxvk/dxvk_pipelayout.cpp",
+      "bytes": 11689,
+      "sha256": "881f294a731bbd86afdcdf627d16c7dfcb0594352b6fcf2821f97bb7a51628b8"
+    },
+    {
+      "path": "src/dxvk/dxvk_pipelayout.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxvk/dxvk_pipelayout.h",
+      "bytes": 14361,
+      "sha256": "5e66943330923082432a050deb8ef114ba65b0dc3829d7923eda72e6465a9745"
+    },
+    {
+      "path": "src/dxvk/dxvk_context.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxvk/dxvk_context.cpp",
+      "bytes": 242501,
+      "sha256": "a41ea59b15c3c478bc44aea7011a9dd072a31f92aeca300803dc8f423b860a80"
+    },
+    {
+      "path": "src/dxvk/dxvk_context.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxvk/dxvk_context.h",
+      "bytes": 58608,
+      "sha256": "1f00c5de0b0c8431bc97b04c505c7e93683037d31d61ba0f91acaac477f33e96"
+    },
+    {
+      "path": "src/dxvk/dxvk_buffer.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxvk/dxvk_buffer.h",
+      "bytes": 20245,
+      "sha256": "b0b5027483deba955a35965e2162ff490abc7195a5ad3a65e2cf9505e99725b4"
+    },
+    {
+      "path": "src/dxvk/dxvk_buffer.cpp",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxvk/dxvk_buffer.cpp",
+      "bytes": 10683,
+      "sha256": "f408ee6df5ab8d9ad7894799c39e0110f230462539508016722e72b7047a0096"
+    },
+    {
+      "path": "src/dxvk/dxvk_cmdlist.h",
+      "url": "https://raw.githubusercontent.com/doitsujin/dxvk/037d0fa1ad093065b18dad968d5898cbcd143e0e/src/dxvk/dxvk_cmdlist.h",
+      "bytes": 32844,
+      "sha256": "ec98d0558bfe388f6d891d18cf5e9606acc2edb0b8c876bb348cce5e5eb9aaf4"
+    }
+  ]
+}

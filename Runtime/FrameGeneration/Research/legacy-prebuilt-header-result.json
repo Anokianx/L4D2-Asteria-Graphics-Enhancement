@@ -1,0 +1,80 @@
+{
+  "url": "https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/releases/download/v1.1.4/FidelityFX-SDK-v1.1.4.zip",
+  "asset_bytes": 470858939,
+  "directory_bytes": 251186,
+  "range_bytes_downloaded": 644402,
+  "entries": [
+    {
+      "path": "PrebuiltSignedDLL/amd_fidelityfx_dx12.dll",
+      "compressed_bytes": 3034395,
+      "bytes": 6675664,
+      "method": 8,
+      "local_offset": 3311667,
+      "pe_machine": "0x8664",
+      "architecture": "x64",
+      "inspected_bytes": 4096,
+      "header_sha256": "74cc9ed771da73351d13051d7d83a888ee1b51dcfcd2838d6a09f89365e5c39d",
+      "full_dll_downloaded": false
+    },
+    {
+      "path": "PrebuiltSignedDLL/amd_fidelityfx_vk.dll",
+      "compressed_bytes": 3203939,
+      "bytes": 9332432,
+      "method": 8,
+      "local_offset": 9042701,
+      "pe_machine": "0x8664",
+      "architecture": "x64",
+      "inspected_bytes": 4096,
+      "header_sha256": "678852f6f0dbf5a12d27231b19605df1a8727c41f4a77fe9655f6be7cb5b5500",
+      "full_dll_downloaded": false
+    },
+    {
+      "path": "bin/amd_fidelityfx_dx12.dll",
+      "compressed_bytes": 3034395,
+      "bytes": 6675664,
+      "method": 8,
+      "local_offset": 220325290,
+      "pe_machine": "0x8664",
+      "architecture": "x64",
+      "inspected_bytes": 4096,
+      "header_sha256": "74cc9ed771da73351d13051d7d83a888ee1b51dcfcd2838d6a09f89365e5c39d",
+      "full_dll_downloaded": false
+    },
+    {
+      "path": "bin/amd_fidelityfx_vk.dll",
+      "compressed_bytes": 3203939,
+      "bytes": 9332432,
+      "method": 8,
+      "local_offset": 230991351,
+      "pe_machine": "0x8664",
+      "architecture": "x64",
+      "inspected_bytes": 4096,
+      "header_sha256": "678852f6f0dbf5a12d27231b19605df1a8727c41f4a77fe9655f6be7cb5b5500",
+      "full_dll_downloaded": false
+    },
+    {
+      "path": "ffx-api/bin/amd_fidelityfx_dx12.dll",
+      "compressed_bytes": 3031180,
+      "bytes": 6664192,
+      "method": 8,
+      "local_offset": 327270159,
+      "pe_machine": "0x8664",
+      "architecture": "x64",
+      "inspected_bytes": 4096,
+      "header_sha256": "9f01445974f7dcfbc298ff09c6e31eeac980a474e8e90f1247c7a287db38afdf",
+      "full_dll_downloaded": false
+    },
+    {
+      "path": "ffx-api/bin/amd_fidelityfx_vk.dll",
+      "compressed_bytes": 3256156,
+      "bytes": 9320960,
+      "method": 8,
+      "local_offset": 330330260,
+      "pe_machine": "0x8664",
+      "architecture": "x64",
+      "inspected_bytes": 4096,
+      "header_sha256": "15a3b172b1b6275d6af553fa2bbcdaafc09fe8c2a37bb7658ddde75341efa354",
+      "full_dll_downloaded": false
+    }
+  ]
+}

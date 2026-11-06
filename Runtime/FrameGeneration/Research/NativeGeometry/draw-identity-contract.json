@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "author": "Anokianx",
+  "date": "2026-10-15",
+  "sdk_files": [
+    {
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp",
+      "sha256": "cfaf92e025eddb1242768ff3edcfd05cd4c3eafb9ddf42e14c5b718cf3931c83"
+    },
+    {
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_api_pipeline.hpp",
+      "sha256": "a08260c70bab82f2c149c34ae9fcfbb50b4d30f6aee848fc22a9d9ffed7ec7db"
+    }
+  ],
+  "event_traits": [
+    {
+      "event": "bind_vertex_buffers",
+      "line": 1873,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::bind_vertex_buffers, void, api::command_list *cmd_list, uint32_t first, uint32_t count, const api::resource *buffers, const uint64_t *offsets, const uint32_t *strides);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "bind_index_buffer",
+      "line": 1872,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::bind_index_buffer, void, api::command_list *cmd_list, api::resource buffer, uint64_t offset, uint32_t index_size);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "draw",
+      "line": 1876,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::draw, bool, api::command_list *cmd_list, uint32_t vertex_count, uint32_t instance_count, uint32_t first_vertex, uint32_t first_instance);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "draw_indexed",
+      "line": 1877,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::draw_indexed, bool, api::command_list *cmd_list, uint32_t index_count, uint32_t instance_count, uint32_t first_index, int32_t vertex_offset, uint32_t first_instance);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "draw_or_dispatch_indirect",
+      "line": 1881,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::draw_or_dispatch_indirect, bool, api::command_list *cmd_list, api::indirect_command type, api::resource buffer, uint64_t offset, uint32_t draw_count, uint32_t stride);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "init_pipeline",
+      "line": 1842,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::init_pipeline, void, api::device *device, api::pipeline_layout layout, uint32_t subobject_count, const api::pipeline_subobject *subobjects, api::pipeline pipeline);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "destroy_pipeline",
+      "line": 1844,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::destroy_pipeline, void, api::device *device, api::pipeline pipeline);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "bind_pipeline",
+      "line": 1865,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::bind_pipeline, void, api::command_list *cmd_list, api::pipeline_stage stages, api::pipeline pipeline);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "bind_pipeline_states",
+      "line": 1866,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::bind_pipeline_states, void, api::command_list *cmd_list, uint32_t count, const api::dynamic_state *states, const uint32_t *values);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "init_resource",
+      "line": 1826,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::init_resource, void, api::device *device, const api::resource_desc &desc, const api::subresource_data *initial_data, api::resource_usage initial_state, api::resource resource);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "destroy_resource",
+      "line": 1828,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::destroy_resource, void, api::device *device, api::resource resource);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "reset_command_list",
+      "line": 1908,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::reset_command_list, void, api::command_list *cmd_list);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "destroy_command_list",
+      "line": 1810,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::destroy_command_list, void, api::command_list *cmd_list);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "execute_command_list",
+      "line": 1911,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::execute_command_list, void, api::command_queue *queue, api::command_list *cmd_list);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "execute_secondary_command_list",
+      "line": 1912,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::execute_secondary_command_list, void, api::command_list *cmd_list, api::command_list *secondary_cmd_list);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "update_buffer_region",
+      "line": 1839,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::update_buffer_region, bool, api::device *device, const void *data, api::resource resource, uint64_t offset, uint64_t size);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "map_buffer_region",
+      "line": 1834,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::map_buffer_region, void, api::device *device, api::resource resource, uint64_t offset, uint64_t size, api::map_access access, void **data);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "unmap_buffer_region",
+      "line": 1835,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::unmap_buffer_region, void, api::device *device, api::resource resource);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "copy_buffer_region",
+      "line": 1884,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::copy_buffer_region, bool, api::command_list *cmd_list, api::resource source, uint64_t source_offset, api::resource dest, uint64_t dest_offset, uint64_t size);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "copy_resource",
+      "line": 1883,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::copy_resource, bool, api::command_list *cmd_list, api::resource source, api::resource dest);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    },
+    {
+      "event": "update_buffer_region_command",
+      "line": 1905,
+      "declaration": "RESHADE_DEFINE_ADDON_EVENT_TRAITS(addon_event::update_buffer_region_command, bool, api::command_list *cmd_list, const void *data, api::resource dest, uint64_t dest_offset, uint64_t size);",
+      "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_events.hpp"
+    }
+  ],
+  "input_element": {
+    "line": 555,
+    "path": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\sdk\\reshade\\reshade_api_pipeline.hpp",
+    "declarations": [
+      "uint32_t location = 0;",
+      "const char *semantic = nullptr;",
+      "uint32_t semantic_index = 0;",
+      "format format = format::unknown;",
+      "uint32_t buffer_binding = 0;",
+      "uint32_t offset = 0;",
+      "uint32_t stride = 0;",
+      "uint32_t instance_step_rate = 0;",
+      "};"
+    ]
+  },
+  "draw_snapshot_fields": [
+    "device lifetime generation",
+    "command-list lifetime generation and reset serial",
+    "observer frame and per-command draw ordinal",
+    "pipeline lifetime generation and exact shader profile SHA-256",
+    "copied input layout including semantic string content",
+    "each VB resource generation, byte offset, known stride or explicit unknown",
+    "IB resource generation, byte offset and 16/32-bit index size",
+    "indexed versus non-indexed draw parameters",
+    "all instance parameters",
+    "native RT/depth/view scope and viewport",
+    "same-draw native camera/model/bone input snapshot",
+    "buffer content/write epoch or explicit unknown"
+  ],
+  "not_engine_entity_identity": [
+    "VB/IB handles are reused and can be shared by many entities",
+    "draw order changes with culling/material sorting/LOD and is not an entity id",
+    "buffer offsets identify streaming slices, not persistent actors",
+    "pipeline/layout are shared across models and actors",
+    "bone matrices can match for different actors and must not serve as unique ids",
+    "same structural signature does not prove the same mesh contents after writes",
+    "first_instance and instance count describe a draw, not an engine lifetime",
+    "draws recorded before present do not alone establish the final main-view frame"
+  ],
+  "required_fail_closed_boundaries": [
+    "generation change or destruction",
+    "command reset/secondary execution not propagated",
+    "unknown layout or null optional stride",
+    "buffer write or content epoch not tracked",
+    "indirect parameter buffer not safely captured",
+    "unresolved instancing/skinning/flex state",
+    "camera/view/main-depth ambiguity",
+    "duplicate signature in one frame or cross-frame collision",
+    "tracking capacity loss",
+    "map/scene/device reset"
+  ],
+  "native_previous_transform_api_found_in_public_reshade_events": false,
+  "native_entity_lifetime_api_found_in_public_reshade_events": false,
+  "cross_frame_entity_identity_verified": false,
+  "native_motion_vectors_available": false,
+  "scope": "Local installed public ReShade API event declarations only; no entity/previous-transform contract is present in the listed draw interfaces."
+}

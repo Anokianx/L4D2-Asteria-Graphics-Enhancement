@@ -1,0 +1,113 @@
+{
+  "rife-ref": "a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7",
+  "ncnn-ref": "c15904bb8918187ec100f1ebe708942af83b84be",
+  "files": [
+    {
+      "repository": "nihui/rife-ncnn-vulkan",
+      "revision": "a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/nihui/rife-ncnn-vulkan/a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7/LICENSE",
+      "sha256": "a73beab18143600af0b10c6050a953ec233775ce31c2bf3373a794db535329fd",
+      "bytes": 1072
+    },
+    {
+      "repository": "nihui/rife-ncnn-vulkan",
+      "revision": "a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/nihui/rife-ncnn-vulkan/a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7/README.md",
+      "sha256": "41c0b4aca03751978d7bdd04b8a274e73e772b60e71519d685be9242c6fa934a",
+      "bytes": 6097
+    },
+    {
+      "repository": "nihui/rife-ncnn-vulkan",
+      "revision": "a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7",
+      "path": "src/rife.h",
+      "url": "https://raw.githubusercontent.com/nihui/rife-ncnn-vulkan/a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7/src/rife.h",
+      "sha256": "785386d7d63c28f09f74fa1e3c6e0e7ae84e8a7efd15b7f68d238d578aad1298",
+      "bytes": 1558
+    },
+    {
+      "repository": "nihui/rife-ncnn-vulkan",
+      "revision": "a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7",
+      "path": "src/rife.cpp",
+      "url": "https://raw.githubusercontent.com/nihui/rife-ncnn-vulkan/a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7/src/rife.cpp",
+      "sha256": "375beadc59ca08a4f925baa16378f46cfffdf34e752a5392732d1f9d9c78c339",
+      "bytes": 173082
+    },
+    {
+      "repository": "nihui/rife-ncnn-vulkan",
+      "revision": "a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7",
+      "path": "src/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/nihui/rife-ncnn-vulkan/a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7/src/CMakeLists.txt",
+      "sha256": "70e21b3ce5cf8649c697dc5a5cae1c4c24a715fb115a990c3ff1c74dad8e34dc",
+      "bytes": 10535
+    },
+    {
+      "repository": "nihui/rife-ncnn-vulkan",
+      "revision": "a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7",
+      "path": ".github/workflows/CI.yml",
+      "url": "https://raw.githubusercontent.com/nihui/rife-ncnn-vulkan/a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7/.github/workflows/CI.yml",
+      "sha256": "537a32f87901322a0cd91733da4f88462014299821cb708abf063176086552c2",
+      "bytes": 3785
+    },
+    {
+      "repository": "nihui/rife-ncnn-vulkan",
+      "revision": "a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7",
+      "path": ".gitmodules",
+      "url": "https://raw.githubusercontent.com/nihui/rife-ncnn-vulkan/a7532fc3f9f8f008cd6eecd6f2ffe2a9698e0cf7/.gitmodules",
+      "sha256": "64d0d2347ca9bc8072fdef2470349d9fe16d270f6aef917a376f86494f160f1e",
+      "bytes": 179
+    },
+    {
+      "repository": "Tencent/ncnn",
+      "revision": "c15904bb8918187ec100f1ebe708942af83b84be",
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/Tencent/ncnn/c15904bb8918187ec100f1ebe708942af83b84be/LICENSE.txt",
+      "sha256": "7c974bac98848df46be1af5bdaa3c3c9c01f6082a90f55caeb7f60c6208aa255",
+      "bytes": 6427
+    },
+    {
+      "repository": "Tencent/ncnn",
+      "revision": "c15904bb8918187ec100f1ebe708942af83b84be",
+      "path": "src/gpu.h",
+      "url": "https://raw.githubusercontent.com/Tencent/ncnn/c15904bb8918187ec100f1ebe708942af83b84be/src/gpu.h",
+      "sha256": "aa8eded1530c7cb754ad66235bc001dd4d1e3b3bb0dad6bdfbf4c354f67ce60c",
+      "bytes": 27770
+    },
+    {
+      "repository": "Tencent/ncnn",
+      "revision": "c15904bb8918187ec100f1ebe708942af83b84be",
+      "path": "src/gpu.cpp",
+      "url": "https://raw.githubusercontent.com/Tencent/ncnn/c15904bb8918187ec100f1ebe708942af83b84be/src/gpu.cpp",
+      "sha256": "fac1d02693d2ad090e63921f622010b97de7ba6220a486ff8721ec1a42cd8aa2",
+      "bytes": 267986
+    },
+    {
+      "repository": "Tencent/ncnn",
+      "revision": "c15904bb8918187ec100f1ebe708942af83b84be",
+      "path": "src/mat.h",
+      "url": "https://raw.githubusercontent.com/Tencent/ncnn/c15904bb8918187ec100f1ebe708942af83b84be/src/mat.h",
+      "sha256": "b184b00e03aca72f78605d5d88b9052f0da81ed24e258e09f9d157ddfa5f2495",
+      "bytes": 89024
+    },
+    {
+      "repository": "Tencent/ncnn",
+      "revision": "c15904bb8918187ec100f1ebe708942af83b84be",
+      "path": "docs/how-to-use-and-FAQ/FAQ-ncnn-vulkan.md",
+      "url": "https://raw.githubusercontent.com/Tencent/ncnn/c15904bb8918187ec100f1ebe708942af83b84be/docs/how-to-use-and-FAQ/FAQ-ncnn-vulkan.md",
+      "sha256": "28af55037cc876b545d0c55dda7dd6d8862a2232d34eec3923151b050cc15563",
+      "bytes": 6648
+    },
+    {
+      "repository": "Tencent/ncnn",
+      "revision": "c15904bb8918187ec100f1ebe708942af83b84be",
+      "path": "docs/how-to-build/how-to-build.md",
+      "url": "https://raw.githubusercontent.com/Tencent/ncnn/c15904bb8918187ec100f1ebe708942af83b84be/docs/how-to-build/how-to-build.md",
+      "sha256": "9d1902127ac0410013a2fc883811a1e0ab430f75cd0b27a283761281dcd9f31b",
+      "bytes": 35687
+    }
+  ],
+  "rife-ncnn-submodule-ref": "b4ba207c18d3103d6df890c0e3a97b469b196b26",
+  "ncnn-ref-role": "Current independent NCNN source inspection only; not the RIFE submodule or a tested binary pairing.",
+  "author": "Anokianx"
+}

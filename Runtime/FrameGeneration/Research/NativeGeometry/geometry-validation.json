@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "author": "Anokianx",
+  "status": "passed",
+  "profile_file": "H:\\DANYRIA\\danyria\\Asteria\\Runtime\\FrameGeneration\\Research\\NativeGeometry\\geometry-profiles.json",
+  "profile_sha256": "646c2d045ea874a6e8ecbd5dfe96669c6ee16f6c7b0eb330e47711c90f035468",
+  "profiles": 26,
+  "native_origins": 41,
+  "raw_executable_model_operands": 299,
+  "summary": {
+    "skinned_current_palette": 9,
+    "single_current_model_matrix": 17
+  },
+  "rejected_corruption_cases": [
+    "descriptor_offset_shift",
+    "declared_elements_overread",
+    "truncated_bone_palette",
+    "camera_matrix_shift",
+    "source_hash_mutation",
+    "ctab_only_model_claim",
+    "native_motion_claim",
+    "entity_identity_claim"
+  ],
+  "source_files_modified": false,
+  "native_motion_vectors_available": false,
+  "game_frame_generation_ready": false
+}

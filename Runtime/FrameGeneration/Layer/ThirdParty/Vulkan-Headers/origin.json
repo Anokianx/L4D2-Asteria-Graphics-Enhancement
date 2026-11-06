@@ -1,0 +1,7 @@
+{
+  "project": "Khronos Vulkan-Headers",
+  "tag": "v1.3.280",
+  "source": "https://codeload.github.com/KhronosGroup/Vulkan-Headers/tar.gz/refs/tags/v1.3.280",
+  "archive_sha256": "717b49c52dbd37c78cf2f7f0fc715292c42e74841219e6cca918cd293ad5dce4",
+  "files": 47
+}

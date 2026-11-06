@@ -1,0 +1,92 @@
+{
+  "repository": "https://github.com/alliedmodders/hl2sdk",
+  "branch": "l4d2",
+  "commit": "2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6",
+  "standalone_license_files": [],
+  "files": [
+    {
+      "path": "public/cdll_int.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/cdll_int.h",
+      "git_blob": "651516735f2f8d9db10b1a2f534f1eefc09abe2d",
+      "sha256": "3491fcbc8bd46be0cc5cbce030836e1b925a2e350f07f5fb135cf9bd3e2c7123",
+      "bytes": 31180
+    },
+    {
+      "path": "public/ivrenderview.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/ivrenderview.h",
+      "git_blob": "72795b396215b170a1c20133aa5fb28dad628494",
+      "sha256": "3467745a8b422bf0637738607b4776c3b402a8b70e73b92401778fe75e108880",
+      "bytes": 12267
+    },
+    {
+      "path": "public/engine/ivmodelrender.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/engine/ivmodelrender.h",
+      "git_blob": "87480f59f212ad471d30ea64e7a62d0bcd8b49d5",
+      "sha256": "3edaf18e37b29ab1ccab15936ef793adf6a6f7c5404d534d87ccca7cc8af118b",
+      "bytes": 8443
+    },
+    {
+      "path": "public/view_shared.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/view_shared.h",
+      "git_blob": "17c62fc09e8ee272cb68db0de3f47bb3d806a3e9",
+      "sha256": "c19a9a21ee72b492d2079191febdf290a67a09010d3fdb136297cc580e59e2b4",
+      "bytes": 3167
+    },
+    {
+      "path": "public/iclientrenderable.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/iclientrenderable.h",
+      "git_blob": "3e69b6e74a57977c223afd6e12edc4c15a14a656",
+      "sha256": "3dee603dd3357000a551cdaadd598909704b720126a3b0c6f5ac7ecd6b77cbcb",
+      "bytes": 10894
+    },
+    {
+      "path": "public/icliententity.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/icliententity.h",
+      "git_blob": "208e981a9b94efbfbe833e6a33720b3aac8d5dff",
+      "sha256": "3470bb7220df0ce8896cfa3c3a3dcc792826acd81856ec93a2334c7daa258d6e",
+      "bytes": 1416
+    },
+    {
+      "path": "public/icliententitylist.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/icliententitylist.h",
+      "git_blob": "8b8ef8991787a56876d2007b7792c22a3d44b9cc",
+      "sha256": "69d5b95964677f9d812aa31e234b2f4b27b6ea91c659474887fba291a8dd29a6",
+      "bytes": 1823
+    },
+    {
+      "path": "public/studio.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/studio.h",
+      "git_blob": "b55e5088c53764536a6e344548b677a46252b591",
+      "sha256": "4d50742df6c751ce5b712b33acc6e7dd08270ea063f34c0e4b04e5f50e8eaae8",
+      "bytes": 105757
+    },
+    {
+      "path": "public/bone_setup.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/bone_setup.h",
+      "git_blob": "206adc8ac3b1963b36266258e44fd9456ebe384a",
+      "sha256": "133169e20d10cc71d3ad7de27af298d1e82c591cabbfe04e3fd532f06d51b443",
+      "bytes": 16483
+    },
+    {
+      "path": "public/tier1/interface.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/tier1/interface.h",
+      "git_blob": "476ddf9dc40e9a10b99b5fa115ff45c05252a2a1",
+      "sha256": "9f0b7ddd978430841a80e667844c544fcf307228d7cb85760a16174733ad0715",
+      "bytes": 9054
+    },
+    {
+      "path": "public/mathlib/vector.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/mathlib/vector.h",
+      "git_blob": "81d7feb12729636b1509c5e1df52b187a324762d",
+      "sha256": "14026f85ff928bb00265c37157c0b0b3cfc078ea04ce2a81e3100c8609882f0e",
+      "bytes": 56574
+    },
+    {
+      "path": "public/mathlib/vmatrix.h",
+      "url": "https://raw.githubusercontent.com/alliedmodders/hl2sdk/2a31cd007b2d7d2f964dc093eedcf7a812cf9dd6/public/mathlib/vmatrix.h",
+      "git_blob": "b66613e1f4a0d4f82c6e23a585e1ff5b69ebbb00",
+      "sha256": "403cafc05b270703ffdd01776848da6d3948739228899539ae5ccf7dd6c5f24c",
+      "bytes": 30173
+    }
+  ]
+}
