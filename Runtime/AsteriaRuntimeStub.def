@@ -1,0 +1,8 @@
+LIBRARY AsteriaRuntimeStub
+EXPORTS
+    AsteriaGetApiVersion
+    AsteriaInitialize
+    AsteriaRenderFrame
+    AsteriaBeforeReset
+    AsteriaAfterReset
+    AsteriaShutdown
