@@ -1,0 +1,9 @@
+{
+  "project": "ReShade",
+  "version": "6.7.2",
+  "edition": "full add-on support",
+  "source": "https://reshade.me/downloads/ReShade_Setup_6.7.2_Addon.exe",
+  "layer": "VK_LAYER_Asteria_ReShade",
+  "installer_sha256": "47d841b1cd03dd2032aa14f6b1365f1e8221f8399e4f2ad6f4629cbef4a14ef0",
+  "dll_sha256": "c3213fc0f688a78a57d543f00057ba399992fbeebe10a65890644a602b83627b"
+}
